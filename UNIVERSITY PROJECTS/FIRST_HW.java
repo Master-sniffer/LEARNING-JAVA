@@ -9,6 +9,10 @@ class Main {
     x=527.021;
     x=nub(x);
     System.out.println((x));
+    //SEVENTH TASK
+    x=576213;
+    x=sec(x);
+    System.out.println((x));
   }
   public static int pow(int value) { // ЭТОТ МЕТОД ОТВЕЧАЕТ ЗА ВОЗВЕДЕНИЕ ЧИСЕЛ В СТЕПЕНЬ
     int powValue= 2;
@@ -23,5 +27,16 @@ class Main {
         value=value%10;
           }
                 } 
+  }
+  public static double sec(double value) { 
+    value=value/10;
+    while (true){
+        if (value%10== 0 || value<10) {
+        return (int) value;
+                        }
+      else{
+        value=value%10;
+          }
+    }
   }
 }
