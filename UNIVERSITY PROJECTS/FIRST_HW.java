@@ -13,6 +13,10 @@ class Main {
     x=576213;
     x=sec(x);
     System.out.println((x));
+    //EIGHT TASK
+    int z=25;
+    System.out.println((z/10));
+    
   }
   public static int pow(int value) { // ЭТОТ МЕТОД ОТВЕЧАЕТ ЗА ВОЗВЕДЕНИЕ ЧИСЕЛ В СТЕПЕНЬ
     int powValue= 2;
