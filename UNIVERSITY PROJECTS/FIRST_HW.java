@@ -14,9 +14,12 @@ class Main {
     x=sec(x);
     System.out.println((x));
     //EIGHT TASK
-    int z=25;
+    int z=25; // Подумать, как менять тип переменной
     System.out.println((z/10));
-    
+    // NINTH TASK
+    System.out.println((raznisa(10,40, 21)));
+    //TENTH TASK
+    System.out.println(just_nums(5,10));
   }
   public static int pow(int value) { // ЭТОТ МЕТОД ОТВЕЧАЕТ ЗА ВОЗВЕДЕНИЕ ЧИСЕЛ В СТЕПЕНЬ
     int powValue= 2;
@@ -42,5 +45,16 @@ class Main {
         value=value%10;
           }
     }
+  }
+  public static String raznisa(int value1, int value2, int value3){
+    String result = "";
+    value1-=21;
+    value2-=21;
+    value3-=21;
+    result+=(value1+" "+value2+" "+value3);
+    return result;
+  }
+  public static double just_nums(double value1, double value2){
+    return ((value1+value2)/2);
   }
 }
