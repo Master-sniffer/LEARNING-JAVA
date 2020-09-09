@@ -6,13 +6,22 @@ class Main {
     double y=(pow(5)); // А ТУТ 5
     System.out.println(Math.sqrt(x+y)); // ТУТ Я РЕШИЛ ВОЗНЕСТИ В КОРЕНЬ ЧИСЛО БЕЗ МЕТОДА ))00))
     //SIXTH TASK
-    
+    x=527.021;
+    x=nub(x);
+    System.out.println((x));
   }
   public static int pow(int value) { // ЭТОТ МЕТОД ОТВЕЧАЕТ ЗА ВОЗВЕДЕНИЕ ЧИСЕЛ В СТЕПЕНЬ
     int powValue= 2;
     return (int) Math.pow(value, powValue);
   }
+  public static double nub (double value){
+    while (true){
+      if (value%10== 0 || value<10) {
+        return value;
+                        }
+      else{
+        value=value%10;
+          }
+                } 
+  }
 }
-
-
-
