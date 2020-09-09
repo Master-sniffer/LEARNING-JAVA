@@ -20,6 +20,10 @@ class Main {
     System.out.println((raznisa(10,40, 21)));
     //TENTH TASK
     System.out.println(just_nums(5,10));
+    //ELEVENTH TASK
+    System.out.println(geom_korn(5.0,10.0));
+    //TWELTH TASK
+    System.out.println(easy_peasy_lemon_squeazy(5,10,2,4));
   }
   public static int pow(int value) { // ЭТОТ МЕТОД ОТВЕЧАЕТ ЗА ВОЗВЕДЕНИЕ ЧИСЕЛ В СТЕПЕНЬ
     int powValue= 2;
@@ -56,5 +60,30 @@ class Main {
   }
   public static double just_nums(double value1, double value2){
     return ((value1+value2)/2);
+  }
+  public static double geom_korn(double base, double base1) {
+    return Math.pow(Math.E, Math.log(base*base1)/2.0);
+    }
+  public static double easy_peasy_lemon_squeazy(double x1, double x2, double y1, double y2){
+    double resultX; double resultY;
+    if (x1>x2){
+      resultX=x1-x2;
+    }
+    else{
+      resultX=x2-x1;
+    }
+
+    if (y1>y2){
+      resultY=y1-y2;
+    }
+    else{
+      resultY=y2-y1;
+    }
+    resultX=Math.pow(resultX, 2.0);
+    resultY=Math.pow(resultY, 2.0);
+    double result;
+    result=resultY+resultX;
+    result=Math.sqrt (result);
+    return result;
   }
 }
