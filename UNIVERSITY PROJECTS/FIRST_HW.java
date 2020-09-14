@@ -87,3 +87,32 @@ class Main {
     return result;
   }
 }
+
+
+
+//!!!!!SECOND METHOD TO DO NINTH TASK
+  public static String raznisa(int value1, int value2, int value3){
+    String result = "";
+    if (value1 > 21){
+      value1=value1-21;
+    }
+    else {
+      value1=21-value1;
+    }
+
+    if (value2 > 21){
+      value2=value2-21;
+    }
+    else {
+      value2=21-value2;
+    }
+
+    if (value3 > 21){
+      value3=value3-21;
+    }
+    else {
+      value3=21-value3;
+    }
+    result+=(value1+" "+value2+" "+value3);
+    return result;
+  }
