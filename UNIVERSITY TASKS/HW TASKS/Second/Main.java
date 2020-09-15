@@ -25,19 +25,33 @@ class Main{
     // УЗНАТЬ, КАК ПОЛУЧАТЬ ЭЛЕМЕНТ ВО ВСЕМ КЛАССЕ
     
     int[][] result = new int[10][5];
+    int[][] result1 = new int[10][5];
     for (int i =0; i < n; i++){
       for (int b=0; b < k; b++){
         result[i][b]=matrix0[i][b]-matrix01[i][b];
+        result1[i][b]=matrix0[i][b]+matrix01[i][b];  
       }
     }
-
-    // ПЕЧАТАЕМ МАТРИЦУ
+    System.out.println("ПЕЧАТАЕМ МАТРИЦУ ВЫЧИТАНИЯ\n\n");
+    // ПЕЧАТАЕМ МАТРИЦУ ВЫЧИТАНИЯ
     for (int i = 0; i < result.length; i++) {
         for (int j = 0; j < result[i].length; j++) {
             System.out.print(result[i][j] + " ");
         }
         System.out.println();
-    }
+                                            } 
+
+
+    System.out.println("\n\nПЕЧАТАЕМ МАТРИЦУ СЛОЖЕНИЯ\n\n");
+
+
+    // ПЕЧАТАЕМ МАТРИЦУ СЛОЖЕНИЯ
+    for (int i = 0; i < result1.length; i++) {
+        for (int j = 0; j < result1[i].length; j++) {
+            System.out.print(result1[i][j] + " ");
+        }
+        System.out.println();
+                                            } 
   }
   
 }
