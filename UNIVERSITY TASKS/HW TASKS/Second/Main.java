@@ -54,7 +54,26 @@ class Main{
     System.out.println("\nПечатаем измененную матрицу\n");
     printa (result); 
 
-    
+    System.out.println("\nУмножение 2 матриц\n");
+    matrix0 = new int[5][5];
+    int [][] matrix1 = new int[5][5];
+    for (int i =0; i < matrix0.length; i++){
+      for (int b=0; b < matrix0[0].length; b++){
+          matrix0[i][b]=rand.nextInt(100);
+          matrix1[i][b]=rand.nextInt(100);}}
+      
+    int m = matrix0.length;
+    n = matrix1[0].length;
+    int o = matrix1.length;
+    int[][] res = new int[m][n];
+
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            for (k = 0; k < o; k++) {
+                result[i][j] += matrix0[i][k] * matrix1[k][j]; 
+            }}}  
+    printa (result);
+
 
   }
   // МЕТОД ДЛЯ ПЕЧАТИ МАТРИЦЫ
@@ -64,5 +83,5 @@ class Main{
             System.out.print(result1[i][j] + " ");
         }
         System.out.println();}} 
-  
+
 }
