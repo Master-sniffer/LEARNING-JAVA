@@ -43,20 +43,26 @@ class Main{
     
     System.out.println("\nENTER THE NUMBER");
     int a= sc.nextInt();
-
+    
+    System.out.println("Сейчас мы покажем изначальную матрицу");
+    printa(matrix0);
     for (int i =0; i < n; i++){
       for (int b=0; b < k; b++){
-          matrix0[i][b]=rand.nextInt(100);
-      }}
+        result[i][b]=matrix0[i][b]*a;
+      }
+    } 
+    System.out.println("\nПечатаем измененную матрицу\n");
+    printa (result); 
+
     
 
   }
+  // МЕТОД ДЛЯ ПЕЧАТИ МАТРИЦЫ
   public static void printa(int[][] result1){
     for (int i = 0; i < result1.length; i++) {
         for (int j = 0; j < result1[i].length; j++) {
             System.out.print(result1[i][j] + " ");
         }
-        System.out.println();
-                                            }} 
+        System.out.println();}} 
   
 }
