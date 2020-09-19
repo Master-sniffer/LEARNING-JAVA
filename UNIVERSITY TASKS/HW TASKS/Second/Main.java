@@ -34,8 +34,9 @@ class Main{
         result1[i][b]=matrix0[i][b]+matrix01[i][b];  
       }
     }
-    System.out.println("ПЕЧАТАЕМ МАТРИЦУ ВЫЧИТАНИЯ\n\n");
+
     // ПЕЧАТАЕМ МАТРИЦУ ВЫЧИТАНИЯ
+    System.out.println("ПЕЧАТАЕМ МАТРИЦУ ВЫЧИТАНИЯ\n\n");
     printa(result1);
 
     System.out.println("\n\nПЕЧАТАЕМ МАТРИЦУ СЛОЖЕНИЯ\n\n");
@@ -70,9 +71,23 @@ class Main{
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
             for (k = 0; k < o; k++) {
-                result[i][j] += matrix0[i][k] * matrix1[k][j]; 
+                res[i][j] += matrix0[i][k] * matrix1[k][j]; 
             }}}  
-    printa (result);
+    printa (res);
+
+    //ТРАНСПОНИРУЕМ МАТРИЦУ
+    System.out.println("\nТРАНСПОНИРУЕМ МАТРИЦУ\nТАК ВЫГЛЯДИТ ИЗНАЧАЛЬНАЯ МАТРИЦА\n");
+    printa (matrix0);
+    result = new int[5][5]; // МУТИМ ТУТ МАТРИЦУ , ЧТОБЫ ЛЕГЧЕ БЫЛО ВСТАВЛЯТЬ ))))00000)0)
+      for (int i = 0; i < n; i++) {
+      for (int j = i+1; j < n; j++) {
+          int temp = matrix0[i][j];
+          matrix0[i][j] = matrix0[j][i];
+          matrix0[j][i] = temp;
+          }
+          }
+    System.out.println("\nА тут готовая, кек\n");
+    printa(matrix0);
 
 
   }
@@ -83,5 +98,5 @@ class Main{
             System.out.print(result1[i][j] + " ");
         }
         System.out.println();}} 
-
+  // ВОТ И ВЕСЬ МЕТОД ))0)))
 }
