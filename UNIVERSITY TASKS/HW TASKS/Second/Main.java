@@ -89,6 +89,29 @@ class Main{
     System.out.println("\nА тут готовая, кек\n");
     printa(matrix0);
 
+    //МУТИМ ВОЗВЕДЕНИЕ МАТРИЦЫ В СТЕПЕНЬ
+    System.out.println("\nВозведение матрицы в степень\n\tНаша изначальная матрица\n");
+    printa(matrix0);
+    System.out.println("\nВ КАКУЮ СТЕПЕНЬ ХОТИТЕ ВОЗВЕСТИ МАТРИЦУ ?)\n");
+    a= sc.nextInt();
+    a-=1;
+    if (a==0){
+      printa(matrix0);
+    } else {
+            n = matrix0.length;
+            int[][] c = new int[n][n];
+            for (int nu =0; nu<a ; nu++){
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    for (k = 0; k < n; k++) {
+                        c[i][j] += matrix0[i][k] * matrix0[k][j];
+                    }
+                }
+            }
+            }
+            printa(c);
+            }
+
 
   }
   // МЕТОД ДЛЯ ПЕЧАТИ МАТРИЦЫ
