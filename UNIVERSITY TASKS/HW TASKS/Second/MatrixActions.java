@@ -10,7 +10,7 @@ class MatrixActions {
         System.out.println();}} 
   // ВОТ И ВЕСЬ МЕТОД ))0)))
 
-  public static int[][] create( int a, int b){
+  public int[][] create( int a, int b){
 
     Random rand = new Random();
     int[][] matrix = new int[a][b];
