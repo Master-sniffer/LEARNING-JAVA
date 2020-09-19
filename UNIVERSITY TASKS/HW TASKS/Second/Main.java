@@ -29,11 +29,11 @@ class Main{
 }
 
 
-class MatrixFun{
+class MatrixFun{ // ЕТО КЛАСС С РАЗНЫМИ ДЕЙСТВИЯМИ
 
   public static void slozIvich(int matrix0[][], int matrix01[][]){
 
-    MatrixActions matrix = new MatrixActions();
+    MatrixActions matrix = new MatrixActions(); // ЭТО НАМ НУЖНО , ЧТОБЫ МЫ МОГЛИ МУТИТЬ ДЕЙСТВИЯ ИЗ ДРУГОГО ФАЙЛА / КЛАССА 
 
     int[][] result = new int[matrix0.length][matrix0[0].length];
     int[][] result1 = new int[10][5];
@@ -54,7 +54,8 @@ class MatrixFun{
 
   public static void transpose(int matrix0[][]){
 
-    MatrixActions matrix = new MatrixActions();
+    MatrixActions matrix = new MatrixActions(); // ЭТО НАМ НУЖНО , ЧТОБЫ МЫ МОГЛИ МУТИТЬ ДЕЙСТВИЯ ИЗ ДРУГОГО ФАЙЛА / КЛАССА 
+
     //ТРАНСПОНИРУЕМ МАТРИЦУ
     System.out.println("\nТРАНСПОНИРУЕМ МАТРИЦУ\nТАК ВЫГЛЯДИТ ИЗНАЧАЛЬНАЯ МАТРИЦА\n");
     matrix0=matrix.create(5,5);
@@ -76,7 +77,7 @@ class MatrixFun{
   public static void Umnozh_Na_CHISLO(int matrix0[][]){
 
     Scanner sc= new Scanner(System.in); // ЭТО ПОМОЖЕТ НАМ ПОЛУЧАТЬ ЗНАЧЕНИЯ ОТ ЮЗВЕРЕЙ
-    MatrixActions matrix = new MatrixActions();
+    MatrixActions matrix = new MatrixActions(); // ЭТО НАМ НУЖНО , ЧТОБЫ МЫ МОГЛИ МУТИТЬ ДЕЙСТВИЯ ИЗ ДРУГОГО ФАЙЛА / КЛАССА 
 
     System.out.println("\nENTER THE NUMBER");
     int a= sc.nextInt();
@@ -98,7 +99,7 @@ class MatrixFun{
 
   public static void DVE_MATRIZI_ODNO_CHISLO(){
     
-    MatrixActions matrix = new MatrixActions();
+    MatrixActions matrix = new MatrixActions(); // ЭТО НАМ НУЖНО , ЧТОБЫ МЫ МОГЛИ МУТИТЬ ДЕЙСТВИЯ ИЗ ДРУГОГО ФАЙЛА / КЛАССА 
     
     System.out.println("\nУмножение 2 матриц\n");
     int [][] matrix0=matrix.create(5,5);
@@ -127,10 +128,11 @@ class MatrixFun{
 
 
   public static void STEPUHA_MATRIZ(){
+    
     //МУТИМ ВОЗВЕДЕНИЕ МАТРИЦЫ В СТЕПЕНЬ
 
     Scanner sc= new Scanner(System.in); // ЭТО ПОМОЖЕТ НАМ ПОЛУЧАТЬ ЗНАЧЕНИЯ ОТ ЮЗВЕРЕЙ
-    MatrixActions matrix = new MatrixActions();
+    MatrixActions matrix = new MatrixActions(); // ЭТО НАМ НУЖНО , ЧТОБЫ МЫ МОГЛИ МУТИТЬ ДЕЙСТВИЯ ИЗ ДРУГОГО ФАЙЛА / КЛАССА 
 
     System.out.println("\nВозведение матрицы в степень\n\tНаша изначальная матрица\n");
     int [][] matrix0=matrix.create(5,5);
