@@ -9,22 +9,22 @@ class Main{
 
   public static void first(){
     MatrixActions matrix = new MatrixActions();
-    Scanner sc= new Scanner(System.in); // ЭТО ПОМОЖЕТ НАМ ПОЛУЧАТЬ ЗНАЧЕНИЯ ОТ ЮЗВЕРЕЙ
-    Random rand = new Random();// ЭТО ПОМОЖЕТ НАМ СОЗДАВАТЬ РАНДОМНЫЕ ЧИСЛА
-
-    //System.out.println(matrix0); // Почему тут видна фигня ? Всё просто ! У нас указывается ссылка на элемент, а не сам элемент. Чтобы вызвать нормальный элемент - возьмите и напишите (матрица[строка][колонка])
+    MatrixFun MaFun = new MatrixFun(); // НЕ ПОВЕРИТЕ, НО ТУТ ВСЕ , КАК В ПИТОНЕ. СОЗДАЕМ ЭКЗЕМПЛЯР КЛАССА И ДАЛЬШЕ СОВОКУПЛЯЕМСЯ С НИМ СКОК ХОТИМ
+    //Scanner sc= new Scanner(System.in); // ЭТО ПОМОЖЕТ НАМ ПОЛУЧАТЬ ЗНАЧЕНИЯ ОТ ЮЗВЕРЕЙ
+    //Random rand = new Random();// ЭТО ПОМОЖЕТ НАМ СОЗДАВАТЬ РАНДОМНЫЕ ЧИСЛА
 
     
-    int [][] matrix0 = matrix.create(10,5);
+    int [][] matrix0 = matrix.create(10,5); // ПОЧ МЫ ПИШЕМ int[][] - ВО-ПЕРВЫХ , ПОТОМУ ЧТО МЫ ПИШЕМ МАТРИЦУ (а в ней типа [строка][колонка]) , А ВО ВТОРЫХ,  У НАС ЧИСЛО, ПОЭТОМУ ПИШЕМ int , А НЕ String
     int [][] matrix01 = matrix.create(10,5);
+    
+    //System.out.println(matrix0); // Почему тут видна фигня ? Всё просто ! У нас указывается ссылка на элемент, а не сам элемент. Чтобы вызвать нормальный элемент - возьмите и напишите (матрица[строка][колонка])
 
-    MatrixFun MaFun = new MatrixFun();
-    MaFun.slozIvich(matrix0, matrix01);
-    MaFun.transpose(matrix0);
-    MaFun.Umnozh_Na_CHISLO(matrix0);
-    MaFun.DVE_MATRIZI_ODNO_CHISLO();
-    MaFun.STEPUHA_MATRIZ();
 
+    MaFun.slozIvich(matrix0, matrix01); // ТУТ У НАС ИДЕТ СЛОЖЕНИЕ МАТРИЦ
+    MaFun.transpose(matrix0); // ТУТА ТРАНСПОНИРОВАНИЕ
+    MaFun.Umnozh_Na_CHISLO(matrix0); // ТУТА УМНОЖЕНИЕ НА ЧИСЛО
+    MaFun.DVE_MATRIZI_ODNO_CHISLO(); // ТУТ УМНОЖЕНИЕ МАТРИЦЫ 1 НА МАТРИЦУ 2
+    MaFun.STEPUHA_MATRIZ(); // ТУТ МЫ НАБЛЮДАЕМ ЗА СТЕПЕНЬЮ МАТРИЦ
   }
 }
 
