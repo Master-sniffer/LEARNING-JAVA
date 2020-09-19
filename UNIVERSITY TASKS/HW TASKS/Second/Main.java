@@ -8,28 +8,19 @@ class Main{
 
 
   public static void first(){
-    int[][] matrix0 = new int[10][5];
-    int[][] matrix01 = new int[10][5];
-    int n = 10;
-    int k = 5; 
-
+    MatrixActions matrix = new MatrixActions();
     Scanner sc= new Scanner(System.in); // ЭТО ПОМОЖЕТ НАМ ПОЛУЧАТЬ ЗНАЧЕНИЯ ОТ ЮЗВЕРЕЙ
     Random rand = new Random();// ЭТО ПОМОЖЕТ НАМ СОЗДАВАТЬ РАНДОМНЫЕ ЧИСЛА
 
-    for (int i =0; i < n; i++){
-      for (int b=0; b < k; b++){
-          matrix0[i][b]=rand.nextInt(100); // идет рандомное число до 100 в матрицу
-          matrix01[i][b]=rand.nextInt(100); // Идет рандомное число до 100 в матрицу
-      }
-    }
     //System.out.println(matrix0); // Почему тут видна фигня ? Всё просто ! У нас указывается ссылка на элемент, а не сам элемент. Чтобы вызвать нормальный элемент - возьмите и напишите (матрица[строка][колонка])
 
-    // УЗНАТЬ, КАК ПОЛУЧАТЬ ЭЛЕМЕНТ ВО ВСЕМ КЛАССЕ
     
+    int [][] matrix0 = matrix.create(10,5);
+    int [][] matrix01 = matrix.create(10,5);
     int[][] result = new int[10][5];
     int[][] result1 = new int[10][5];
-    for (int i =0; i < n; i++){
-      for (int b=0; b < k; b++){
+    for (int i =0; i < matrix0.length; i++){
+      for (int b=0; b < matrix0[0].length; b++){
         result[i][b]=matrix0[i][b]-matrix01[i][b];
         result1[i][b]=matrix0[i][b]+matrix01[i][b];  
       }
@@ -47,8 +38,8 @@ class Main{
     
     System.out.println("Сейчас мы покажем изначальную матрицу");
     printa(matrix0);
-    for (int i =0; i < n; i++){
-      for (int b=0; b < k; b++){
+    for (int i =0; i < matrix0.length; i++){
+      for (int b=0; b < matrix0[0].length; b++){
         result[i][b]=matrix0[i][b]*a;
       }
     } 
@@ -64,13 +55,13 @@ class Main{
           matrix1[i][b]=rand.nextInt(100);}}
       
     int m = matrix0.length;
-    n = matrix1[0].length;
+    int n = matrix1[0].length;
     int o = matrix1.length;
     int[][] res = new int[m][n];
 
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
-            for (k = 0; k < o; k++) {
+            for (int k = 0; k < o; k++) {
                 res[i][j] += matrix0[i][k] * matrix1[k][j]; 
             }}}  
     printa (res);
@@ -103,7 +94,7 @@ class Main{
             for (int nu =0; nu<a ; nu++){
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++) {
-                    for (k = 0; k < n; k++) {
+                    for (int k = 0; k < n; k++) {
                         c[i][j] += matrix0[i][k] * matrix0[k][j];
                     }
                 }
