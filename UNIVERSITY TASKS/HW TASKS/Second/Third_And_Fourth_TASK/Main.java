@@ -32,7 +32,7 @@ class Main {
   private ArrayList<Double> visotka;
 
   void main(double dlin , double shir, double visota){
-    System.out.println("высота -> "+ visota + " длина -> "+dlin+" ширина -> "+shir + "Имя фигуры - "+ name);
+    System.out.println("объем -> "+ visota + " длина -> "+dlin+" ширина -> "+shir + "Имя фигуры - "+ name);
   }
 
   void main(double rad, double visota){
@@ -94,15 +94,55 @@ class scag extends Main{
 
   public ArrayList Figures(){
     int N=(super.N);
+
+    
+
     String name;
+    int x;
     Scanner sc= new Scanner(System.in);
+    ArrayList<Double> dlin = new ArrayList<Double>();
+    ArrayList<Double> shir = new ArrayList<Double>();
+    ArrayList<Double> vis = new ArrayList<Double>();
+    ArrayList<String> namm = new ArrayList<String>();
+
+    ArrayList<Double> vaa = new ArrayList<Double>();
+
     for (int i=0; i < N; i++){
       System.out.println("ENTER THE NAME OF THE FIGURE");
       name= sc.nextInt();
-      //ArrayList<Double> X = new ArrayList<Double>();
+      namm.add(name);
+      System.out.println("GREAT !\nNOW ENTER THE TYPE OF THE FIGURE\n1- TRIANGLE\n2-CIRCLE\n3-SQUARE SHIET");
+      x= sc.nextInt();
+      if (x==1){
+        double dli;
+        double shi;
+        double vi;
+        vaa=new Triangle();
+        dli= vaa.get(0);
+        shi=vaa.get(1);
+        
+      }
     }
     
   }
 
 }
+
+class Triangle extends scag {
+  public ArrayList Triangle(){
+    ArrayList<Double> vars = new ArrayList<Double>();
+    Scanner sc= new Scanner(System.in);
+    System.out.println("WELL, THIS ONE WILL BE HARD... TYPE IN THE LENGTH OF UR FIGURE\n");
+    double dli= sc.nextInt();
+    vars.add(dli);
+    System.out.println("WELL,NOW ENTER HEIGHT\n");
+    double ha= sc.nextInt();
+    vars.add(ha);
+    dli = ((ha*dli)/2)*ha;
+    vars.add(dli);
+    
+    return vars;
+  }
+
+} 
 
