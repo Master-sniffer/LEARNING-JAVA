@@ -57,6 +57,11 @@ class Main {
   Denchik.Cosinus(X,Y);
   System.out.println("\nЕТО ЩА БУДЕТ МЕТОД ВЫЧИТАНИЯ И СЛОЖЕНИЯ. НАСЛАЖДАЙТЕСЬ !\n");
   Denchik.samka_I_raznost(X,Y,Z);
+  System.out.println("\nКороче, ЮЗВЕРЬ, я тебя спас и в благородство играть не буду: Напишешь для меня размер размер – и мы в расчете. Заодно посмотрим, как быстро у тебя башка после амнезии прояснится.\n");
+  ArrayList<Double> array;
+  int N= sc.nextInt();
+  array = Denchik.ChislaS_N(N);
+  System.out.println("ЕТО НАШ МАССИВ, ХЕ"+array+"\n");
   }
 }
 
@@ -130,5 +135,14 @@ class Deistvia{
     res1.add(FirZ-SecZ);
 
     System.out.println("\nРезультат вычитания ! ༼ つ ◕_◕ ༽つ  "+res1+"\n\nРезультат сложения ! ʕ•ᴥ•ʔ "+res);
+  }
+
+  public static ArrayList ChislaS_N(int N){
+
+    ArrayList<Double> array = new ArrayList<Double>();
+    for (int i = 0; i < N; i++){
+      array.add(Math.random() * 100);
+    }
+    return array;
   }
 }
