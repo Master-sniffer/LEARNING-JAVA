@@ -44,6 +44,19 @@ class Main {
   Denchik.skal(X,Y,Z);
   System.out.println("\nтут это , векторное произведение с другим вектором. КРЧ, НИЧЕГО СЛОЖНОГО ))))\n");
   Denchik.VecSHTO(X,Y,Z);
+  System.out.println("\nТак-с, косинус между векторами ( звучит оч сложно, но давайте посчитаем)\nХотя... Постойте !НУЖНЫ ЕЩЕ ЧИСЛА !\nСЕЙЧАС МЫ БУДЕМ ДОБАВЛЯТЬ ПО ОДНОМУ ЧИСЛУ В КАЖДЫЙ СПИСОК ! БУДЬ ОСТОРОЖЕН !");
+  a= sc.nextInt();
+  X.add(x);
+  X.add(a);
+  a= sc.nextInt();
+  Y.add(y);
+  Y.add(a);
+  a= sc.nextInt();
+  Z.add(z);
+  Z.add(a);
+  Denchik.Cosinus(X,Y);
+  System.out.println("\nЕТО ЩА БУДЕТ МЕТОД ВЫЧИТАНИЯ И СЛОЖЕНИЯ. НАСЛАЖДАЙТЕСЬ !\n");
+  Denchik.samka_I_raznost(X,Y,Z);
   }
 }
 
@@ -52,7 +65,8 @@ class Deistvia{
     // Сейчас будет очень необычное действие, которые напомнит вам, что Питон это оч приятный ЯП))))
 
     // для получения значения, надо писать ИмяСписка.get(номерЭлемента)
-    double FirX =(double) X.get(0);
+    double FirX =(double) X.get(0); // ПРИВЫКАЙТЕ, ТАК МЫ БУДЕМ ДЕЛАТЬ ВСЕ ДОВОЛЬНО-ТАКИ ЧАСТО (знаю, можно писать это все без всяких танцов с бубном, но давайте на первых порах хоть как-то писать и разбираться. Потом уже подумаем и о скорости)
+
     double SecX =(double) X.get(1);
     double FirY =(double) Y.get(0);
     double SecY =(double) Y.get(1);
@@ -72,6 +86,49 @@ class Deistvia{
     double FirZ =(double) Z.get(0);
     double SecZ =(double) Z.get(1);
 
-    
+    double res0= FirY*SecZ - FirZ*SecY;
+    double res1= FirZ*SecX - FirX*SecZ;
+    double res2 = FirX * SecY - FirY*SecX;
+    ArrayList<Double> Result = new ArrayList<Double>();
+    Result.add(res0);
+    Result.add(res1);
+    Result.add(res2);
+    System.out.println(Result);
+    System.out.println("\nNICELY DONE \n");
+  }
+
+  public static void Cosinus(ArrayList X, ArrayList Y){
+    double res;
+    double FirX =(double) X.get(0);
+    double SecX =(double) X.get(1);
+    double ThirX= (double) X.get(2);
+    double FirY =(double) Y.get(0);
+    double SecY =(double) Y.get(1);
+    double ThirY= (double) Y.get(2);
+
+    res =( (FirX*FirY) + (SecX*SecY)+ (ThirX*ThirY) )/ (Math.sqrt( (Math.pow(FirX,2)) + (Math.pow(SecX,2)) + (Math.pow(ThirX,2)) )) * (Math.sqrt( (Math.pow(FirY,2)) + (Math.pow(SecY,2)) + (Math.pow(ThirY,2)) )) ;
+    System.out.println(res+"ЕТО НАШ ОТВЕТ, НАСЧЕТ УГЛА\n");
+  }
+
+  public static void samka_I_raznost(ArrayList X, ArrayList Y, ArrayList Z){
+    double FirX =(double) X.get(0);
+    double SecX =(double) X.get(1);
+    double FirY =(double) Y.get(0);
+    double SecY =(double) Y.get(1);
+    double FirZ =(double) Z.get(0);
+    double SecZ =(double) Z.get(1);
+
+    ArrayList<Double> res = new ArrayList<Double>();
+    ArrayList<Double> res1 = new ArrayList<Double>();
+    // ИДЕТ СЛОЖЕНИЕ , НЕ ПРИКАСАЙТЕСЬ !
+    res.add(FirX+SecX);
+    res.add(FirY+SecY);
+    res.add(FirZ+SecZ);
+    // ИДЕТ ВЫЧИТАНИЕ , ИДИТЕ НА
+    res1.add(FirX-SecX);
+    res1.add(FirY-SecY);
+    res1.add(FirZ-SecZ);
+
+    System.out.println("\nРезультат вычитания ! ༼ つ ◕_◕ ༽つ  "+res1+"\n\nРезультат сложения ! ʕ•ᴥ•ʔ "+res);
   }
 }
