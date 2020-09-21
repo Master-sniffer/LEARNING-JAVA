@@ -55,7 +55,7 @@ class Main {
               writer.append(s);
             }
              
-            writer.flush();
+            writer.flush(); // закрываем файл
         }
         catch(IOException ex){
              
