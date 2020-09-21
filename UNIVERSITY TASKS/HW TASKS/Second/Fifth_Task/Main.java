@@ -7,8 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] values = {1, 2, 3};
-        int[] scales = {1, 2, 10};
+        int[] values = {1, 2, 5};
+        int[] scales = {1, 4, 10};
 
         Returner returner = new Returner(values, scales);
         int returnValue = returner.getNumber();
