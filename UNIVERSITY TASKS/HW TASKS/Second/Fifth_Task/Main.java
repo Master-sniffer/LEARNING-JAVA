@@ -7,11 +7,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] values = {1, 2, 3};
-        int[] scales = {1, 2, 10};
+        int[] values = {1, 2, 3}; // создаем массив в этими данными 
+        int[] scales = {1, 2, 10}; // и второй массив
 
-        Return returner = new Return(values, scales);
-        int returnValue = returner.Numbers();
+        Return returner = new Return(values, scales); // создаем экземпляр класса returner и закидываем в конструктор два массива
+        int returnValue = returner.Numbers(); // идет обработка рандомных чисел 
         System.out.println(" UR ANSWER is : "+returnValue+"\nARIVIDERCHI , AMIGO\n");
         System.exit(1);
     }
@@ -19,10 +19,10 @@ public class Main {
 }
 
 class Return {
-    int[] valuesArr;
-    int[] scalesArr;
-    int[] rangesArr;
-    int sum = 0;
+    int[] valuesArr; // создаем массив для первого числа
+    int[] scalesArr; // второго 
+    int[] rangesArr; // третьего 
+    int sum = 0; // сумма элементов
 
     public Return(int[] values, int[] scales) {
         sum = 0;
