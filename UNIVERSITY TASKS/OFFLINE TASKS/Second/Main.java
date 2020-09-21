@@ -51,7 +51,7 @@ class Main {
             String s;
             for (int i =0 ;i <VSELENNAIA.size(); i++){
               var=VSELENNAIA.get(i);
-              s=String.valueOf(var)+"\n";
+              s=String.valueOf(var)+"\n"; // достаем нашу переменную и делаем ее STRING-овым форматом , так как текстовый файл принимает ток такой формат
               writer.append(s);
             }
              
