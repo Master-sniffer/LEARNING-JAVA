@@ -12,7 +12,8 @@ public class Main {
 
         Return returner = new Return(values, scales);
         int returnValue = returner.Numbers();
-        System.out.println("Возвращенное значение: "+returnValue);
+        System.out.println(" UR ANSWER is : "+returnValue+"\nARIVIDERCHI , AMIGO\n");
+        System.exit(1);
     }
 
 }
