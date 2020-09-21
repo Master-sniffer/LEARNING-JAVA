@@ -8,3 +8,6 @@ r - рост
 
 
 А потом создать график в питоне
+
+
+## Заметка -  https://www.youtube.com/watch?v=DH1cv0Rdf2w
