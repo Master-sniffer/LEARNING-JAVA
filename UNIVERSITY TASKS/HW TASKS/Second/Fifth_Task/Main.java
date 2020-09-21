@@ -2,33 +2,55 @@ import java.util.ArrayList;
 import java.util.*;
 import java.util.Random; 
 
-class Main {
-  public static void main(String[] args) {
-    System.out.println("HEY, I'VE GOT KEK\nENTER THE SIZE OF THE ARRAY!\n");
-    Scanner sc= new Scanner(System.in);
-    int N= sc.nextInt();
-    int k;
-    ArrayList<Integer> A = new ArrayList<Integer>();
-    ArrayList<Integer> B = new ArrayList<Integer>();
-    for (int i=0; i<N; i++){
-      System.out.println("\nFIRST ARRAY\n");
-      k= sc.nextInt();
-      A.add(k);
-      System.out.println("\nSECOND ARRAY\n");
-      k= sc.nextInt();
-      B.add(k);
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int[] values = {1, 2, 3};
+        int[] scales = {1, 2, 10};
+
+        Returner returner = new Returner(values, scales);
+        int returnValue = returner.getNumber();
+        System.out.println("Возвращенное значение: "+returnValue);
     }
-    RESHENIE RES = new RESHENIE(A, B);
-  }
+
 }
 
+class Return {
+    int[] valuesArr;
+    int[] scalesArr;
+    int[] rangesArr;
+    int sum = 0;
 
-class RESHENIE extends Main{
-  public RESHENIE (ArrayList A, ArrayList B){
-    int ma=(int) Collections.max(B);
-    var d = Math.random();
-    for (int i =0; i < A.size(); i++){
-      
+    public Return(int[] values, int[] scales) {
+        sum = 0;
+        valuesArr = values;
+        scalesArr = scales;
+        rangesArr = new int[valuesArr.length];
+
+
+        for (int i = 0; i < scalesArr.length; i++)
+            sum += scalesArr[i];
+
+        int s = 0;
+        for (int i = 0; i < rangesArr.length; i++) {
+            rangesArr[i] = s;
+            s += scalesArr[i];
+        }
     }
-  }
+
+
+    public int Numbers() {
+        int random = (int) (Math.random() * (sum - 1));
+
+        int index = 0;
+        for (int i = 0; i < rangesArr.length; i++) {
+            if (rangesArr[i] > random)
+                break;
+            index = i;
+        }
+
+        return valuesArr[index];
+    }
 }
