@@ -7,11 +7,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] values = {1, 2, 5};
-        int[] scales = {1, 4, 10};
+        int[] values = {1, 2, 3};
+        int[] scales = {1, 2, 10};
 
-        Returner returner = new Returner(values, scales);
-        int returnValue = returner.getNumber();
+        Return returner = new Return(values, scales);
+        int returnValue = returner.Numbers();
         System.out.println("Возвращенное значение: "+returnValue);
     }
 
@@ -42,15 +42,15 @@ class Return {
 
 
     public int Numbers() {
-        int random = (int) (Math.random() * (sum - 1));
+        int randi = (int) (Math.random() * (sum - 1));
 
-        int index = 0;
+        int ind = 0;
         for (int i = 0; i < rangesArr.length; i++) {
-            if (rangesArr[i] > random)
+            if (rangesArr[i] > randi)
                 break;
-            index = i;
+            ind = i;
         }
 
-        return valuesArr[index];
+        return valuesArr[ind];
     }
 }
