@@ -35,14 +35,18 @@ class Main {
   }
   System.out.println(VSELENNAIA);
 
-  try(FileWriter writer = new FileWriter("TEKST.txt", false))
+  try(FileWriter writer = new FileWriter("TEKST.txt", false)) // ПРОБУЕМ ЗАПИСАТЬ ЭТО В ФАЙЛ
         {
+
+
            // запись всей строки
               //String text = "Hello Gold!";
               //writer.write(text);
             // запись по символам
               //writer.append('\n');
             //writer.append('E');
+
+
             double var;
             String s;
             for (int i =0 ;i <VSELENNAIA.size(); i++){
