@@ -17,31 +17,45 @@ class Main {
 
   }
 
-  public void mana(){
-
-    System.out.println(dlina);
-  }
-
-
   double N;
 
-  // private double dlin;
-  // private double shir;
-  // private double visota;
+  public void mana(){
+    System.out.println("YOUR MOM GAY LOL\nOH,NO\nHERE IS THE ANSWER!\n");
+    for (int i=0; i< dlina.size(); i++){
+      double x=shirina.get(i); // ЗАЧЕМ МЫ ТАК ОБХОДИМ ЭТО ? ДА ПОТОМУ ЧТО ЧЕРТОВ ДЖАВА НЕ ПОНИМАЕТ , КОГДА ЕГО ПРОСТО ПРОСЯТ ПОКАЗАТЬ ЗНАЧЕНИЕ
+      if (x==0.0){
+        double ra=dlina.get(i);
+        double vi=visotka.get(i);
+        main(ra,vi);
+      }
+      else if (x!=0.0){
+        double dli= dlina.get(i);
+        double shi= shirina.get(i);
+        double viska= visotka.get(i);
+        String nama= names.get(i);
+        main(dli, shi, viska, nama);
+      }
+      else {
+        System.out.println("Ecchi till I die all these lolis call me (senpai)\nRubbing on her thighs she stay wet for her (senpai)\nShawty so kawaii, and would die for her (senpai)\nRide and watch hentai, all the time with (senpai)");
+        System.exit(1);
+      }
+
+    }
+  }
 
   // private ArrayList<String> names = new ArrayList<String>();
   // private ArrayList<Double> dlina = new ArrayList<Double>();
   // private ArrayList<Double> shirina = new ArrayList<Double>();
   // private ArrayList<Double> visotka = new ArrayList<Double>();
 
-  private  ArrayList<String> names;
-  private  ArrayList<Double> dlina;
-  private  ArrayList<Double> shirina;
-  private  ArrayList<Double> visotka;
+  static ArrayList<String> names;
+  static ArrayList<Double> dlina;
+  static ArrayList<Double> shirina;
+  static ArrayList<Double> visotka;
 
 
   void main(double dlin , double shir, double visota, String name){
-    System.out.println("объем -> "+ visota + " длина -> "+dlin+" ширина -> "+shir + "Имя фигуры - "+ name);
+    System.out.println("объем -> "+ visota + " длина -> "+dlin+" ширина -> "+shir + " Имя фигуры - "+ name);
   }
 
   void main(double rad, double visota){
@@ -57,26 +71,6 @@ public void setDlina(ArrayList<Double> dlina) {
   this.dlina = dlina;
 }
 
-/**
- * @param names the names to set
- */
-public void setNames(ArrayList<String> names) {
-  this.names = names;
-}
-
-/**
- * @param shirina the shirina to set
- */
-public void setShirina(ArrayList<Double> shirina) {
-  this.shirina = shirina;
-}
-
-/**
- * @param visotka the visotka to set
- */
-public void setVisotka(ArrayList<Double> visotka) {
-  this.visotka = visotka;
-}
   
 }
 
@@ -106,16 +100,16 @@ class scag extends Main{
 
   public void Figures(){
     double N=(super.N);
-
     //String name;
     int x;
     Scanner sc= new Scanner(System.in);
+
     ArrayList<Double> dlin = new ArrayList<Double>();
     ArrayList<Double> shir = new ArrayList<Double>();
     ArrayList<Double> vis = new ArrayList<Double>();
     ArrayList<String> namm = new ArrayList<String>();
 
-    ArrayList<Double> vaa = new ArrayList<Double>();
+    ArrayList<Double> vaa = new ArrayList<Double>(); // buffer 
 
     for (int i=0; i < N; i++){
       System.out.println("\nENTER THE NAME OF THE FIGURE\n");
@@ -153,7 +147,10 @@ class scag extends Main{
         System.exit(1);
       }
     }
-    
+    Main.dlina=dlin;
+    Main.names=namm;
+    Main.shirina=shir;
+    Main.visotka=vis;
     mana();
     
   }
@@ -197,9 +194,9 @@ class Square extends Main{
     Scanner sc= new Scanner(System.in);
     System.out.println("\nYEAH ! SQUARE\nENTER THE LENGTH, PLS\n");
     double le = sc.nextInt();
-    System.out.println("\nYEAH ! SQUARE\nENTER THE WIDTH, PLS\n");
+    System.out.println("\nENTER THE WIDTH, PLS\n");
     double shi = sc.nextInt();
-    System.out.println("\nYEAH ! SQUARE\nENTER THE HEIGHT, PLS\n");
+    System.out.println("\nENTER THE HEIGHT, PLS\n");
     double hi = sc.nextInt();
     vars.add (le);
     vars.add (shi);
