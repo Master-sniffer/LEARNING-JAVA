@@ -20,7 +20,7 @@ class Tassk2 {
       if (ele==r){
         ka++;
       }
-    }
+      }
 
         //for (String s : list) {
        // System.out.println(s);
@@ -45,6 +45,7 @@ class Tassk2 {
         int ikar = lis.get(middleIndex);
         // если средний элемент - целевой элемент, вернуть его индекс
         if (ikar == ba) {
+            
             break;
         }
 
@@ -59,7 +60,9 @@ class Tassk2 {
             lastIndex = middleIndex - 1;
         }
     }
+    endTime = System.currentTimeMillis();
     System.out.println("Total execution time: " + (endTime-startTime) + "ms"); 
+    
 
   }
 
