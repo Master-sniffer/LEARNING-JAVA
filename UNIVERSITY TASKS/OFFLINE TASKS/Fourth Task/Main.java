@@ -20,6 +20,8 @@ class Main {
       Numbers.add(random_number);
     }
     Tassk2 task2= new Tassk2(Numbers);
+    Task3 task3 = new Task3();
+
     
 
   }
@@ -34,5 +36,7 @@ class Main {
     }
     return task1(r-1);
   }
+
+  
 
 }
