@@ -14,11 +14,14 @@ class Main {
     ArrayList<Integer> Numbers = new ArrayList<Integer>();
     int a =0;
     int random_number= sc.nextInt();
-    for (int i=0; i<100000000; i++){
+    for (int i=0; i<1000000; i++){
       random_number = ThreadLocalRandom.current().nextInt(a, random_number + 1);
-      System.out.println(random_number);
+      //System.out.println(random_number);
       Numbers.add(random_number);
     }
+    Tassk2 task2= new Tassk2(Numbers);
+    
+
   }
 
   static private int task1 (int r){
