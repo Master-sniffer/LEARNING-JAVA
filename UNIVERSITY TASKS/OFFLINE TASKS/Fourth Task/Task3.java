@@ -15,9 +15,9 @@ class Task3 {
 
     ArrayList<Double> Numbers = new ArrayList<Double>();
 
-    for (int i=0 ; i<max; i+=0.001){
+    for (double i=0 ; i<max; i=i+0.001){
       var = Math.cos(Math.pow(i, 5)) + Math.pow(i,4) -345.3 * i - 23 ;
-      System.out.println(var);
+      //System.out.println(var); // убери первые скобки, чтобы офигеть
       Numbers.add(var);
     }
 
