@@ -27,7 +27,8 @@ class Main {
             System.out.println(line);
             // считываем остальные строки в цикле
             line = reader.readLine();
-            hu+= "\n" + script.encrypt(line) ;   
+            hu+= "\n" + script.encrypt(line)+ "\n" ;   
+            System.out.println(hu);
         }
 
         bw.write(hu);
