@@ -8,6 +8,13 @@ import java.io.IOException;
 
 class Main { 
     public static void main(String[] args) throws IOException { 
+
+      BufferedReader reada = new BufferedReader(new FileReader("file.txt"));
+      int lines = 0;
+      while (reada.readLine() != null) lines++;
+      reada.close();
+
+
         System.out.println("Hello, user\n"); 
 
         String hu="";
@@ -23,12 +30,20 @@ class Main {
         EncryptDecryptString script = new EncryptDecryptString();
 
         String line = reader.readLine();
-        while (line != null) {
+
+
+        System.out.println(lines);
+        int number=0;
+
+        while (number <= lines) {
             System.out.println(line);
             // считываем остальные строки в цикле
-            line = reader.readLine();
+            
+            //System.out.println("I AM HERE"+line);
             hu+= "\n" + script.encrypt(line)+ "\n" ;   
             System.out.println(hu);
+            number++;
+            line = reader.readLine();
         }
 
         bw.write(hu);
