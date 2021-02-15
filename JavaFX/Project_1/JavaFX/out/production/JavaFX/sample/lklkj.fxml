@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="484.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Lklkj">
+   <children>
+      <Button cache="true" cacheHint="SPEED" layoutX="313.0" layoutY="412.0" mnemonicParsing="false" text="PUSH ME">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+      <CheckBox ellipsisString="Try" indeterminate="true" layoutX="14.0" layoutY="373.0" lineSpacing="1.0" mnemonicParsing="false" selected="true" text="Click here" textFill="#b93939">
+         <font>
+            <Font name="System Italic" size="27.0" />
+         </font>
+      </CheckBox>
+      <LineChart axisSortingPolicy="NONE" cache="true" cacheHint="SCALE_AND_ROTATE" layoutX="171.0" layoutY="12.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <AmbientLight color="CHARTREUSE" layoutX="75.0" layoutY="129.0" lightOn="true" />
+   </children>
+</AnchorPane>
