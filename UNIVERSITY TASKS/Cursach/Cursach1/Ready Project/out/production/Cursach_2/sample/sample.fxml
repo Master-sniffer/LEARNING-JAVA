@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="Anchor" fx:id="anchos" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #400002;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="1.0" layoutY="284.0" prefHeight="315.0" prefWidth="800.0" style="-fx-background-color: #999999;">
+         <children>
+            <TextField fx:id="login" layoutX="306.0" layoutY="26.0" prefHeight="33.0" prefWidth="189.0" promptText="Your moms" />
+            <Button fx:id="auth" layoutX="303.0" layoutY="116.0" mnemonicParsing="false" prefHeight="83.0" prefWidth="196.0" text="That's me - Button">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="153.0" layoutY="23.0" text="What ? When ? Where ?" textFill="#fafafa">
+         <font>
+            <Font size="47.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginSignUp" layoutX="660.0" layoutY="14.0" mnemonicParsing="false" text="Make a nick">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
