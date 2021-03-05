@@ -11,11 +11,12 @@
       <AnchorPane layoutX="1.0" layoutY="284.0" prefHeight="315.0" prefWidth="800.0" style="-fx-background-color: #999999;">
          <children>
             <TextField fx:id="login" layoutX="306.0" layoutY="26.0" prefHeight="33.0" prefWidth="189.0" promptText="Your moms" />
-            <Button fx:id="auth" layoutX="303.0" layoutY="116.0" mnemonicParsing="false" prefHeight="83.0" prefWidth="196.0" text="That's me - Button">
+            <Button fx:id="auth" layoutX="302.0" layoutY="133.0" mnemonicParsing="false" prefHeight="83.0" prefWidth="196.0" text="That's me - Button">
                <font>
                   <Font size="19.0" />
                </font>
             </Button>
+            <TextField fx:id="passwd" layoutX="319.0" layoutY="71.0" prefHeight="33.0" prefWidth="163.0" promptText="Password here" />
          </children>
       </AnchorPane>
       <Label layoutX="153.0" layoutY="23.0" text="What ? When ? Where ?" textFill="#fafafa">
