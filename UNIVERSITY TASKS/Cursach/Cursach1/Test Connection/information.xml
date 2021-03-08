@@ -1,1631 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <search>
-<total>653</total>
 <question>
-<tourFileName>taviv02.5</tourFileName>
-<tournamentFileName>taviv02.txt</tournamentFileName>
-<QuestionId>905059</QuestionId>
-<ParentId>53722</ParentId>
-<Number>26</Number>
+<tourFileName>kop1997.35</tourFileName>
+<tournamentFileName>kop1997.txt</tournamentFileName>
+<QuestionId>984051</QuestionId>
+<ParentId>58221</ParentId>
+<Number>24</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>taviv02.5-26</TextId>
-<Question>[Разминка]
-   Вы все наверняка слышали о немецкой службе СС. Однако еще до
-революции сокращение СС можно было встретить в русской литературе, но
-оно практически никогда не расшифровывалось. Тем не менее, мы думаем,
-что вам известна фраза, в которой это словосочетание фигурировало в
-развернутом виде. Скажите, кто и о ком написал эту фразу?</Question>
-<Answer>Пушкин о Пушкине.</Answer>
-<PassCriteria/>
-<Authors>Михаил Зильберштейн</Authors>
-<Sources>Рассылка &quot;Книжные новости в &quot;Русском журнале&quot;. Взято из книги: Л.А.
-Арбатский. Ругайтесь правильно или довольно толковый словарь русской
-брани.</Sources>
-<Comments>На полях рукописи &quot;Борис Годунов&quot; Пушкин написал знаменитую фразу: &quot;Ай
-да Пушкин, ай да сукин сын&quot;. Этим вопросом мы решили выполнить (и даже
-перевыполнить) квоту ответов &quot;Пушкин&quot; на пакет - их тут сразу два. :-)</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>taviv02.5</parent_text_id>
-<ParentTextId>taviv02.5</ParentTextId>
-<tourId>53722</tourId>
-<tournamentId>2845</tournamentId>
-<tourTitle>7 тур. &quot;Вист!&quot;</tourTitle>
-<tournamentTitle>4-й Чемпионат Тель-Авивского клуба</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2002-07-24</tourPlayedAt>
-<tournamentPlayedAt>2002-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2002-07-24</tourPlayedAt2>
-<tournamentPlayedAt2>2002-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName/>
-<tournamentFileName>znv98.txt</tournamentFileName>
-<QuestionId>969805</QuestionId>
-<ParentId>57268</ParentId>
-<Number>5</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>znv98.1-5</TextId>
-<Question>Древняя знатоковская мудрость гласит: &quot;Не знаешь, о ком идет речь в
-вопросе, - отвечай: Пушкин&quot;. Насчет того, что отвечать, когда знаешь,
-подобного правила нет. А теперь - внимание, вопрос: кто автор крылатого 
-выражения &quot;Иных уж нет, а те далече&quot;?</Question>
-<Answer>Большинству из нас эта фраза известна благодаря А.С.Пушкину, но 
-истинным ее автором является Саади (у Пушкина - Сади) - знаменитый 
-персидский поэт XII-XIII вв., уроженец г.Шираза, автор поэм &quot;Гулистан&quot; и 
-&quot;Бустан&quot;. В романе &quot;Евгений Онегин&quot; читаем:
-   Но те, которым в дружной встрече
-   Я строфы первые читал...
-   Иных уж нет, а те далече,
-   Как Сади некогда сказал.
-   А эти строки Саади из поэмы &quot;Бустан&quot; Пушкин приводит в эпиграфе к 
-&quot;Бахчисарайскому фонтану&quot;: &quot;Многие, так же как и я, посещали сей фонтан; 
-но иных уже нет, другие странствуют далече&quot;.</Answer>
-<PassCriteria/>
-<Authors>А. Орлов и Ю.Коробов (Саратов)</Authors>
-<Sources/>
-<Comments/>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>znv98.1</parent_text_id>
-<ParentTextId>znv98.1</ParentTextId>
-<tourId>57268</tourId>
-<tournamentId>3408</tournamentId>
-<tourTitle>1</tourTitle>
-<tournamentTitle>Знатоки на Волге. В глушь - в Саратов. 1998 год (N1-N12)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>1998-01-01</tourPlayedAt>
-<tournamentPlayedAt>1998-01-01</tournamentPlayedAt>
-<tourPlayedAt2>1998-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>1998-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>nikola99.2</tourFileName>
-<tournamentFileName>nikola99.txt</tournamentFileName>
-<QuestionId>820750</QuestionId>
-<ParentId>49108</ParentId>
-<Number>9</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>nikola99.2-9</TextId>
-<Question>Его трудно назвать пушкинским героем, хотя в &quot;Евгении Онегине&quot; Пушкин
-много рассказывает о нем, а в X главе даже упоминает его фамилию. Он
-происходил из боярского рода, хотя сам себя относил к другому сословию.
-А где он находился 14 декабря 1825 года?</Question>
-<Answer>В селе Михайловском (А. С. Пушкин).</Answer>
-<PassCriteria/>
-<Authors>Дмитрий Борок (Самара)</Authors>
-<Sources>   1. А. С. Пушкин. Евгений Онегин. Моя родословная. СЭС, ст. &quot;Пушкин&quot;.
-   2. А. С. Пушкин. ПСС. Б-ка &quot;Огонек&quot;. М.: Правда, 1954. Т. 1. С. 58.</Sources>
-<Comments/>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>nikola99.2</parent_text_id>
-<ParentTextId>nikola99.2</ParentTextId>
-<tourId>49108</tourId>
-<tournamentId>645</tournamentId>
-<tourTitle>Тур 2</tourTitle>
-<tournamentTitle>1-й этап Кубка Украины 1999-2000. Николаев</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>1999-11-07</tourPlayedAt>
-<tournamentPlayedAt>1999-11-07</tournamentPlayedAt>
-<tourPlayedAt2>1999-11-07</tourPlayedAt2>
-<tournamentPlayedAt2>1999-11-07</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>proj16.4</tourFileName>
-<tournamentFileName>proj16.txt</tournamentFileName>
-<QuestionId>867008</QuestionId>
-<ParentId>51272</ParentId>
-<Number>8</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>proj16.4-8</TextId>
-<Question>Внимание, слова &quot;ИГРЕК&quot; и &quot;ЗЕТ&quot; в вопросе являются заменами.
-   Героиня романа Элис Рэндалл - профессор филологии афроамериканского
-происхождения. Своему сыну она дала имя ИГРЕК ЗЕТ. Описывая барышню с
-туго перетянутой талией, ИГРЕК использует сравнение с ЗЕТОМ. Напишите
-слова, которые мы заменили ИГРЕКОМ и ЗЕТОМ.</Question>
-<Answer>Пушкин, Икс.</Answer>
-<PassCriteria>Пушкин, Экс; Пушкин, X.</PassCriteria>
-<Authors>Александр Либер</Authors>
-<Sources>   1. http://www.alicerandall.com/pushkin
-   2. А.С. Пушкин. Барышня-крестьянка.
-http://www.rvb.ru/pushkin/01text/06prose/01prose/0862.htm</Sources>
-<Comments>Сына зовут Пушкин Икс. Имя Икс популярно среди американских негров еще
-со времен Малькольма Икса. А так как она филолог, то дала сыну еще одно
-имя - в честь писателя частично африканского происхождения.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>proj16.4</parent_text_id>
-<ParentTextId>proj16.4</ParentTextId>
-<tourId>51272</tourId>
-<tournamentId>29358</tournamentId>
-<tourTitle>3 тур</tourTitle>
-<tournamentTitle>Кубок 10-летия команды &quot;ProjeKCt&quot; (Москва)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2016-12-18</tourPlayedAt>
-<tournamentPlayedAt>2016-12-18</tournamentPlayedAt>
-<tourPlayedAt2>2016-12-18</tourPlayedAt2>
-<tournamentPlayedAt2>2016-12-18</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>ukr03hl.2</tourFileName>
-<tournamentFileName>ukr03hl.txt</tournamentFileName>
-<QuestionId>928573</QuestionId>
-<ParentId>54743</ParentId>
-<Number>3</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>ukr03hl.2-3</TextId>
-<Question>Говоря об этой &quot;энциклопедии&quot;, исследователи И. Сурат и С. Бочаров
-отмечают, что начинал работу над ней автор произведения о южном объекте,
-продолжал - автор произведения о человеке, страдающем кошмарными
-видениями, а заканчивал работу - автор цикла произведений, приписанных
-однофамильцу, по крайней мере, двух известных знатоков. Напишите фамилии
-указанных в вопросе этих трех авторов.</Question>
-<Answer>Пушкин, Пушкин, Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Ольга Неумывакина</Authors>
-<Sources>&quot;Новый мир&quot;, 2002, N 6 (рецензия на книгу И. Сурат и С. Бочарова
-&quot;Пушкин. Краткий очерк жизни и творчества&quot;).</Sources>
-<Comments>Речь идет о романе &quot;Евгений Онегин&quot;, который называют &quot;энциклопедией
-русской жизни&quot;; по образному наблюдению критиков, работу над романом
-Пушкин начинал, будучи автором &quot;Бахчисарайского фонтана&quot;, продолжал,
-будучи автором &quot;Бориса Годунова&quot;, а завершал, уже будучи автором
-&quot;Повестей Белкина&quot;.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>ukr03hl.2</parent_text_id>
-<ParentTextId>ukr03hl.2</ParentTextId>
-<tourId>54743</tourId>
-<tournamentId>557</tournamentId>
-<tourTitle>2 тур. &quot;От Винта - Братья По Фазе&quot; (Харьков)</tourTitle>
-<tournamentTitle>Чемпионат Украины по ЧГК сезона 2003/04. Высшая лига</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2003-11-15</tourPlayedAt>
-<tournamentPlayedAt>2003-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2003-11-15</tourPlayedAt2>
-<tournamentPlayedAt2>2003-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>zeleno08.3</tourFileName>
-<tournamentFileName>zeleno08.txt</tournamentFileName>
-<QuestionId>964695</QuestionId>
-<ParentId>56819</ParentId>
-<Number>3</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>zeleno08.3-3</TextId>
-<Question>Автора вопроса позабавила одна статья, написанная в 1836 году. Вот
-слегка &quot;причесанная&quot; цитата: &quot;Он талант, подающий большую надежду. Если
-бы с независимостью мнений и с остроумием своим соединял он более
-учености, более начитанности, более уважения к преданию, более
-осмотрительности, - словом, более зрелости, то мы имели бы в нем деятеля
-весьма замечательного&quot; (конец цитаты). Назовите и автора статьи, и того,
-о ком он писал, в правильном порядке.</Question>
-<Answer>Пушкин и Белинский.</Answer>
-<PassCriteria>Только в правильном порядке или с явным указанием, кто автор, а кто -
-объект, например, &quot;о Белинском писал Пушкин&quot;.</PassCriteria>
-<Authors>Дмитрий Борок (Самара)</Authors>
-<Sources>А.С. Пушкин. Полное собрание сочинений. - М.: Правда, 1954. - Т. 5. - С.
-374.</Sources>
-<Comments>Забавно, что Пушкин и Белинский выступают как бы в несвойственных им
-ипостасях: Пушкин написал критическую статью о Белинском.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>zeleno08.3</parent_text_id>
-<ParentTextId>zeleno08.3</ParentTextId>
-<tourId>56819</tourId>
-<tournamentId>1658</tournamentId>
-<tourTitle>3 тур</tourTitle>
-<tournamentTitle>VIII Открытый Кубок Зеленограда</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2008-01-13</tourPlayedAt>
-<tournamentPlayedAt>2008-01-13</tournamentPlayedAt>
-<tourPlayedAt2>2008-01-13</tourPlayedAt2>
-<tournamentPlayedAt2>2008-01-13</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>azov18.3</tourFileName>
-<tournamentFileName>azov18.txt</tournamentFileName>
-<QuestionId>1039075</QuestionId>
-<ParentId>61104</ParentId>
-<Number>2</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>azov18.3-2</TextId>
-<Question>Кого в пьесе Леонида Зорина Николай I сравнил с Вулканом и Венерой?</Question>
-<Answer>[Александр Сергеевич] Пушкин и [Наталья Николаевна] Гончарова.</Answer>
-<PassCriteria>Пушкин и Пушкина; Пушкин и его жена; Пушкины.</PassCriteria>
-<Authors>Алексей Богословский (Санкт-Петербург)</Authors>
-<Sources>   1. Л.Г. Зорин. Медная бабушка. http://flibusta.is/b/364949/read#t18
-   2. https://www.nkj.ru/archive/articles/3965/</Sources>
-<Comments>Вулкан и Венера были супругами. Пушкин был очень вспыльчив и, по мнению
-некоторых современников, не отличался красотой, в отличие от своей жены.
-Первой это сравнение использовала, скорее всего, сестра Пушкина Ольга, а
-Зорин приписал эти слова Николаю.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>azov18.3</parent_text_id>
-<ParentTextId>azov18.3</ParentTextId>
-<tourId>61104</tourId>
-<tournamentId>61074</tournamentId>
-<tourTitle>2 тур</tourTitle>
-<tournamentTitle>Синхронный турнир &quot;Азовский бриз - 2018&quot;</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2018-01-18</tourPlayedAt>
-<tournamentPlayedAt>2018-01-18</tournamentPlayedAt>
-<tourPlayedAt2>2018-01-18</tourPlayedAt2>
-<tournamentPlayedAt2>2018-01-18</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>ska10.3</tourFileName>
-<tournamentFileName>ska10.txt</tournamentFileName>
-<QuestionId>893581</QuestionId>
-<ParentId>52991</ParentId>
-<Number>6</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>ska10.3-6</TextId>
-<Question>В конце XVIII века на Кавказ отправилась экспедиция под руководством
-вице-президента берг-коллегии. Назовите его фамилию, имеющую нечто общее
-с двумя словами из этого вопроса.</Question>
-<Answer>Мусин-Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Андрей Кузьма (Санкт-Петербург)</Authors>
-<Sources>   1. Владимир Соловьев. Тайны исчезнувших животных. - М.: Оникс, 2009.
-- С. 149.
-   2. http://dic.academic.ru/dic.nsf/bse/166675/</Sources>
-<Comments>Нечто общее - дефис. Не знаешь, что отвечать - отвечай Пушкин. А Пушкин
-с дефисом - Мусин-Пушкин. В данном случае - Аполлос Аполлосович.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>ska10.3</parent_text_id>
-<ParentTextId>ska10.3</ParentTextId>
-<tourId>52991</tourId>
-<tournamentId>1084</tournamentId>
-<tourTitle>3 тур</tourTitle>
-<tournamentTitle>Студенческий кубок &quot;Аэробрэйна&quot; - 2010</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2010-10-27</tourPlayedAt>
-<tournamentPlayedAt>2010-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2010-10-27</tourPlayedAt2>
-<tournamentPlayedAt2>2010-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>dneprop.5</tourFileName>
-<tournamentFileName>dneprop.txt</tournamentFileName>
-<QuestionId>1134027</QuestionId>
-<ParentId>66097</ParentId>
-<Number>31</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>dneprop.5-31</TextId>
-<Question>В театре один сенатор, любовник Асенковой, аплодировал ей, несмотря на
-то, что она плохо играла. Пушкин, стоявший близ него, свистел. Сенатор,
-не узнав его, сказал: &quot;Мальчишка, дурак!&quot;. Пушкин отвечал: &quot;Ошибся,
-старик! Что я не мальчишка - доказательство жена моя, которая здесь
-сидит; что я не дурак, я - Пушкин; а что я тебе не даю пощечины, то для
-того, чтоб Асенкова не подумала, что я...&quot;. А что не должна была
-подумать Асенкова?</Question>
-<Answer>Что Пушкин ей аплодирует.</Answer>
-<PassCriteria/>
-<Authors>Команда &quot;Харконены&quot;</Authors>
-<Sources/>
-<Comments/>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>dneprop.5</ParentTextId>
-<tourId>66097</tourId>
-<tournamentId>3488</tournamentId>
-<tourTitle>Пятая сотня</tourTitle>
-<tournamentTitle>Днепропетровские вопросы</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2001-01-01</tourPlayedAt>
-<tournamentPlayedAt>2001-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2001-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>2001-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>kraskr10.2</tourFileName>
-<tournamentFileName>kraskr10.txt</tournamentFileName>
-<QuestionId>770014</QuestionId>
-<ParentId>45979</ParentId>
-<Number>13</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>kraskr10.2-13</TextId>
-<Question>   &lt;раздатка&gt;
-   Наш приятель Пушкин Лёв
-   Не лишен рассудка,
-   Но с шампанским жирный плов
-   И с груздями утка
-   Нам докажут лучше слов,
-   Что он более здоров
-   Силою желудка.
-   &lt;/раздатка&gt;
-   В качестве иллюстрации ответа на какой вопрос биографы обычно
-приводят эту эпиграмму?</Question>
-<Answer>Использовал ли А.С. Пушкин букву Ё?</Answer>
-<PassCriteria>По смыслу с упоминанием Пушкина и &quot;ё&quot;.</PassCriteria>
-<Authors>Михаил Серопян (Краснодар)</Authors>
-<Sources>http://www.logrus.ru/news/ru-news/17.aspx</Sources>
-<Comments>Эпиграмма - &quot;Льву Сергеевичу Пушкину&quot;. Лёвушка, Лёв - имя это так
-произносилось и писалось в XIX веке, и Пушкин посчитал необходимым,
-несмотря на типографские трудности, употребить Ё, чтобы читатель смог
-сходу прочитать стих, в котором рифмуются слова &quot;Лёв&quot; и &quot;плов&quot;.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>kraskr10.2</parent_text_id>
-<ParentTextId>kraskr10.2</ParentTextId>
-<tourId>45979</tourId>
-<tournamentId>1795</tournamentId>
-<tourTitle>Второй этап</tourTitle>
-<tournamentTitle>Открытый чемпионат Высшей лиги Краснодарского края по ЧГК сезона 2009/10</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2010-02-01</tourPlayedAt>
-<tournamentPlayedAt>2010-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2010-02-01</tourPlayedAt2>
-<tournamentPlayedAt2>2010-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>mono14-2.2</tourFileName>
-<tournamentFileName>mono14-2.txt</tournamentFileName>
-<QuestionId>809316</QuestionId>
-<ParentId>48273</ParentId>
-<Number>3</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>mono14-2.2-3</TextId>
-<Question>Словом &quot;ПРОПУСК&quot; мы заменили несколько слов. Александр ВампИлов был
-ПРОПУСК. Какой город был ПРОПУСК в том же году, что и ВампИлов?</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria>Детское Село; Царское Село.</PassCriteria>
-<Authors>Борис Моносов</Authors>
-<Sources>   1. http://www.youtube.com/watch?v=UcTKJNMnnPw
-   2. http://ru.wikipedia.org/wiki/Пушкин_(город)</Sources>
-<Comments>В 1937 году отмечали юбилей - 100-летие со дня гибели Пушкина. Александр
-Вампилов был назван в честь Пушкина, как и город Детское Село. Кстати,
-Пушкин прожил лишь на два года больше Вампилова.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>mono14-2.2</parent_text_id>
-<ParentTextId>mono14-2.2</ParentTextId>
-<tourId>48273</tourId>
-<tournamentId>1184</tournamentId>
-<tourTitle>2 тур</tourTitle>
-<tournamentTitle>Синхрон Моносова, ранее известный как &quot;Монос вызга: Эпизод VI - Возвращение джедая&quot; (&quot;Mo Nore Brains. Episode VI: Return Of The Jedi&quot;)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2014-09-12</tourPlayedAt>
-<tournamentPlayedAt>2014-09-12</tournamentPlayedAt>
-<tourPlayedAt2>2014-09-12</tourPlayedAt2>
-<tournamentPlayedAt2>2014-09-12</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>ukr01.1</tourFileName>
-<tournamentFileName>ukr01.txt</tournamentFileName>
-<QuestionId>928124</QuestionId>
-<ParentId>54713</ParentId>
-<Number>4</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>ukr01.1-4</TextId>
-<Question>Александр Вертинский в цикле воспоминаний &quot;Юность в Москве&quot; писал, что
-ужаснулся своей наркотической зависимости от кокаина, когда к нему,
-едущему в трамвае, подсел, распространяя запах резины от плаща, некий
-спутник. Юрий Шевчук извиняется перед ним же за то, что у него
-позаимствовали цветы, а другой известный поэт описал в стихах свою
-прогулку и беседу с тем же спутником. Назовите этого спутника.</Question>
-<Answer>Памятник Пушкину. Ответ &quot;Пушкин&quot; не засчитывается, так как во всех
-случаях речь идет о памятнике.</Answer>
-<PassCriteria/>
-<Authors>Евгений Постников (Курск)</Authors>
-<Sources>   1. Вертинский А.Н. Дорогой длинною: - М.: Правда, 1991, с. 78.
-   2. Маяковский В.В. Юбилейное.
-   3. http://mitrofanov-a.chat.ru/html/postamen.htm
-   4. http://www.songs.ru/info/songs/446/</Sources>
-<Comments/>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>ukr01.1</parent_text_id>
-<ParentTextId>ukr01.1</ParentTextId>
-<tourId>54713</tourId>
-<tournamentId>553</tournamentId>
-<tourTitle>1-й</tourTitle>
-<tournamentTitle>VIII Открытый чемпионат Украины по ЧГК. Ялта</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2001-10-26</tourPlayedAt>
-<tournamentPlayedAt>2001-10-26</tournamentPlayedAt>
-<tourPlayedAt2>2001-10-26</tourPlayedAt2>
-<tournamentPlayedAt2>2001-10-26</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>beln02.3</tourFileName>
-<tournamentFileName>beln02.txt</tournamentFileName>
-<QuestionId>668576</QuestionId>
-<ParentId>40003</ParentId>
-<Number>7</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>beln02.3-7</TextId>
-<Question>Соединение азотнокислого серебра с несостоявшимся российским диктатором
-первой половины 19 века даст фамилию автора цикла поэтических
-произведений. Возможно, вы этого НЕ ЗНАЕТЕ. В любом случае, напишите
-фамилию РЕАЛЬНОГО автора произведения с таким же названием.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Вадим Ефимов (г. Макеевка Донецкой обл.)</Authors>
-<Sources>   1. Любой химический справочник
-   2. Учебник истории СССР
-   3. &quot;12 стульев&quot; Ильфа и Петрова
-   4. Собрание сочинений Пушкина</Sources>
-<Comments>Ляпис - AgNO3, Трубецкой - должен был стать диктатором, но не возглавил
-восстания декабристов. Ляпис-Трубецкой - автор &quot;Гаврилиады&quot; в &quot;12
-стульях&quot;. Реальным автором &quot;Гаврилиады&quot; является Пушкин.
-   Не знаешь, что отвечать, отвечай &quot;Пушкин&quot;.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>beln02.3</parent_text_id>
-<ParentTextId>beln02.3</ParentTextId>
-<tourId>40003</tourId>
-<tournamentId>2585</tournamentId>
-<tourTitle>2 тур</tourTitle>
-<tournamentTitle>&quot;Белые ночи - 2002&quot; (Санкт-Петербург)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2002-07-06</tourPlayedAt>
-<tournamentPlayedAt>2002-07-06</tournamentPlayedAt>
-<tourPlayedAt2>2002-07-06</tourPlayedAt2>
-<tournamentPlayedAt2>2002-07-06</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>mkk.1</tourFileName>
-<tournamentFileName>mkk.txt</tournamentFileName>
-<QuestionId>805691</QuestionId>
-<ParentId>48064</ParentId>
-<Number>11</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>mkk.1-11</TextId>
-<Question>Этот боевой генерал много сделал для развития в России женского
-образования. О шарме господина генерала ходили легенды. &quot;Фамильное,
-родовое!&quot; - ахали пожилые дамы, слышавшие, еще юными девицами, легенды о
-том, как отец генерала в пять минут очаровывал светской беседой дам, а
-мать пленяла окружающих своей красотой. Назовите его знаменитых
-родителей.</Question>
-<Answer>Александр Сергеевич Пушкин и Наталия Николаевна Гончарова.</Answer>
-<PassCriteria/>
-<Authors>Юрий Денисов (Вологда)</Authors>
-<Sources>Интернет-рассылка &quot;Людям о людях&quot; (25.01.2002) - А. А. Пушкин</Sources>
-<Comments>Генерал Александр Александрович Пушкин. &quot;Фамильное, родовое!&quot; - ахали
-пожилые дамы, слышавшие, еще юными девицами, легенды о том, как Отец
-генерала в пять минут очаровывал светской беседой дам, а Мать пленяла
-красотой и улыбкой и Поэтов, и Государей! Одно слово - Сын Пушкиных!</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>mkk.1</parent_text_id>
-<ParentTextId>mkk.1</ParentTextId>
-<tourId>48064</tourId>
-<tournamentId>1206</tournamentId>
-<tourTitle>Тур 1</tourTitle>
-<tournamentTitle>Межконтинентальный Кубок по ЧГК</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2002-10-27</tourPlayedAt>
-<tournamentPlayedAt>2002-10-27</tournamentPlayedAt>
-<tourPlayedAt2>2002-10-27</tourPlayedAt2>
-<tournamentPlayedAt2>2002-10-27</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>uvz02.3</tourFileName>
-<tournamentFileName>uvz02.txt</tournamentFileName>
-<QuestionId>944910</QuestionId>
-<ParentId>55499</ParentId>
-<Number>11</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>uvz02.3-11</TextId>
-<Question>Этот боевой генерал много сделал для развития в России женского
-образования. О шарме господина генерала ходили легенды. &quot;Фамильное,
-родовое!&quot; - ахали пожилые дамы, слышавшие, еще юными девицами, легенды о
-том, как отец генерала в пять минут очаровывал светской беседой дам, а
-мать пленяла окружающих своей красотой. Назовите его знаменитых
-родителей.</Question>
-<Answer>Александр Сергеевич Пушкин и Наталия Николаевна Гончарова.</Answer>
-<PassCriteria/>
-<Authors>Юрий Денисов (Вологда)</Authors>
-<Sources>Интернет-рассылка &quot;Людям о людях&quot; (25.01.2002) - А. А. Пушкин</Sources>
-<Comments>Генерал Александр Александрович Пушкин. &quot;Фамильное, родовое!&quot; - ахали
-пожилые дамы, слышавшие, еще юными девицами, легенды о том, как Отец
-генерала в пять минут очаровывал светской беседой дам, а Мать пленяла
-красотой и улыбкой и Поэтов, и Государей! Одно слово - Сын Пушкиных!</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>uvz02.3</parent_text_id>
-<ParentTextId>uvz02.3</ParentTextId>
-<tourId>55499</tourId>
-<tournamentId>2222</tournamentId>
-<tourTitle>3 тур</tourTitle>
-<tournamentTitle>Кубок Уралвагонзавода - 2002</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2002-10-25</tourPlayedAt>
-<tournamentPlayedAt>2002-10-25</tournamentPlayedAt>
-<tourPlayedAt2>2002-10-25</tourPlayedAt2>
-<tournamentPlayedAt2>2002-10-25</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>vorona07.1</tourFileName>
-<tournamentFileName>vorona07.txt</tournamentFileName>
-<QuestionId>957948</QuestionId>
-<ParentId>56324</ParentId>
-<Number>4</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>vorona07.1-4</TextId>
-<Question>В этой своеобразной автобиографии фигурируют: немудреное кулинарное
-изделие, царская обувь, возвышение в церкви, простецкое прозвище
-братского народа... Мы не спрашиваем у вас, как фамилия автора. От какой
-фамилии он отказался в этой автобиографии?</Question>
-<Answer>Мусин-Пушкин.</Answer>
-<PassCriteria>Мусин.</PassCriteria>
-<Authors>Дмитрий Лурье, Анатолий Белкин (Москва)</Authors>
-<Sources>Пушкин А.С. Моя родословная (любое издание).</Sources>
-<Comments>Речь идет о стихотворении Пушкина &quot;Моя родословная&quot;:
-   &quot;... Не торговал мой дед блинами,
-   Не ваксил царских сапогов,
-   Не пел на клиросе с дьячками,
-   В князья не прыгал из хохлов...&quot;.
-   И далее: &quot;... Я Пушкин просто, не Мусин&quot;.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>vorona07.1</parent_text_id>
-<ParentTextId>vorona07.1</ParentTextId>
-<tourId>56324</tourId>
-<tournamentId>2059</tournamentId>
-<tourTitle>1 тур</tourTitle>
-<tournamentTitle>III турнир ГУ-ВШЭ &quot;Интеллектуальная ворона&quot; (Москва)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2007-01-21</tourPlayedAt>
-<tournamentPlayedAt>2007-01-21</tournamentPlayedAt>
-<tourPlayedAt2>2007-01-21</tourPlayedAt2>
-<tournamentPlayedAt2>2007-01-21</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>detkol03.8</tourFileName>
-<tournamentFileName>detkol03.txt</tournamentFileName>
-<QuestionId>1065523</QuestionId>
-<ParentId>62523</ParentId>
-<Number>1</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>detkol03.8-1</TextId>
-<Question>[Чтецу: многоточие во второй цитате игнорировать.]
-   Первая часть этой книги называется &quot;Детство&quot;, а первое предложение
-этой части звучит так: &quot;Майор был скуп&quot;. Третья часть этой книги
-называется &quot;Юность&quot;, а второе предложение этой части таково: &quot;Он никак
-не мог привыкнуть к быстрым переменам в лице... нумера четырнадцатого&quot;.
-Как называется эта книга?</Question>
-<Answer>&quot;Пушкин&quot;.</Answer>
-<PassCriteria/>
-<Authors>Сергей Николенко</Authors>
-<Sources>Ю. Тынянов. Пушкин.</Sources>
-<Comments>Отец Пушкина - гвардии майор. В лицее Пушкин имел номер 14.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>detkol03.8</ParentTextId>
-<tourId>62523</tourId>
-<tournamentId>2668</tournamentId>
-<tourTitle>&quot;Ноев инсайт&quot;</tourTitle>
-<tournamentTitle>Чемпионат клуба &quot;Дети Коломны&quot; по ЧГК, 2003/04</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2004-03-01</tourPlayedAt>
-<tournamentPlayedAt>2003-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2004-03-01</tourPlayedAt2>
-<tournamentPlayedAt2>2003-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>haif1l08.2</tourFileName>
-<tournamentFileName>haif1l08.txt</tournamentFileName>
-<QuestionId>1118469</QuestionId>
-<ParentId>65190</ParentId>
-<Number>19</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>haif1l08.2-19</TextId>
-<Question>Внимание, в вопросе слова &quot;ПУШКА&quot; и &quot;ПУШКИН&quot; - замены.
-   Герой известного стихотворения обещал детям ПУШКУ. Мы не спрашиваем,
-что еще он обещал. Назовите фамилию автора произведений, приписанных
-ПУШКИНУ.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Олег Христенко (Москва)</Authors>
-<Sources>   1. http://www.ecoethics.ru/b14/10.html
-   2. http://lib.ru/LITRA/PUSHKIN/belkin.txt.</Sources>
-<Comments>У Плещеева: &quot;Ладно, ладно, детки, дайте только срок, будет вам и белка,
-будет и свисток&quot;. Автор &quot;Повестей Белкина&quot; - А.С. Пушкин.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>haif1l08.2</ParentTextId>
-<tourId>65190</tourId>
-<tournamentId>2953</tournamentId>
-<tourTitle>2 тур. &quot;Вопросительный знак&quot;</tourTitle>
-<tournamentTitle>14-й Чемпионат Хайфского клуба. Первая лига</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2008-02-23</tourPlayedAt>
-<tournamentPlayedAt>2008-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2008-02-23</tourPlayedAt2>
-<tournamentPlayedAt2>2008-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>ekatch10.1</tourFileName>
-<tournamentFileName>ekatch10.txt</tournamentFileName>
-<QuestionId>696582</QuestionId>
-<ParentId>41626</ParentId>
-<Number>10</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>ekatch10.1-10</TextId>
-<Question>В 1892 году в штате Луизиана Гомер Плесси сел в поезд в один из вагонов
-и был арестован. Причиной ареста стала одна восьмая, из-за которой
-Плесси можно назвать одним редким словом. Тем же словом можно назвать
-европейского писателя. Назовите его.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria>Александр Дюма-сын (без слова &quot;сын&quot; незачет, т.к. его отец был
-квартероном :-)).</PassCriteria>
-<Authors>Ярослав Котышов (Москва)</Authors>
-<Sources>   1. http://en.wikipedia.org/wiki/Plessy_v._Ferguson
-   2. http://ru.wikipedia.org/wiki/Пушкин,_Александр_Сергеевич
-   3. http://www.erudition.ru/referat/ref/id.51048_1.html</Sources>
-<Comments>Плесси, будучи на 1/8 чернокожим (октороном), сел в вагон для белых.
-Пушкин также был октороном. Александр Дюма-отец был квартероном.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>ekatch10.1</parent_text_id>
-<ParentTextId>ekatch10.1</ParentTextId>
-<tourId>41626</tourId>
-<tournamentId>1617</tournamentId>
-<tourTitle>1 тур</tourTitle>
-<tournamentTitle>&quot;Каменный цветок - 2010&quot; (Екатеринбург). ЧГК</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2010-04-24</tourPlayedAt>
-<tournamentPlayedAt>2010-04-24</tournamentPlayedAt>
-<tourPlayedAt2>2010-04-24</tourPlayedAt2>
-<tournamentPlayedAt2>2010-04-24</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>goroda11.2</tourFileName>
-<tournamentFileName>goroda11.txt</tournamentFileName>
-<QuestionId>714387</QuestionId>
-<ParentId>42851</ParentId>
-<Number>2</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>goroda11.2-2</TextId>
-<Question>В своем стихотворении Леонид Вышеславский пишет:
-   &quot;Но себе самому говорю я: смотри! -
-   в старом городе этом во времени новом
-   те поныне царят, что не лезли в цари,
-   а навеки-веков коронованы Словом&quot;.
-   Напишите современное название города, которому посвящено это
-стихотворение.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Максим Евланов (Харьков)</Authors>
-<Sources>   1. http://www.mirstihov.com/vedma.php
-   2. http://ru.wikipedia.org/wiki/Пушкин_(город)</Sources>
-<Comments>Стихотворение называется &quot;Город Пушкин&quot;, его подзаголовок - &quot;Бывшее
-Царское Село&quot;; Царское Село стало городом с 1808 г.</Comments>
-<Rating>187/931</Rating>
-<RatingNumber>4.58465</RatingNumber>
-<Complexity>3</Complexity>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>goroda11.2</parent_text_id>
-<ParentTextId>goroda11.2</ParentTextId>
-<tourId>42851</tourId>
-<tournamentId>834</tournamentId>
-<tourTitle>2 тур</tourTitle>
-<tournamentTitle>Кубок городов - 2011</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2011-04-03</tourPlayedAt>
-<tournamentPlayedAt>2011-04-03</tournamentPlayedAt>
-<tourPlayedAt2>2011-04-03</tourPlayedAt2>
-<tournamentPlayedAt2>2011-04-03</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>novosi05.4</tourFileName>
-<tournamentFileName>novosi05.txt</tournamentFileName>
-<QuestionId>823186</QuestionId>
-<ParentId>49222</ParentId>
-<Number>20</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>novosi05.4-20</TextId>
-<Question>(pic: 20050123.jpg)
-   На фотографии изображена красавица-калмычка, корреспондент журнала
-&quot;Вокруг света&quot; Елена Улюмджиева. Назовите кличку верблюда.</Question>
-<Answer>ПУШКИН.</Answer>
-<PassCriteria/>
-<Authors>Дмитрий Жарков (&quot;Мозговорот&quot;)</Authors>
-<Sources>   1. Пушкин А.С. Путешествие в Арзрум; Калмычке (любое издание).
-   2. Улюмджиева Е. Степью до Нью-Васюков. // Вокруг света, 10/2005. -
-С. 80, 102.</Sources>
-<Comments>И внешне смахивает, и вспомните стихотворение &quot;Калмычке&quot; и &quot;Путешествие
-в Арзрум&quot;. Ну и в конце концов (хотя это уже всех заколебало), не знаешь
-ответ - пиши &quot;Пушкин&quot;...</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>novosi05.4</parent_text_id>
-<ParentTextId>novosi05.4</ParentTextId>
-<tourId>49222</tourId>
-<tournamentId>2251</tournamentId>
-<tourTitle>4 тур. &quot;Мозговорот&quot; и &quot;Плакали подарки&quot;</tourTitle>
-<tournamentTitle>VI Чемпионат Новосибирска по ЧГК (2005/06)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2005-01-01</tourPlayedAt>
-<tournamentPlayedAt>2005-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2005-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>2005-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>rusal03.3</tourFileName>
-<tournamentFileName>rusal03.txt</tournamentFileName>
-<QuestionId>875611</QuestionId>
-<ParentId>51930</ParentId>
-<Number>14</Number>
-<Type>ЧД</Type>
-<TypeNum>1</TypeNum>
-<TextId>rusal03.3-14</TextId>
-<Question>В 1867 году оренбургский военный губернатор, генерал-адъютант
-Крыжановский отправил начальству в Петербург рапорт о состоянии дел в
-местном Общем архиве разных ведомств. В рапорте говорилось, что
-документы в архиве хранятся в полном беспорядке. Дела соединены в тома
-подряд, без связи по содержанию, без хронологической последовательности
-и без различия ведомств, которым эти дела принадлежали. Кто же, по
-версии губернатора, более всего был повинен в этом беспорядке?</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Сергей Лукин (Выборг)</Authors>
-<Sources>Еженедельник &quot;Алфавит&quot;, N3, 2003 год, стр. 5, &quot;Всегда виноват Пушкин&quot;.</Sources>
-<Comments>Пушкин некогда работал в этом архиве, искал документы о Пугачевском
-бунте. И вообще, должен же в пакете быть хоть один вопрос с таким
-ответом! :-)</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>rusal03.3</parent_text_id>
-<ParentTextId>rusal03.3</ParentTextId>
-<tourId>51930</tourId>
-<tournamentId>2715</tournamentId>
-<tourTitle>3 тур</tourTitle>
-<tournamentTitle>Выборгская Русалочка - 2003</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2003-10-04</tourPlayedAt>
-<tournamentPlayedAt>2003-10-04</tournamentPlayedAt>
-<tourPlayedAt2>2003-10-04</tourPlayedAt2>
-<tournamentPlayedAt2>2003-10-04</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>ruscup02.3</tourFileName>
-<tournamentFileName>ruscup02.txt</tournamentFileName>
-<QuestionId>877561</QuestionId>
-<ParentId>52069</ParentId>
-<Number>11</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>ruscup02.3-11</TextId>
-<Question>Согласно общероссийскому классификатору объектов
-административно-территориального деления, код этого города - 40 294 501.
-Назовите этот город.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Евгений Поникаров, Александр Либер</Authors>
-<Sources>   1. http://www.mojgorod.ru/gor_spb/pushkin/index.html
-   2. http://www.auditor.ru/klass/okato/okato_40.htm</Sources>
-<Comments>А вот и вопрос на &quot;школу&quot;. Он написан как иллюстрация к небезызвестному
-принципу: не знаешь, что отвечать - отвечай Пушкин. Только в данном
-случае речь идет о городе Пушкин.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>ruscup02.3</parent_text_id>
-<ParentTextId>ruscup02.3</ParentTextId>
-<tourId>52069</tourId>
-<tournamentId>808</tournamentId>
-<tourTitle>3 тур</tourTitle>
-<tournamentTitle>IV Открытый Кубок России по ЧГК</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2002-12-01</tourPlayedAt>
-<tournamentPlayedAt>2002-12-01</tournamentPlayedAt>
-<tourPlayedAt2>2002-12-01</tourPlayedAt2>
-<tournamentPlayedAt2>2002-12-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>yuliga04.22</tourFileName>
-<tournamentFileName>yuliga04.txt</tournamentFileName>
-<QuestionId>962063</QuestionId>
-<ParentId>56622</ParentId>
-<Number>15</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>yuliga04.22-15</TextId>
-<Question>Знатоки русского языка могут знать, что это древнее имя можно перевести
-как &quot;жгущий, обжигающий&quot;. Некоторые из носивших это имя были особо
-приближенными к высочайшему престолу и имели по десять конечностей.
-Назовите фамилию человека, который якобы получил тяжкие телесные
-повреждения во время встречи с одним из них.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Борис Маляревич (&quot;Шанс&quot;, Николаев)</Authors>
-<Sources>   1. Петровский Н.А. Словарь русских личных имен. - М.: Русский язык,
-1980, с.198-199.
-   2. Мифологический словарь. / Гл. ред. Е.М. Мелетинский. - М.:
-Советская энциклопедия, 1991, с.495 (ст. &quot;Серафимы&quot;), с.179-180 (ст.
-&quot;Девять чинов ангельских&quot;).
-   3. Книга пророка Исайи, 6, 2-3.
-   4. Пушкин А.С. Сочинения в трех томах. - М.: Худ. литература, 1985,
-т.1, с.385, стихотворение &quot;Пророк&quot;.</Sources>
-<Comments>Мифологический словарь: &quot;Серафимы: ангелы, особо приближенные к престолу
-бога...&quot;; Ис. 6, 2-3: &quot;У каждого из них по шести крыл; двумя закрывал
-каждый лицо свое, и двумя закрывал ноги свои, двумя летал...&quot;; А.С.
-Пушкин: &quot;Перстами легкими как сон Моих зениц коснулся он...&quot; -
-следовательно, руки у них тоже были; &quot;И вырвал грешный мой язык... И он
-мне грудь рассек мечом, И сердце трепетное вынул...&quot;( На самом деле язык
-и сердце Александра Сергеевича, конечно, не пострадали).</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>yuliga04.22</parent_text_id>
-<ParentTextId>yuliga04.22</ParentTextId>
-<tourId>56622</tourId>
-<tournamentId>701</tournamentId>
-<tourTitle>Шестой этап. 3 тур</tourTitle>
-<tournamentTitle>Чемпионат Южной Лиги по ЧГК</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2005-02-13</tourPlayedAt>
-<tournamentPlayedAt>2004-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2005-02-13</tourPlayedAt2>
-<tournamentPlayedAt2>2004-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>zeleno10.1</tourFileName>
-<tournamentFileName>zeleno10.txt</tournamentFileName>
-<QuestionId>964767</QuestionId>
-<ParentId>56825</ParentId>
-<Number>3</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>zeleno10.1-3</TextId>
-<Question>Внимание, хокку зеленоградского поэта Валерия Клементьева под названием
-&quot;НЕЗНАНИЕ&quot;:
-   Говорят, что он умер...
-   Не верьте - он улетел:
-   Экзюпери - АС!!!
-   Кого мы заменили на Экзюпери?</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Валерий Клементьев (Зеленоград)</Authors>
-<Sources/>
-<Comments>Не знаешь что писать - пиши Пушкин, а Пушкин, действительно - А.С.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>zeleno10.1</parent_text_id>
-<ParentTextId>zeleno10.1</ParentTextId>
-<tourId>56825</tourId>
-<tournamentId>1662</tournamentId>
-<tourTitle>1 тур</tourTitle>
-<tournamentTitle>X Открытый Кубок Зеленограда</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2010-01-24</tourPlayedAt>
-<tournamentPlayedAt>2010-01-24</tournamentPlayedAt>
-<tourPlayedAt2>2010-01-24</tourPlayedAt2>
-<tournamentPlayedAt2>2010-01-24</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>skvazn17.1</tourFileName>
-<tournamentFileName>skvazn17.txt</tournamentFileName>
-<QuestionId>976500</QuestionId>
-<ParentId>57728</ParentId>
-<Number>7</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>skvazn17.1-7</TextId>
-<Question>[Ведущему: &quot;он-ученый&quot; прочитать как можно менее раздельно.]
-   В 1975 году американский физик Джек Хетерингтон опубликовал в
-соавторстве с одним ученым серию статей в журнале &quot;Physical Review
-Letters&quot; [фИзикал ревьЮ лЕттерз]. Другой ОН-ученый был описан нашим
-соотечественником. Назовите этого соотечественника.</Question>
-<Answer>[Александр Сергеевич] Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Роман Цой (Южно-Сахалинск)</Authors>
-<Sources>   1. http://ru.wikipedia.org/wiki/Ф._Д._Ч._Уиллард
-   2. http://ru.wikisource.org/wiki/Руслан_и_Людмила_(Пушкин)</Sources>
-<Comments>Не знаешь что отвечать - пиши &quot;Пушкин&quot;. Это был седьмой вопрос, а теперь
-мы переходим к вопросу восьмому.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>skvazn17.1</parent_text_id>
-<ParentTextId>skvazn17.1</ParentTextId>
-<tourId>57728</tourId>
-<tournamentId>57727</tournamentId>
-<tourTitle>1 тур</tourTitle>
-<tournamentTitle>Синхронный турнир &quot;Скважина знаний - 2017&quot;</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2017-06-23</tourPlayedAt>
-<tournamentPlayedAt>2017-06-23</tournamentPlayedAt>
-<tourPlayedAt2>2017-06-23</tourPlayedAt2>
-<tournamentPlayedAt2>2017-06-23</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>osel00.1</tourFileName>
-<tournamentFileName>osel00.txt</tournamentFileName>
-<QuestionId>987219</QuestionId>
-<ParentId>58355</ParentId>
-<Number>50</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>osel00.1-50</TextId>
-<Question>А. С. Пушкин всяким заморским блюдам предпочитал родную картошку, в
-любимом виде: вареную, жареную, печеную. Однажды, поздно вернувшись в
-Михайловское голодный Пушкин достал чугунок с печеной картошкой, который
-ему оставила Арина Родионовна... ненадолго задумался. После он взял
-очищенные печеные картофелины и обжарил их на подсолнечном масле. По
-легенде, ему так понравилось собственное блюдо, что он воскликнул эту
-фразу. Воспроизведите её.</Question>
-<Answer>&quot;Ай да Пушкин - ай да сукин сын&quot;</Answer>
-<PassCriteria/>
-<Authors/>
-<Sources>ролик по РТР от 6. 06. 1999</Sources>
-<Comments/>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>osel00.1</parent_text_id>
-<ParentTextId>osel00.1</ParentTextId>
-<tourId>58355</tourId>
-<tournamentId>1643</tournamentId>
-<tourTitle>Брэйн-ринг</tourTitle>
-<tournamentTitle>&quot;Оселедець-2000&quot; (Запорожье)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2000-04-21</tourPlayedAt>
-<tournamentPlayedAt>2000-04-21</tournamentPlayedAt>
-<tourPlayedAt2>2000-04-21</tourPlayedAt2>
-<tournamentPlayedAt2>2000-04-21</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>perekr96.2</tourFileName>
-<tournamentFileName>perekr96.txt</tournamentFileName>
-<QuestionId>1009203</QuestionId>
-<ParentId>59471</ParentId>
-<Number>38</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>perekr96.2-38</TextId>
-<Question>К середине 1999 года в Москве по образцу Диснейленда планируется
-построить похожий парк с национальной спецификой. Чьим героям он будет
-посвящен?</Question>
-<Answer>Героям А. С. Пушкина. 1999 - год 200-летия со дня рождения Пушкина, а
-парк будет называться Пушкинленд.</Answer>
-<PassCriteria/>
-<Authors/>
-<Sources/>
-<Comments/>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>perekr96.2</parent_text_id>
-<ParentTextId>perekr96.2</ParentTextId>
-<tourId>59471</tourId>
-<tournamentId>2990</tournamentId>
-<tourTitle>Брэйн-Ринг</tourTitle>
-<tournamentTitle>&quot;Перекресток-96&quot; (Харьков)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>1996-04-20</tourPlayedAt>
-<tournamentPlayedAt>1996-04-20</tournamentPlayedAt>
-<tourPlayedAt2>1996-04-20</tourPlayedAt2>
-<tournamentPlayedAt2>1996-04-20</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>ovsch08.5</tourFileName>
-<tournamentFileName>ovsch08.txt</tournamentFileName>
-<QuestionId>1034706</QuestionId>
-<ParentId>60865</ParentId>
-<Number>28</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>ovsch08.5-28</TextId>
-<Question>Надеюсь, большинство из вас знают, что &quot;я&quot; по-английски - &quot;ай&quot;, а &quot;да&quot; -
-&quot;йес&quot;? Для взятия этого вопроса глубокие знания английского языка вам не
-потребуются.
-   Английское выражение &quot;son of a bitch&quot; буквально переводится на
-русский как &quot;сукин сын&quot; и означает то же самое. Синонимичное, но более
-благозвучное выражение, вошедшее в английский язык из жаргона военных
-моряков, буквально переводится как &quot;ПРОПУСК сын&quot;. Заполните пропуск.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Игорь Мазин (Вашингтон)</Authors>
-<Sources>http://en.wikipedia.org/wiki/Son_of_a_gun</Sources>
-<Comments>Не знаешь, что отвечать, - отвечай Пушкин! Son of a gun, буквально сын
-(корабельной) пушки, рожденный корабельной шлюхой под пушкой на палубе.
-Ай да Пушкин, ай да сукин сын!</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>ovsch08.5</parent_text_id>
-<ParentTextId>ovsch08.5</ParentTextId>
-<tourId>60865</tourId>
-<tournamentId>861</tournamentId>
-<tourTitle>Этап 5</tourTitle>
-<tournamentTitle>Открытый Всероссийский синхронный чемпионат - 2008/09</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2009-02-08</tourPlayedAt>
-<tournamentPlayedAt>2008-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2009-02-08</tourPlayedAt2>
-<tournamentPlayedAt2>2008-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>kraskr11.4</tourFileName>
-<tournamentFileName>kraskr11.txt</tournamentFileName>
-<QuestionId>1053748</QuestionId>
-<ParentId>61867</ParentId>
-<Number>18</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>kraskr11.4-18</TextId>
-<Question>[Ведущему: отточия в тексте цитаты игнорировать.]
-   Саксонский посланник писал: &quot;При наличии в высшем обществе малого
-представления о гении... не стоит удивляться тому, что... нидерландское
-посольство атаковывалось обществом, выражавшим радость по поводу...
-счастливого спасения элегантного молодого человека&quot;. Мы не просим вас
-назвать &quot;элегантного молодого человека&quot;, назовите &quot;гения&quot;.</Question>
-<Answer>[А.С.] Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Михаил Серопян (Краснодар)</Authors>
-<Sources>Р.Г. Скрынников. Пушкин. Тайна гибели. - СПб.: Нева, 2005. - С. 341-342.</Sources>
-<Comments>&quot;Элегантный молодой человек&quot; - Жорж Шарль Дантес (приемный сын
-нидерландского посла барона Геккерна). Ну а если вдруг вы этого не знали
-и, соответственно, не знаете, что писать, то &quot;пишите Пушкин&quot;.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>kraskr11.4</ParentTextId>
-<tourId>61867</tourId>
-<tournamentId>1796</tournamentId>
-<tourTitle>Финал</tourTitle>
-<tournamentTitle>Открытый чемпионат Высшей лиги Краснодарского края по ЧГК сезона 2010/11</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2011-05-15</tourPlayedAt>
-<tournamentPlayedAt>2011-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2011-05-15</tourPlayedAt2>
-<tournamentPlayedAt2>2011-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>mgp10910.12</tourFileName>
-<tournamentFileName>mgp10910.txt</tournamentFileName>
-<QuestionId>1057772</QuestionId>
-<ParentId>62081</ParentId>
-<Number>1</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>mgp10910.12-1</TextId>
-<Question>[Нулевой вопрос]
-   ПЕРВАЯ не получила бы известности без помощи тунисского рефери Али
-Бен Насера. ВТОРОЙ впервые был упомянут в статье &quot;Текущая ситуация в
-квантовой механике&quot;. ТРЕТИЙ, прекрасно одетый, так, что видевшие его
-любовались им, в 1284 году перешел по мосту через Везер и вошел в
-городские ворота. Надеемся, у кого-то из вас эти факты сложились удачно.
-Назовите ЧЕТВЕРТОГО, четырежды поднявшегося в ходе действия произведения
-1934 года.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Антон Снятковский</Authors>
-<Sources>   1. Соответствующие статьи русской Википедии.
-   2. http://www.kozma.ru/library/classics/harms.htm
-   3. http://community.livejournal.com/chgk/1460551.html</Sources>
-<Comments>ПЕРВАЯ - &quot;Рука бога&quot;, ВТОРОЙ - кот Шрёдингера, ТРЕТИЙ - Гамельнский
-крысолов. Все они сходятся в первой линии новой игры &quot;Бинго-ЧГК&quot;,
-придуманной Ольгой Ярославцевой. Если у вас сошелся ряд, вы, согласно
-удачному дополнению Александра Огнева, имеете полное право заорать
-&quot;Пушкин!&quot;. В произведении Хармса Пушкин, спотыкаясь об Гоголя, четырежды
-поднимается.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>mgp10910.12</ParentTextId>
-<tourId>62081</tourId>
-<tournamentId>1915</tournamentId>
-<tourTitle>6.2. &quot;Биркиркара&quot;</tourTitle>
-<tournamentTitle>Первая лига Москвы сезона 2009/10 гг.</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2010-01-23</tourPlayedAt>
-<tournamentPlayedAt>2009-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2010-01-23</tourPlayedAt2>
-<tournamentPlayedAt2>2009-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>kol14v.8</tourFileName>
-<tournamentFileName>kol14v.txt</tournamentFileName>
-<QuestionId>1058695</QuestionId>
-<ParentId>62140</ParentId>
-<Number>1</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>kol14v.8-1</TextId>
-<Question>Николай I был рьяным душителем свободы и вольности. В 1827 году он издал
-указ об открытии Летнего сада &quot;для гулянья публики... прилично одетой&quot;.
-По мнению автора вопроса, которое может не совпадать с общепринятым,
-этот указ был направлен против конкретного человека, ежедневно
-появлявшегося в Летнем саду в дезабилье. Кто же это был?</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Николай Левченко</Authors>
-<Sources>   1. В.Е. Муштуков, А.А. Пашкевич, Б.К. Пукинский. Ленинград:
-Путеводитель. - Л.: Лениздат, 1970. - С. 225.
-   2. http://www.feb-web.ru/feb/pushkin/texts/selected/ppl/ppl-050-.htm
-   3. http://ru.wiktionary.org/wiki/дезабилье</Sources>
-<Comments>Правило N 1: нет версии - отвечай: &quot;Пушкин&quot;. Это именно Пушкин. &quot;...
-Летний сад мой огород. Я вставши от сна иду туда в халате и туфлях...&quot;.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>kol14v.8</ParentTextId>
-<tourId>62140</tourId>
-<tournamentId>21348</tournamentId>
-<tourTitle>8 тур. &quot;Старики-разбойники&quot;</tourTitle>
-<tournamentTitle>Весенний чемпионат &quot;Коломны&quot; - 2014</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2014-05-31</tourPlayedAt>
-<tournamentPlayedAt>2014-03-29</tournamentPlayedAt>
-<tourPlayedAt2>2014-05-31</tourPlayedAt2>
-<tournamentPlayedAt2>2014-05-31</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>spb17.8</tourFileName>
-<tournamentFileName>spb17.txt</tournamentFileName>
-<QuestionId>1162122</QuestionId>
-<ParentId>67655</ParentId>
-<Number>4</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>spb17.8-4</TextId>
-<Question>[Ведущему: сделать логическую паузу после слова &quot;империи&quot;.]
-   Во времена &quot;сухого закона&quot; в Российской империи ОНИ снова стали
-популярны в качестве прислуги, поскольку имели право покупать столовое
-вино для домашних нужд. Кто, по одной из версий, стал &quot;ИМ&quot; из-за любви к
-иностранной литературе?</Question>
-<Answer>[Александр Сергеевич] Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Дмитрий Петров (Санкт-Петербург)</Authors>
-<Sources>   1. &quot;Наука и жизнь&quot;, 2016, N 10. - С. 29.
-   2. https://ru.wikipedia.org/wiki/Пушкин,_Александр_Сергеевич
-   3. http://bookmix.ru/authors/index.phtml?id=8</Sources>
-<Comments>Французский посол выторговал для членов французской колонии в Петербурге
-право покупать столовое вино для домашних нужд. После этого резко возрос
-спрос на гувернеров, парикмахеров, шоферов и прочих слуг из числа
-французов. В лицее Пушкин носил прозвище &quot;Француз&quot;, по одной из версий -
-за любовь к французской литературе.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>spb17.8</ParentTextId>
-<tourId>67655</tourId>
-<tournamentId>64084</tournamentId>
-<tourTitle>8 тур. &quot;Постмодернистское название&quot;</tourTitle>
-<tournamentTitle>XIX Чемпионат Санкт-Петербурга (2017)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2017-11-19</tourPlayedAt>
-<tournamentPlayedAt>2017-10-29</tournamentPlayedAt>
-<tourPlayedAt2>2017-11-19</tourPlayedAt2>
-<tournamentPlayedAt2>2017-11-19</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>23plus.2</tourFileName>
-<tournamentFileName>23plus.txt</tournamentFileName>
-<QuestionId>1162659</QuestionId>
-<ParentId>67707</ParentId>
-<Number>6</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>23plus.2-6</TextId>
-<Question>Дуплет.
-   1. Прослушайте отрывок из стихотворения Семена ЦвАнга:
-   &quot;На черном небе черный знак,
-   На черной ветке черный ворон.
-   И в черном замке черный маг
-   Окно зашторил черной шторой.
-   И черный домик вдалеке
-   Над черной крышей дым колечком...&quot;.
-   Какая фамилия упоминается в следующей строчке этого стихотворения?
-   2. Прослушайте отрывок рецензии Яна ТаирОвского на стихотворение
-Семена ЦвАнга:
-   &quot;Я обнаружил плагиат!
-   У ЦвАнга, видно, память девичья:
-   Давно всё это было, брат,
-   ...&quot;.
-   Какая фамилия упоминается в следующей строчке этой рецензии?</Question>
-<Answer>   1. Пушкин.
-   2. Малевич.</Answer>
-<PassCriteria/>
-<Authors>Денис Володин (Ульяновск), Дмитрий Смирнов (Москва)</Authors>
-<Sources>https://www.stihi.ru/2009/01/27/100/</Sources>
-<Comments>Стихотворение заканчивается так: &quot;... И Пушкин в черном сюртуке, // И
-черный снег над Черной речкой&quot;, а рецензия - так: &quot;... Под именем
-&quot;Квадрат Малевича&quot;&quot;.
-   Следуя старой доброй традиции, редакторы всё же решились поставить в
-своем туре восьмым (если учитывать первый дуплет за два вопроса и
-считать вопросы вместе с нулевым) вопрос с ответом &quot;Пушкин&quot;.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>23plus.2</ParentTextId>
-<tourId>67707</tourId>
-<tournamentId>64642</tournamentId>
-<tourTitle>1 тур</tourTitle>
-<tournamentTitle>Гран-при Бауманки - 2017/18. 3 этап. &quot;23+&quot;</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2018-02-11</tourPlayedAt>
-<tournamentPlayedAt>2018-02-11</tournamentPlayedAt>
-<tourPlayedAt2>2018-02-11</tourPlayedAt2>
-<tournamentPlayedAt2>2018-02-11</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>nsk.8</tourFileName>
-<tournamentFileName>nsk.txt</tournamentFileName>
-<QuestionId>1167176</QuestionId>
-<ParentId>67932</ParentId>
-<Number>37</Number>
-<Type>ЧБ</Type>
-<TypeNum>1</TypeNum>
-<TextId>nsk.8-37</TextId>
-<Question>У Марины Цветаевой и Валерия Брюсова были книги, которые обе назывались
-одинаково: &quot;Мой Пушкин&quot;. А кто первым употребил это выражение по отношению к
-поэту?</Question>
-<Answer>Николай I после аудиенции 8 сентября 1826 г сказал: &quot;Ну, теперь ты не
-прежний Пушкин, а мой Пушкин!&quot;.</Answer>
-<PassCriteria/>
-<Authors>Дмитрий Жарков</Authors>
-<Sources>Новое время, 23/87, с.30</Sources>
-<Comments/>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>nsk.8</ParentTextId>
-<tourId>67932</tourId>
-<tournamentId>3527</tournamentId>
-<tourTitle>Вопросы 701-800</tourTitle>
-<tournamentTitle>Тренировки команды &quot;Мозговорот&quot;</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>1990-01-01</tourPlayedAt>
-<tournamentPlayedAt>1990-01-01</tournamentPlayedAt>
-<tourPlayedAt2>1990-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>1990-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>mgp0102.12</tourFileName>
-<tournamentFileName>mgp0102.txt</tournamentFileName>
-<QuestionId>793424</QuestionId>
-<ParentId>47172</ParentId>
-<Number>7</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>mgp0102.12-7</TextId>
-<Question>А теперь вопрос на пушкинскую тему. [Пауза.] Портрет Пушкина!
-   (pic: 20010046.jpg)
-   Человек, о котором пойдет речь в вопросе, был младшим современником
-Пушкина и одним из самых близких его соратников. Он исполнял
-многочисленные поручения поэта, входил в отношения с издателями и
-книгопродавцами, высылал Пушкину книги. Обладая хорошим литературным
-вкусом и исключительной памятью, он знал наизусть произведения
-гениального поэта и, по словам одного из биографов Пушкина, &quot;представлял
-собой живую и самую полную биографию его, самое полное собрание его
-сочинений&quot;. Пушкин даже иногда расплачивался по его долгам. Назовите его
-имя и фамилию.</Question>
-<Answer>Лев Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Михаил Морозов</Authors>
-<Sources>Л. А. Черейский. Современники Пушкина: документальные очерки. М.,
-&quot;Олма-пресс&quot;, СПб., Издательский Дом &quot;Нева&quot;, &quot;Паритет&quot;, 1999г.</Sources>
-<Comments>Был роздан портрет Льва Сергеевича Пушкина, брата поэта.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>mgp0102.12</parent_text_id>
-<ParentTextId>mgp0102.12</ParentTextId>
-<tourId>47172</tourId>
-<tournamentId>1889</tournamentId>
-<tourTitle>12 тур. Вопросы команды А.Майсюк.</tourTitle>
-<tournamentTitle>Кубок Москвы по ЧГК. Гран-При сезона 2001-2002 годов</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2002-03-17</tourPlayedAt>
-<tournamentPlayedAt>2001-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2002-03-17</tourPlayedAt2>
-<tournamentPlayedAt2>2001-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName/>
-<tournamentFileName>mordsh03.txt</tournamentFileName>
-<QuestionId>1114190</QuestionId>
-<ParentId>64931</ParentId>
-<Number>9</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>mordsh03.1-9</TextId>
-<Question>Если в фамилии одного европейского политика заменить одну согласную
-букву двумя другими согласными буквами и поставить ее в женском роде, то
-получим фамилию ведущей одного круглосуточного телевизионного канала,
-также фамилию профессионала в области женских тайн и автора &quot;Химеры&quot;.
-Напишите эту фамилию в мужском роде.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Александр Толстобров (Исида)</Authors>
-<Sources/>
-<Comments>Вопрос на школу, не знаешь, что писать, пиши - Пушкин, хотя в вопросе
-можно и подумать. Был загадан сначала Путин (вместо буквы &quot;Т&quot; надо было
-поставить &quot;ШК&quot;), в женском роде фамилия звучит как Пушкина, Оксана
-Пушкина - ведущая &quot;Женских тайн&quot;, Маргарита Пушкина - автор текстов
-группы &quot;Ария&quot; и Татьяна Пушкина - ведущая телеканала &quot;7ТВ&quot;.
-   z-checkdb: Автор текста песни &quot;Химера&quot; - Александр Елин, см.
-http://www.aria.ru/publications/albums/lyrics/chimera.html (Дмитрий
-Хмыров).</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>mordsh03.1</ParentTextId>
-<tourId>64931</tourId>
-<tournamentId>2769</tournamentId>
-<tourTitle>1</tourTitle>
-<tournamentTitle>I Кубок Мордовии среди школьных команд</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2003-01-25</tourPlayedAt>
-<tournamentPlayedAt>2003-01-25</tournamentPlayedAt>
-<tourPlayedAt2>2003-01-25</tourPlayedAt2>
-<tournamentPlayedAt2>2003-01-25</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>kop1996.10</tourFileName>
-<tournamentFileName>kop1996.txt</tournamentFileName>
-<QuestionId>1068243</QuestionId>
-<ParentId>62670</ParentId>
-<Number>11</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>kop1996.10-11</TextId>
-<Question>Одно из преданий связывает название этого подмосковного городка с
-протекавшей неподалеку рекой Уча, то есть когда-то это было село по Уче,
-другое предание рассказывает о том, что в нем некогда жили оружейники. А
-с каким человеком обычно связывают его название сейчас?</Question>
-<Answer>С А.С.Пушкиным (Пушкино, &quot;по Уче&quot; - Поучкино - Пушкино, жили пушкари).</Answer>
+<TextId>kop1997.35-24</TextId>
+<Question>Огромное количество современных анекдотов начинается словами
+&quot;Возвращается как-то муж из командировки...&quot;. Но и раньше такие анекдоты
+тоже были. В сборнике анекдотов 1872 года издания можно встретить
+историю о муже, вернувшегося после долгого отсутствия и решившего, что
+все происходящее всего лишь следствие принципа &quot;подобное вызывает
+подобное&quot;. Чем же питалась, по мнению этого мужа, его супруга в его
+отсутствие?</Question>
+<Answer>Молоком</Answer>
 <PassCriteria/>
 <Authors>Евгений Копейка</Authors>
 <Sources/>
-<Comments/>
+<Comments>&quot;поэтому у нее самой появилось молоко&quot;; стала беременной.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>kop1997.35</parent_text_id>
+<ParentTextId>kop1997.35</ParentTextId>
+<tourId>58221</tourId>
+<tournamentId>43</tournamentId>
+<tourTitle>Тур 195 (4851-4875)</tourTitle>
+<tournamentTitle>Вопросы Евгения Копейки 1997</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>1997-01-01</tourPlayedAt>
+<tournamentPlayedAt>1997-01-01</tournamentPlayedAt>
+<tourPlayedAt2>1997-01-01</tourPlayedAt2>
+<tournamentPlayedAt2>1997-01-01</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName/>
+<tournamentFileName>haifa03j.txt</tournamentFileName>
+<QuestionId>723489</QuestionId>
+<ParentId>43329</ParentId>
+<Number>6</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>haifa03j.1-6</TextId>
+<Question>По свидетельству Леонида Буряка, мадридский &quot;Реал&quot; предложил &quot;Милану&quot;
+обменять Шевченко на одного из своих легионеров. Статья на сайте
+&quot;gazeta.ru&quot;, посвященная этому возможному обмену, озаглавлена так, что
+на слух можно понять, что в обмен на Шевченко &quot;Милан&quot; не получит ничего.
+Внимание, вопрос! На кого же собирался &quot;Реал&quot; обменять Шевченко?</Question>
+<Answer>На Фигу.</Answer>
+<PassCriteria/>
+<Authors>Илья Ратнер</Authors>
+<Sources/>
+<Comments>Статья называлась &quot;За Шевченко Милан получит Фигу&quot;. Луиш Фигу - игрок
+мадридского &quot;Реала&quot;.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>haifa03j.1</parent_text_id>
+<ParentTextId>haifa03j.1</ParentTextId>
+<tourId>43329</tourId>
+<tournamentId>2968</tournamentId>
+<tourTitle>1</tourTitle>
+<tournamentTitle>Кубок Хайфы - 2003 для молодежных команд</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2003-01-11</tourPlayedAt>
+<tournamentPlayedAt>2003-01-11</tournamentPlayedAt>
+<tourPlayedAt2>2003-01-11</tourPlayedAt2>
+<tournamentPlayedAt2>2003-01-11</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>mkm16.5</tourFileName>
+<tournamentFileName>mkm16.txt</tournamentFileName>
+<QuestionId>1134860</QuestionId>
+<ParentId>66132</ParentId>
+<Number>3</Number>
+<Type>ЧД</Type>
+<TypeNum>1</TypeNum>
+<TextId>mkm16.5-3</TextId>
+<Question>Эван Эндрюс пишет, что в одной стране в конце XVIII века миниатюрные ОНИ
+использовались для нарезки хлеба и овощей во время званых ужинов.
+Назовите ИХ.</Question>
+<Answer>Гильотины.</Answer>
+<PassCriteria/>
+<Authors>Сергей Лобачёв (Нижний Новгород)</Authors>
+<Sources>http://www.history.com/news/history-lists/8-things-you-may-not-know-about-the-guillotine</Sources>
+<Comments>Данный метод казни был очень популярен во время Великой французской
+революции.</Comments>
 <Rating/>
 <RatingNumber/>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
 <parent_text_id/>
-<ParentTextId>kop1996.10</ParentTextId>
-<tourId>62670</tourId>
-<tournamentId>42</tournamentId>
-<tourTitle>тур 130 (3226-3250)</tourTitle>
-<tournamentTitle>Вопросы Евгения Копейки 1996</tournamentTitle>
+<ParentTextId>mkm16.5</ParentTextId>
+<tourId>66132</tourId>
+<tournamentId>33110</tournamentId>
+<tourTitle>5 тур</tourTitle>
+<tournamentTitle>Молодежный Кубок Мира - 2016/17</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2017-01-22</tourPlayedAt>
+<tournamentPlayedAt>2016-09-25</tournamentPlayedAt>
+<tourPlayedAt2>2017-01-22</tourPlayedAt2>
+<tournamentPlayedAt2>2017-03-05</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName/>
+<tournamentFileName>minsk96.txt</tournamentFileName>
+<QuestionId>804044</QuestionId>
+<ParentId>47949</ParentId>
+<Number>25</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>minsk96.1-25</TextId>
+<Question>Назовите, пожалуйста, хотя бы одно крупное событие, которое жители
+Эфиопии могли бы назвать самым главным событием 1994 года?</Question>
+<Answer>Никакое.</Answer>
+<PassCriteria/>
+<Authors>Команда &quot;Умник&quot;</Authors>
+<Sources>гражданин Эфиопии</Sources>
+<Comments>Эфиопский календарь отстает от европейского ровно на 11 лет,
+следовательно, 1994 год еще не наступил, что не может ускользнуть от
+внимательного эфиопца.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>minsk96.1</parent_text_id>
+<ParentTextId>minsk96.1</ParentTextId>
+<tourId>47949</tourId>
+<tournamentId>1865</tournamentId>
+<tourTitle>1</tourTitle>
+<tournamentTitle>Минская лига интеллектуальных игр &quot;Скиф&quot;</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
 <tourPlayedAt>1996-01-01</tourPlayedAt>
@@ -1636,25 +158,23 @@ http://www.aria.ru/publications/albums/lyrics/chimera.html (Дмитрий
 </Notices>
 </question>
 <question>
-<tourFileName>dz98d.2</tourFileName>
-<tournamentFileName>dz98d.txt</tournamentFileName>
-<QuestionId>693183</QuestionId>
-<ParentId>41400</ParentId>
-<Number>1</Number>
+<tourFileName>mord98.5</tourFileName>
+<tournamentFileName>mord98.txt</tournamentFileName>
+<QuestionId>810045</QuestionId>
+<ParentId>48312</ParentId>
+<Number>20</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>dz98d.2-1</TextId>
-<Question>Автор этого вопроса не сильно похож на Александра
-Сергеевича Пушкина, но есть между ними одна общая черта.
-Они болеют одной и той же практически неизлечимой
-болезнью. Пушкин писал об этом во всем известных стихах,
-а автор написал этот вопрос после того, как его скрутило
-4 мая 1997 года. Так что за болезнь объединяет
-А.С.Пушкина и Д.О.Жаркова?</Question>
-<Answer>СЕННАЯ ЛИХОРАДКА (аллергия). &quot;Весну я не люблю, весной я
-болен...&quot; - писал Пушкин.</Answer>
+<TextId>mord98.5-20</TextId>
+<Question>У жителей Полинезии были весьма полезные предметы, без которых они не
+отправлялись в путешествия. Предметы эти представляли собой соединенные
+растительными волокнами черенки пальмовых листьев, перекрещивающиеся под
+разными углами. В некоторых местах к ним были прикреплены раковины
+моллюсков. Что обозначали черенки, а что раковины?</Question>
+<Answer>Эти предметы - морские карты, на которых раковины обозначали острова, а
+черенки листьев - морские течения.</Answer>
 <PassCriteria/>
-<Authors>Дмитрий Жарков</Authors>
+<Authors>Максим Руссо, Москва</Authors>
 <Sources/>
 <Comments/>
 <Rating/>
@@ -1662,383 +182,158 @@ http://www.aria.ru/publications/albums/lyrics/chimera.html (Дмитрий
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>dz98d.2</parent_text_id>
-<ParentTextId>dz98d.2</ParentTextId>
-<tourId>41400</tourId>
-<tournamentId>26</tournamentId>
-<tourTitle>Блок 32</tourTitle>
-<tournamentTitle>Вопросы Дмитрия Жаркова, клуб &quot;Мозговорот&quot;, 1998</tournamentTitle>
+<parent_text_id>mord98.5</parent_text_id>
+<ParentTextId>mord98.5</ParentTextId>
+<tourId>48312</tourId>
+<tournamentId>2768</tournamentId>
+<tourTitle>V тур</tourTitle>
+<tournamentTitle>I Чемпионат Мордовии по ЧГК среди юношеских команд.</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>1998-01-01</tourPlayedAt>
-<tournamentPlayedAt>1998-01-01</tournamentPlayedAt>
-<tourPlayedAt2>1998-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>1998-01-01</tournamentPlayedAt2>
+<tourPlayedAt>1998-09-26</tourPlayedAt>
+<tournamentPlayedAt>1997-01-01</tournamentPlayedAt>
+<tourPlayedAt2>1998-09-26</tourPlayedAt2>
+<tournamentPlayedAt2>1997-01-01</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName>kop1995.21</tourFileName>
-<tournamentFileName>kop1995.txt</tournamentFileName>
-<QuestionId>762203</QuestionId>
-<ParentId>45597</ParentId>
-<Number>1</Number>
+<tourFileName>mozgolom.5</tourFileName>
+<tournamentFileName>mozgolom.txt</tournamentFileName>
+<QuestionId>814268</QuestionId>
+<ParentId>48709</ParentId>
+<Number>22</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>kop1995.21-1</TextId>
-<Question>Существует стихотворение, описывающее грозный аквилон, низвергнувший
-надменный дуб, а затем ополчившийся на легкое облачко и перебросивший
-его на дальний небосклон. Кто же имеется в виду под аквилоном, кто под
-дубом и кто под облачком, если дальний небосклон - это по всей видимости
-Михайловское?</Question>
-<Answer>Александр I, Наполеон, Пушкин (одно из стихотворений Пушкина).</Answer>
+<TextId>mozgolom.5-22</TextId>
+<Question>Осенью 2010 года испанская &quot;Барселона&quot; в принципиальнейшем матче взяла
+верх над мадридским &quot;Реалом&quot; со счетом 5:0. После матча болельщики клуба
+получили некий сувенир. Они говорили, что каждый из пяти символизировал
+забитый мяч, а всё изделие в целом - то, что наши ворота остались на
+замке. Мы не спрашиваем, какое слово я пропустил в тексте вопроса.
+Ответьте двумя словами, что за сувенир получили фанаты.</Question>
+<Answer>Вратарская перчатка.</Answer>
 <PassCriteria/>
-<Authors>Евгений Копейка</Authors>
-<Sources/>
-<Comments/>
+<Authors>Алексей Хмельков (Истра)</Authors>
+<Sources>Репортаж в перерыве полуфинала матча Лиги Чемпионов &quot;Реал&quot; -
+&quot;Барселона&quot;.</Sources>
+<Comments>Каждый из пяти пальцев символизировал гол, а вся перчатка - игру
+вратаря, не пропустившего ни одного мяча.</Comments>
 <Rating/>
 <RatingNumber/>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>kop1995.21</parent_text_id>
-<ParentTextId>kop1995.21</ParentTextId>
-<tourId>45597</tourId>
-<tournamentId>41</tournamentId>
-<tourTitle>Тур 091 (2251-2275)</tourTitle>
-<tournamentTitle>Вопросы Евгения Копейки 1995</tournamentTitle>
+<parent_text_id>mozgolom.5</parent_text_id>
+<ParentTextId>mozgolom.5</ParentTextId>
+<tourId>48709</tourId>
+<tournamentId>3450</tournamentId>
+<tourTitle>2011 год</tourTitle>
+<tournamentTitle>Онлайн-марафон интеллектуального клуба &quot;ЧГК и другие мозголомки&quot;</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>1995-01-01</tourPlayedAt>
-<tournamentPlayedAt>1995-01-01</tournamentPlayedAt>
-<tourPlayedAt2>1995-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>1995-01-01</tournamentPlayedAt2>
+<tourPlayedAt>2011-01-01</tourPlayedAt>
+<tournamentPlayedAt>2007-01-01</tournamentPlayedAt>
+<tourPlayedAt2>2011-01-01</tourPlayedAt2>
+<tournamentPlayedAt2>2013-01-01</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName>nehrus12.4</tourFileName>
-<tournamentFileName>nehrus12.txt</tournamentFileName>
-<QuestionId>817693</QuestionId>
-<ParentId>48872</ParentId>
-<Number>8</Number>
+<tourFileName>provop18.3</tourFileName>
+<tournamentFileName>provop18.txt</tournamentFileName>
+<QuestionId>1181971</QuestionId>
+<ParentId>68641</ParentId>
+<Number>11</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>nehrus12.4-8</TextId>
-<Question>В народе фамилия первого переделывалась в хлебопекаря, а фамилия
-последнего - в представителя одного из разделов медицины. Назовите
-человека, для которого эти люди были первым и последним.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Александр Либер (Санкт-Петербург)</Authors>
-<Sources>   1. Ю.Н. Тынянов. Пушкин и его современники.
-http://readr.ru/yuriy-tinyanov-pushkin-i-ego-sovremenniki.html?page=27
-   2. К.К. Данзас. Последние дни жизни и кончина Александра Сергеевича
-Пушкина в записи А. Аммосова.
-http://pushkin.niv.ru/pushkin/vospominaniya/vospominaniya-126.htm</Sources>
-<Comments>Хлебопекарь - Кюхельбекер, дантист - Дантес. Вильгельм Кюхельбекер и
-Жорж Дантес - первый и последний люди, которые дрались на дуэли с
-Пушкиным.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>nehrus12.4</parent_text_id>
-<ParentTextId>nehrus12.4</ParentTextId>
-<tourId>48872</tourId>
-<tournamentId>3324</tournamentId>
-<tourTitle>4 тур</tourTitle>
-<tournamentTitle>&quot;Нехрустальная сова - 2012&quot; (Ярославль)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2012-04-29</tourPlayedAt>
-<tournamentPlayedAt>2012-04-29</tournamentPlayedAt>
-<tourPlayedAt2>2012-04-29</tourPlayedAt2>
-<tournamentPlayedAt2>2012-04-29</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>simb7.1</tourFileName>
-<tournamentFileName>simb7.txt</tournamentFileName>
-<QuestionId>891789</QuestionId>
-<ParentId>52857</ParentId>
-<Number>1</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>simb7.1-1</TextId>
-<Question>На  одной  из  карикатур  можно  увидеть  висящий  на   стене  плакат  с
-изображением А.С.  Пушкина, который рассматривают несколько собак.  Одна
-из них,  указывая на плакат, восторженно повторяет слова самого Пушкина.
-Восстановите ее фразу.</Question>
-<Answer>&quot;Ай да Пушкин!!! Ай да сукин сын!&quot;</Answer>
-<PassCriteria/>
-<Authors>Евгений Калюков</Authors>
-<Sources>&quot;Игра&quot;, N 2-3 (81-82) за 1999 год, стр. 18; А.С. Пушкин, С/с в 10 томах;
-М.; &quot;Художественная литература&quot;, 1977, т. 9, стр. 200</Sources>
-<Comments/>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>simb7.1</parent_text_id>
-<ParentTextId>simb7.1</ParentTextId>
-<tourId>52857</tourId>
-<tournamentId>2910</tournamentId>
-<tourTitle>Дополнительные вопросы I тура</tourTitle>
-<tournamentTitle>Симбирск Open VII</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2000-04-08</tourPlayedAt>
-<tournamentPlayedAt>2000-04-08</tournamentPlayedAt>
-<tourPlayedAt2>2000-04-08</tourPlayedAt2>
-<tournamentPlayedAt2>2000-04-08</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>sledst03.3</tourFileName>
-<tournamentFileName>sledst03.txt</tournamentFileName>
-<QuestionId>894374</QuestionId>
-<ParentId>53041</ParentId>
-<Number>7</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>sledst03.3-7</TextId>
-<Question>Василий Львович родился в 1770 году и умер в 1830-м, был поэтом,
-сотрудничал в &quot;Аонидах&quot; и &quot;Вестнике Европы&quot; Карамзина, сторонником
-которого был. С 1816 года член общества &quot;Арзамас&quot;. Был приверженцем
-легкой поэзии в стиле Горация. Перевел несколько басен Лафонтена и
-Флориана. Он, однако, так и не достиг мастерства Александра Сергеевича
-Пушкина, известного в то время. Назовите его фамилию.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Павел Пашечко (Санкт-Петербург)</Authors>
-<Sources>Ф.А. Брокгауз, И.А. Ефрон. Энциклопедический словарь. Современная
-версия. - М.: ЭКСМО, 2002. - С. 474.</Sources>
-<Comments>В.Л. Пушкин был родным дядей А.С. Пушкина.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>sledst03.3</parent_text_id>
-<ParentTextId>sledst03.3</ParentTextId>
-<tourId>53041</tourId>
-<tournamentId>2699</tournamentId>
-<tourTitle>3 тур</tourTitle>
-<tournamentTitle>Открытый студенческий турнир &quot;Следствие ведут знатоки&quot;</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2003-11-01</tourPlayedAt>
-<tournamentPlayedAt>2003-11-01</tournamentPlayedAt>
-<tourPlayedAt2>2003-11-01</tourPlayedAt2>
-<tournamentPlayedAt2>2003-11-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>sps05.3</tourFileName>
-<tournamentFileName>sps05.txt</tournamentFileName>
-<QuestionId>901720</QuestionId>
-<ParentId>53516</ParentId>
-<Number>8</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>sps05.3-8</TextId>
-<Question>Когда Жак Ширак был избран президентом Франции, журналист спросил его,
-чьи портреты он собирается повесить в своем кабинете. Ширак перечислил
-троих - Людовика XIV, Шарля де Голля и... Третий упомянутый
-соотечественником Шираку не являлся, хотя &quot;Французом&quot; его называли.
-Назовите его фамилию.</Question>
-<Answer>Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Андрей Черданцев (Новосибирск)</Authors>
-<Sources>&quot;Время&quot;, ОРТ, 3 апреля 2004 г.</Sources>
-<Comments>Ширак, как оказалось, - большой любитель российской поэзии вообще и
-Пушкина в частности. &quot;Француз&quot; - лицейское прозвище Пушкина. Ну и, если
-вы не знаете, что отвечать на вопрос - отвечайте: &quot;Пушкин&quot;.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>sps05.3</parent_text_id>
-<ParentTextId>sps05.3</ParentTextId>
-<tourId>53516</tourId>
-<tournamentId>1213</tournamentId>
-<tourTitle>3 тур</tourTitle>
-<tournamentTitle>Синхрон Первенства Сибири</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2005-02-13</tourPlayedAt>
-<tournamentPlayedAt>2005-02-13</tournamentPlayedAt>
-<tourPlayedAt2>2005-02-13</tourPlayedAt2>
-<tournamentPlayedAt2>2005-02-13</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>tutanh13.1</tourFileName>
-<tournamentFileName>tutanh13.txt</tournamentFileName>
-<QuestionId>916079</QuestionId>
-<ParentId>54244</ParentId>
-<Number>3</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>tutanh13.1-3</TextId>
-<Question>Поэт Николай ЯзЫков писал о ТАКОМ:
-   &quot;Там, у раздолья, горделиво
-   Гора треххолмная стоит&quot;.
-   Назовите &quot;ухажера&quot;, называвшего себя &quot;ТАКИМ изгнанником&quot;.</Question>
-<Answer>[Александр Сергеевич] Пушкин.</Answer>
-<PassCriteria/>
-<Authors>Виктор Мялов (Днепропетровск)</Authors>
-<Sources>   1. http://www.pushkin-live.ru/mails/pismo_pushkina_148.html
-   2. http://otherreferats.allbest.ru/literature/00173673_0.html
-   3. http://www.vladimirandreyev.com/node/220
-   4. http://www.feb-web.ru/feb/pushkin/texts/push17/vol13/y1321242.htm
-   5. А. Тыркова-Вильямс. Жизнь Пушкина.
-http://litrus.net/book/read/134939?p=14</Sources>
-<Comments>Как можно догадаться по слову &quot;треххолмная&quot;, речь идет о Тригорском,
-хозяйкой которого была тетушка Анны Керн. Во время знаменитой ссылки
-Пушкина в Михайловском поэт часто посещал Тригорское, где иногда
-ухаживал за Анной. Называя себя &quot;Тригорским изгнанником&quot;, Пушкин образно
-намекал, что Тригорское стало для него вторым домом.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>tutanh13.1</parent_text_id>
-<ParentTextId>tutanh13.1</ParentTextId>
-<tourId>54244</tourId>
-<tournamentId>1259</tournamentId>
-<tourTitle>1 тур</tourTitle>
-<tournamentTitle>Асинхронный турнир &quot;Загадки Тутанхамона - 2013&quot;</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2013-08-09</tourPlayedAt>
-<tournamentPlayedAt>2013-08-09</tournamentPlayedAt>
-<tourPlayedAt2>2013-08-09</tourPlayedAt2>
-<tournamentPlayedAt2>2013-08-09</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName/>
-<tournamentFileName>znvv99.txt</tournamentFileName>
-<QuestionId>971094</QuestionId>
-<ParentId>57317</ParentId>
-<Number>27</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>znvv99.1-27</TextId>
-<Question>П.И.Мельников-Печерский в своей волжской дилогии неоднократно упоминает,
-что девушки вышивают тот или иной бытовой или церковный предмет шерстями
-и синелями. Словарь Ожегова определяет &quot;синель&quot; как шнурок с бархатистым
-ворсом. А вот почему он так называется, ведь не одним же синим цветом
-вышивали поволжские красавицы в лесах и на горах?</Question>
-<Answer>Слово &quot;синель&quot; - не русского, а французского происхождения. Поскольку
-визуально пушистый шнурок напоминал гусеницу, так его и назвали -
-&quot;chenille&quot;. Следует отметить, что у этого вопроса есть и второй план.
-&quot;Синий&quot; для носителей русского языка того времени - не цвет, а свойство
-того или иного цвета блестеть, переливаться. Однокоренным словом к
-&quot;синий&quot; является &quot;сиять&quot;. То, что мы сейчас называем синим, тогда
-определяли как голубое, цвет сизого голубиного крыла. Таким образом,
-&quot;синели&quot; для модниц того времени - почти то же, что для современных
-люрекс. И писатель как бы специально подчеркивает это различие: &quot;шерсти&quot;
-(то есть шерстяные нитки), в отличие от &quot;синелей&quot;, не блестят. Пример
-того же языкового анахронизма мы находим и у Пушкина. В &quot;Капитанской
-дочке&quot; Петруша Гринев, приехав в Оренбуржскую крепость, обнаруживает
-старого инвалида, который, сидя на столе, пришивает синюю заплату на
-зеленое сукно. Пушкин имел в виду то, что новая шерстяная ткань -
-блестящая, в отличие от старой - вытертой, матовой. Зеленым же было как
-новое сукно, так и вся старая шинель - еще павловская, наверное.</Answer>
-<PassCriteria/>
-<Authors>Нина Олевская (Москва)</Authors>
-<Sources>Мельников-Печерский П.И. В лесах и на горах; Колесов. История русского
-языка в рассказах. М.: Просвещение, начало 80-х; БЭКМ 97.</Sources>
-<Comments/>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>znvv99.1</parent_text_id>
-<ParentTextId>znvv99.1</ParentTextId>
-<tourId>57317</tourId>
-<tournamentId>3423</tournamentId>
-<tourTitle>1</tourTitle>
-<tournamentTitle>Знатоки на Волге. Волжская закваска. 1999 год (N13-N145)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>1999-01-01</tourPlayedAt>
-<tournamentPlayedAt>1999-01-01</tournamentPlayedAt>
-<tourPlayedAt2>1999-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>1999-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>kop1998.10</tourFileName>
-<tournamentFileName>kop1998.txt</tournamentFileName>
-<QuestionId>1169810</QuestionId>
-<ParentId>67966</ParentId>
-<Number>23</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>kop1998.10-23</TextId>
-<Question>Записка императора Николая I от 1837 года:
-   &quot;1. Заплатить долги.
-   2. Заложенное имение отца очистить от долга.
-   3. Вдове пенсион и дочерям по замужество.
-   4. Сыновей в пажи и по 1500 р. на воспитание каждого по вступление на
-службу...&quot;.
-   Чем вызвано появление этой записки?</Question>
-<Answer>Убийством А.С.Пушкина (&quot;Пушкин и его время&quot;, Москва, &quot;Терра&quot;, 1997,
-стр.407).</Answer>
-<PassCriteria/>
-<Authors>Евгений Копейка</Authors>
-<Sources/>
-<Comments/>
+<TextId>provop18.3-11</TextId>
+<Question>Отец, рука - небольшие; головастик, лотос, комар - большие.
+Происхождение названий для чего в разных языках описывает лингвист
+Владимир Панфилов, приводя данные примеры?</Question>
+<Answer>[Имен] числительных.</Answer>
+<PassCriteria>Чисел.</PassCriteria>
+<Authors>Павел Аликин (Пермь)</Authors>
+<Sources>Энгельс и языкознание. / Отв. ред. В.Н. Ярцева. - М.: Наука, 1972. - С.
+116-117.</Sources>
+<Comments>Во многих языках названия больших чисел связаны с объектами,
+встречающимися во множестве, как лотосы на Ниле или комары в тайге;
+небольшие же числительные обычно этимологизируются от количества
+пальцев, конечностей или родственников.</Comments>
 <Rating/>
 <RatingNumber/>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
 <parent_text_id/>
-<ParentTextId>kop1998.10</ParentTextId>
-<tourId>67966</tourId>
-<tournamentId>44</tournamentId>
-<tourTitle>Тур 209 (5201-5225)</tourTitle>
-<tournamentTitle>Вопросы Евгения Копейки 1998</tournamentTitle>
+<ParentTextId>provop18.3</ParentTextId>
+<tourId>68641</tourId>
+<tournamentId>68635</tournamentId>
+<tourTitle>3 тур</tourTitle>
+<tournamentTitle>Синхронный турнир &quot;Синхрон простых вопросов - 2018&quot;</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>1998-01-01</tourPlayedAt>
-<tournamentPlayedAt>1998-01-01</tournamentPlayedAt>
-<tourPlayedAt2>1998-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>1998-01-01</tournamentPlayedAt2>
+<tourPlayedAt>2018-11-30</tourPlayedAt>
+<tournamentPlayedAt>2018-11-30</tournamentPlayedAt>
+<tourPlayedAt2>2018-11-30</tourPlayedAt2>
+<tournamentPlayedAt2>2018-11-30</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName/>
-<tournamentFileName>asker93.txt</tournamentFileName>
-<QuestionId>660002</QuestionId>
-<ParentId>39342</ParentId>
-<Number>9</Number>
-<Type>Ч</Type>
+<tourFileName>ukch09sh.2</tourFileName>
+<tournamentFileName>ukch09sh.txt</tournamentFileName>
+<QuestionId>927055</QuestionId>
+<ParentId>54635</ParentId>
+<Number>8</Number>
+<Type>ЧД</Type>
 <TypeNum>1</TypeNum>
-<TextId>asker93.1-9</TextId>
-<Question>В июне 1822 года Пушкин, будучи в Кишиневе, стрелялся с офицером
-Зубовым. А какое действие Пушкина, производимое с помощью его фуражки,
-по мнению Зубова, служило помехой для продолжения дуэли?</Question>
-<Answer>Пушкин ел черешни из своей фуражки.</Answer>
+<TextId>ukch09sh.2-8</TextId>
+<Question>В стихотворении Семена Островского веник случайно попадает на карнавал
+цветов и даже приглашает на танец розу. Прослушайте последнее двустишие
+из этого стихотворения, в котором мы сделали замены:
+   &quot;Он ей представился при этом
+   Ненапечатанным поэтом&quot;.
+   Какие два слова мы заменили словами &quot;ненапечатанным поэтом&quot;?</Question>
+<Answer>&quot;Нераспустившимся букетом&quot;.</Answer>
 <PassCriteria/>
-<Authors>Ровшан Аскеров</Authors>
+<Authors>Игорь Волобуев (Донецк)</Authors>
+<Sources>http://www.jerusalem-korczak-home.com/bib/SemOst/SemOst0.html</Sources>
+<Comments/>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>ukch09sh.2</parent_text_id>
+<ParentTextId>ukch09sh.2</ParentTextId>
+<tourId>54635</tourId>
+<tournamentId>722</tournamentId>
+<tourTitle>2 тур</tourTitle>
+<tournamentTitle>Чемпионат Украины по ЧГК среди школьников (Одесса)</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2009-03-28</tourPlayedAt>
+<tournamentPlayedAt>2009-03-28</tournamentPlayedAt>
+<tourPlayedAt2>2009-03-28</tourPlayedAt2>
+<tournamentPlayedAt2>2009-03-28</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>kavkbr02.2</tourFileName>
+<tournamentFileName>kavkbr02.txt</tournamentFileName>
+<QuestionId>1037045</QuestionId>
+<ParentId>60978</ParentId>
+<Number>34</Number>
+<Type>Б</Type>
+<TypeNum>2</TypeNum>
+<TextId>kavkbr02.2-34</TextId>
+<Question>Еще в 60-е годы XIX века Москву освещали масляными фонарями. Однако они
+оказались не в состоянии обеспечить освещенность улиц. Почему?</Question>
+<Answer>Масло часто воровали</Answer>
+<PassCriteria/>
+<Authors/>
 <Sources/>
 <Comments/>
 <Rating/>
@@ -2046,98 +341,617 @@ http://litrus.net/book/read/134939?p=14</Sources>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>asker93.1</parent_text_id>
-<ParentTextId>asker93.1</ParentTextId>
-<tourId>39342</tourId>
-<tournamentId>4</tournamentId>
-<tourTitle>1</tourTitle>
-<tournamentTitle>Вопросы Ровшана Аскерова. 1993</tournamentTitle>
+<parent_text_id>kavkbr02.2</parent_text_id>
+<ParentTextId>kavkbr02.2</ParentTextId>
+<tourId>60978</tourId>
+<tournamentId>798</tournamentId>
+<tourTitle>1/8 финала</tourTitle>
+<tournamentTitle>5-й чемпионат Южного Кавказа (Кобулети). Брейн-ринг.</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>1993-11-14</tourPlayedAt>
-<tournamentPlayedAt>1993-11-14</tournamentPlayedAt>
-<tourPlayedAt2>1993-11-14</tourPlayedAt2>
-<tournamentPlayedAt2>1993-11-14</tournamentPlayedAt2>
+<tourPlayedAt>2002-07-27</tourPlayedAt>
+<tournamentPlayedAt>2002-07-27</tournamentPlayedAt>
+<tourPlayedAt2>2002-07-27</tourPlayedAt2>
+<tournamentPlayedAt2>2002-07-27</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName>haif2l10.3</tourFileName>
-<tournamentFileName>haif2l10.txt</tournamentFileName>
-<QuestionId>722731</QuestionId>
-<ParentId>43287</ParentId>
-<Number>15</Number>
+<tourFileName>ruscup12.4</tourFileName>
+<tournamentFileName>ruscup12.txt</tournamentFileName>
+<QuestionId>1182017</QuestionId>
+<ParentId>68646</ParentId>
+<Number>9</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>haif2l10.3-15</TextId>
-<Question>По сообщению новостных агентств России, недавно в Китае, в провинции
-Чжедзян, был открыт памятник этому человеку. Это уже второй памятник
-этому человеку в Китае, первый был открыт в Шанхае в 1937 году. Назовите
-этого человека.</Question>
-<Answer>Александр Пушкин.</Answer>
+<TextId>ruscup12.4-9</TextId>
+<Question>Феминистки ЕГО не любили, называя его работу разыгрыванием
+фаллоцентрических фантазий над символически распростертым материалом. А
+персонаж Станислава Лема воспользовался ЕГО творческим методом,
+объясняя, что величественная картина Вселенной - на самом деле
+свидетельство нехватки воображения. Назовите ЕГО.</Question>
+<Answer>[Джексон] Поллок.</Answer>
 <PassCriteria/>
-<Authors>???</Authors>
-<Sources>&quot;Гео&quot;, 2008, N 10.</Sources>
-<Comments>Не знаешь что писать - пиши Пушкин; 1937 - 100 лет со дня смерти
-Пушкина.</Comments>
+<Authors>Сергей Николенко (Санкт-Петербург)</Authors>
+<Sources>   1. http://www.newworldencyclopedia.org/entry/Jackson_Pollock
+   2. С. Лем. Король Глобарес и мудрецы.
+http://lib.misto.kiev.ua/LEM/globares.txt</Sources>
+<Comments>В 2006 году на аукционе &quot;Сотбис&quot; его картина &quot;Номер 5, 1948&quot; была
+продана за 140 миллионов долларов, но многие считают, что ничего
+особенно интересного в живописи Джексона Поллока, который просто
+разбрызгивает краску по холсту, нет. Мудрец из рассказа Лема тоже просто
+разбрызгал чернила над листом и получил нечто неотличимое от карты
+звездного неба.</Comments>
 <Rating/>
 <RatingNumber/>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>haif2l10.3</parent_text_id>
-<ParentTextId>haif2l10.3</ParentTextId>
-<tourId>43287</tourId>
-<tournamentId>2958</tournamentId>
-<tourTitle>6 тур. &quot;Потому что гладиолус&quot;</tourTitle>
-<tournamentTitle>16-й Чемпионат Хайфского клуба. Вторая лига</tournamentTitle>
+<parent_text_id/>
+<ParentTextId>ruscup12.4</ParentTextId>
+<tourId>68646</tourId>
+<tournamentId>818</tournamentId>
+<tourTitle>4 тур</tourTitle>
+<tournamentTitle>XIV Открытый Кубок России по ЧГК</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>2010-06-12</tourPlayedAt>
-<tournamentPlayedAt>2010-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2010-06-12</tourPlayedAt2>
-<tournamentPlayedAt2>2010-01-01</tournamentPlayedAt2>
+<tourPlayedAt>2012-12-02</tourPlayedAt>
+<tournamentPlayedAt>2012-12-02</tournamentPlayedAt>
+<tourPlayedAt2>2012-12-02</tourPlayedAt2>
+<tournamentPlayedAt2>2012-12-02</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName>mkm11.6</tourFileName>
-<tournamentFileName>mkm11.txt</tournamentFileName>
-<QuestionId>807666</QuestionId>
-<ParentId>48170</ParentId>
-<Number>6</Number>
-<Type>ЧД</Type>
+<tourFileName/>
+<tournamentFileName>bel94.txt</tournamentFileName>
+<QuestionId>666916</QuestionId>
+<ParentId>39911</ParentId>
+<Number>75</Number>
+<Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>mkm11.6-6</TextId>
-<Question>В 1999 году журналисты провели опрос первоклассников обычной средней
-школы. Среди полученных ответов были, например, такие: &quot;ОН был первым
-русским царем&quot;, &quot;ОН - волшебник, пусть в Новый год принесет мне
-велосипед&quot;, &quot;ОН написал наш гимн&quot;, &quot;ОН построил Москву&quot;, &quot;ОН любил
-детей&quot;, &quot;ОН - это кого все знают наизусть&quot;. Назовите ЕГО фамилию.</Question>
-<Answer>Пушкин.</Answer>
+<TextId>bel94.1-75</TextId>
+<Question>На Руси старались обходиться без них, и искусным мастерам это часто
+удавалось. Вплоть до начала XIX в. дома иногда сжигались только для
+того, чтобы добыть их. О чем идет речь?</Question>
+<Answer>О гвоздях</Answer>
 <PassCriteria/>
-<Authors>Дмитрий Башук (Харьков)</Authors>
-<Sources>http://gazeta.aif.ru/oldsite/968/art003.html</Sources>
-<Comments>Журналисты спрашивали, чем занимался Пушкин: в 1999 году как раз
-отмечалось 200-летие со дня рождения А.С. Пушкина и на протяжении этого
-года о нем достаточно много говорилось в СМИ.</Comments>
+<Authors>Дмитрий Белявский</Authors>
+<Sources/>
+<Comments/>
 <Rating/>
 <RatingNumber/>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>mkm11.6</parent_text_id>
-<ParentTextId>mkm11.6</ParentTextId>
-<tourId>48170</tourId>
-<tournamentId>1072</tournamentId>
-<tourTitle>6 тур</tourTitle>
-<tournamentTitle>Молодежный Кубок Мира 2011/12</tournamentTitle>
+<parent_text_id>bel94.1</parent_text_id>
+<ParentTextId>bel94.1</ParentTextId>
+<tourId>39911</tourId>
+<tournamentId>3570</tournamentId>
+<tourTitle>1</tourTitle>
+<tournamentTitle>Вопросы Дмитрия Белявского, ноябрь-93 - август-94</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>2011-01-01</tourPlayedAt>
-<tournamentPlayedAt>2011-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2011-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>2011-01-01</tournamentPlayedAt2>
+<tourPlayedAt>1994-01-01</tourPlayedAt>
+<tournamentPlayedAt>1994-01-01</tournamentPlayedAt>
+<tourPlayedAt2>1994-01-01</tourPlayedAt2>
+<tournamentPlayedAt2>1994-01-01</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>erud2-91.2</tourFileName>
+<tournamentFileName>erud2-91.txt</tournamentFileName>
+<QuestionId>699914</QuestionId>
+<ParentId>41817</ParentId>
+<Number>4</Number>
+<Type>Б</Type>
+<TypeNum>2</TypeNum>
+<TextId>erud2-91.2-4</TextId>
+<Question>Специалист по НЛО Том Вебер из США предполагает построить космопорт для
+НЛО в городке Элмвуд, штат Висконсин. Почему именно в Элмвуде?</Question>
+<Answer>Потому что именно из этого городка в последние 15 лет поступает больше
+всего сообщений об НЛО. Для элмвудцев это любимая тема.</Answer>
+<PassCriteria/>
+<Authors>Борис Бурда</Authors>
+<Sources/>
+<Comments/>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>erud2-91.2</parent_text_id>
+<ParentTextId>erud2-91.2</ParentTextId>
+<tourId>41817</tourId>
+<tournamentId>3535</tournamentId>
+<tourTitle>Тур 2</tourTitle>
+<tournamentTitle>Тренировка клуба &quot;Эрудит&quot;, 1991.</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>1991-01-01</tourPlayedAt>
+<tournamentPlayedAt>1991-01-01</tournamentPlayedAt>
+<tourPlayedAt2>1991-01-01</tourPlayedAt2>
+<tournamentPlayedAt2>1991-01-01</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>euro10sh.3</tourFileName>
+<tournamentFileName>euro10sh.txt</tournamentFileName>
+<QuestionId>702728</QuestionId>
+<ParentId>42092</ParentId>
+<Number>17</Number>
+<Type>ЧД</Type>
+<TypeNum>1</TypeNum>
+<TextId>euro10sh.3-17</TextId>
+<Question>   &lt;раздатка&gt;
+   ЯНПЧЗТДС - [пропуск] твои дурацкие сокращения
+   &lt;/раздатка&gt;
+   Журнал &quot;MAXIM&quot;, отмечая моду на всяческие сокращения, предлагает свои
+варианты для широкого использования. Например, ТГ - &quot;ты где?&quot;, ПС -
+&quot;Подружка симпатичная?&quot; и т.д. Перед вами - еще одно сокращение и его
+расшифровка. Напишите пропущенную часть расшифровки.</Question>
+<Answer>&quot;Я не понимаю, что значат...&quot;.</Answer>
+<PassCriteria/>
+<Authors>Ольга Неумывакина (Харьков)</Authors>
+<Sources>&quot;MAXIM. Россия&quot;, 2009, N 12.</Sources>
+<Comments/>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>euro10sh.3</parent_text_id>
+<ParentTextId>euro10sh.3</ParentTextId>
+<tourId>42092</tourId>
+<tournamentId>180</tournamentId>
+<tourTitle>3 тур</tourTitle>
+<tournamentTitle>IV юношеский чемпионат Европы по ЧГК (Гомель)</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2010-05-15</tourPlayedAt>
+<tournamentPlayedAt>2010-05-15</tournamentPlayedAt>
+<tourPlayedAt2>2010-05-15</tourPlayedAt2>
+<tournamentPlayedAt2>2010-05-15</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>genius04.29</tourFileName>
+<tournamentFileName>genius04.txt</tournamentFileName>
+<QuestionId>709495</QuestionId>
+<ParentId>42605</ParentId>
+<Number>1</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>genius04.29-1</TextId>
+<Question>В честь Роналда Рейгана названы здание министерства торговли США и
+аэропорт в окрестностях Вашингтона. Если будет принято еще одно
+предложение по увековечению его памяти, то Рейган заменит первого
+министра финансов США Александра Гамильтона. Где?</Question>
+<Answer>На денежной купюре (на 10 долларах).</Answer>
+<PassCriteria/>
+<Authors>Максим Руссо (Москва)</Authors>
+<Sources>Итоги, 15 июня 2004, стр. 4.</Sources>
+<Comments/>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>genius04.29</parent_text_id>
+<ParentTextId>genius04.29</ParentTextId>
+<tourId>42605</tourId>
+<tournamentId>3389</tournamentId>
+<tourTitle>109 тур</tourTitle>
+<tournamentTitle>Конкурс на сайте www.genius.ru</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2004-08-12</tourPlayedAt>
+<tournamentPlayedAt>2004-01-01</tournamentPlayedAt>
+<tourPlayedAt2>2004-08-12</tourPlayedAt2>
+<tournamentPlayedAt2>2004-01-01</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>har99v-1.2</tourFileName>
+<tournamentFileName>har99v-1.txt</tournamentFileName>
+<QuestionId>731227</QuestionId>
+<ParentId>43825</ParentId>
+<Number>5</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>har99v-1.2-5</TextId>
+<Question>Однажды в Алжире гастролировала европейская труппа, ведущий актер
+которой так замечательно играл роль Отелло, так страстно и естественно
+душил Дездемону, что находившийся в зале молодой капрал колониальных
+войск в гневе выстрелил в этого актера. Актер умер прямо на сцене, а
+капрала судили и расстреляли. Похоронили их под одной мраморной плитой,
+на которой были выбиты строчки, представлявшие собой своеобразные
+номинации. Воспроизведите, хотя бы приблизительно, эту надпись.</Question>
+<Answer>&quot;Лучшему актеру и лучшему зрителю&quot;.</Answer>
+<PassCriteria/>
+<Authors>Игорь Перепелкин</Authors>
+<Sources>Л. Бердичевский. Всемирная история. 1945-1997. - К.: АСК, 1997. - С.
+104.</Sources>
+<Comments/>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>har99v-1.2</parent_text_id>
+<ParentTextId>har99v-1.2</ParentTextId>
+<tourId>43825</tourId>
+<tournamentId>3012</tournamentId>
+<tourTitle>Второй этап</tourTitle>
+<tournamentTitle>Весенний чемпионат Харькова по ЧГК. 1999. Первая лига.</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>1999-04-05</tourPlayedAt>
+<tournamentPlayedAt>1999-01-01</tournamentPlayedAt>
+<tourPlayedAt2>1999-04-05</tourPlayedAt2>
+<tournamentPlayedAt2>1999-01-01</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>samach14.2</tourFileName>
+<tournamentFileName>samach14.txt</tournamentFileName>
+<QuestionId>882340</QuestionId>
+<ParentId>52363</ParentId>
+<Number>9</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>samach14.2-9</TextId>
+<Question>Винсент Форд содержал бесплатную столовую для бедных в Тренчтауне,
+пригороде Кингстона. В 1973 году Форд неожиданно получил источник
+финансирования для своей столовой. Ответьте абсолютно точно, автором
+чего значится Винсент Форд.</Question>
+<Answer>[Песни] &quot;No Woman, No Cry&quot;.</Answer>
+<PassCriteria/>
+<Authors>Александр Рождествин (Самара)</Authors>
+<Sources>http://en.wikipedia.org/wiki/No_Woman,_No_Cry</Sources>
+<Comments>Боб Марли вырос как раз в Тренчтауне, в бедной семье, и не раз кормился
+в этой столовой. Он передал Форду права на свою самую известную песню,
+благодаря чему Форд смог и дальше поддерживать работу столовой.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>samach14.2</parent_text_id>
+<ParentTextId>samach14.2</ParentTextId>
+<tourId>52363</tourId>
+<tournamentId>2538</tournamentId>
+<tourTitle>2 тур</tourTitle>
+<tournamentTitle>&quot;Самариум-2014&quot;. ЧГК</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2014-11-02</tourPlayedAt>
+<tournamentPlayedAt>2014-11-02</tournamentPlayedAt>
+<tourPlayedAt2>2014-11-02</tourPlayedAt2>
+<tournamentPlayedAt2>2014-11-02</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName/>
+<tournamentFileName>tallin94.txt</tournamentFileName>
+<QuestionId>904128</QuestionId>
+<ParentId>53671</ParentId>
+<Number>43</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>tallin94.1-43</TextId>
+<Question>Данное уменьшительное женское имя служит, кроме этого, еще и названием
+языка, синонимом к слову &quot;лампочка&quot;, а также на ряде жаргонов
+уменьшительное от этого уменьшительного означает &quot;украшение&quot;,
+&quot;аксессуар&quot;. Назовите его.</Question>
+<Answer>Феня.</Answer>
+<PassCriteria/>
+<Authors/>
+<Sources/>
+<Comments/>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>tallin94.1</parent_text_id>
+<ParentTextId>tallin94.1</ParentTextId>
+<tourId>53671</tourId>
+<tournamentId>3542</tournamentId>
+<tourTitle>1</tourTitle>
+<tournamentTitle>Вопросы Таллина для тренировок</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>1994-04-20</tourPlayedAt>
+<tournamentPlayedAt>1994-04-20</tournamentPlayedAt>
+<tourPlayedAt2>1994-04-20</tourPlayedAt2>
+<tournamentPlayedAt2>1994-04-20</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>taviv04.9</tourFileName>
+<tournamentFileName>taviv04.txt</tournamentFileName>
+<QuestionId>905729</QuestionId>
+<ParentId>53748</ParentId>
+<Number>11</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>taviv04.9-11</TextId>
+<Question>Теоретик евразийства Петр Савицкий пишет, что генерал Ермолов, дабы
+увеличить почтение к себе со стороны персидских послов, заявил, что он
+ПЛЕМЯННИК РАШИДОВА. Кстати, в 1928 году на экраны вышел фильм Всеволода
+Пудовкина с аналогичным названием. Как вы уже догадались, в ответе вам
+предстоит заменить слова &quot;племянник Рашидова&quot; двумя другими.</Question>
+<Answer>Потомок Чингисхана.</Answer>
+<PassCriteria/>
+<Authors>Илья Самсонов</Authors>
+<Sources>   1. П. Савицкий. Геополитические заметки по русской истории. - СПб.:
+Лань, 2000.
+   2. БЭС, статья &quot;Пудовкин&quot;.</Sources>
+<Comments>И ему верили!</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>taviv04.9</parent_text_id>
+<ParentTextId>taviv04.9</ParentTextId>
+<tourId>53748</tourId>
+<tournamentId>2847</tournamentId>
+<tourTitle>9 тур. &quot;Братья&quot;</tourTitle>
+<tournamentTitle>6-й Чемпионат Тель-Авивского клуба</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2004-09-22</tourPlayedAt>
+<tournamentPlayedAt>2004-01-01</tournamentPlayedAt>
+<tourPlayedAt2>2004-09-22</tourPlayedAt2>
+<tournamentPlayedAt2>2004-01-01</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>ukr03-11.3</tourFileName>
+<tournamentFileName>ukr03-11.txt</tournamentFileName>
+<QuestionId>928333</QuestionId>
+<ParentId>54727</ParentId>
+<Number>3</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>ukr03-11.3-3</TextId>
+<Question>Напишите название подразделения войск СС, у которого был самый лучший
+хор.</Question>
+<Answer>&quot;Нахтигаль&quot;.</Answer>
+<PassCriteria/>
+<Authors>Сергей Виватенко (Санкт-Петербург)</Authors>
+<Sources>Б. Соколов. Оккупация. - М., 2003. - С. 14.</Sources>
+<Comments/>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>ukr03-11.3</parent_text_id>
+<ParentTextId>ukr03-11.3</ParentTextId>
+<tourId>54727</tourId>
+<tournamentId>558</tournamentId>
+<tourTitle>3 тур</tourTitle>
+<tournamentTitle>Чемпионат Украины по ЧГК сезона 2003/04. Первая лига, 1 этап (Харьков)</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2003-11-22</tourPlayedAt>
+<tournamentPlayedAt>2003-11-22</tournamentPlayedAt>
+<tourPlayedAt2>2003-11-22</tourPlayedAt2>
+<tournamentPlayedAt2>2003-11-22</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>ukr13-22.1</tourFileName>
+<tournamentFileName>ukr13-22.txt</tournamentFileName>
+<QuestionId>932306</QuestionId>
+<ParentId>55002</ParentId>
+<Number>7</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>ukr13-22.1-7</TextId>
+<Question>Рассказывают, что некоторые англоязычные читатели известного советского
+произведения полагали, что на самом деле данная АЛЬФЕ характеристика
+была положительной. По мнению читателей, АЛЬФУ сравнивали с юным и
+неиспорченным второклассником. Что мы заменили АЛЬФОЙ?</Question>
+<Answer>Осетрину.</Answer>
+<PassCriteria>Осетрину второй свежести.</PassCriteria>
+<Authors>Наталия Пачкова (Харьков)</Authors>
+<Sources>http://joki-linguarum.livejournal.com/182598.html</Sources>
+<Comments>На западном форуме любителей литературы поднимали вопрос об осетрине
+второй свежести. В англоязычном переводе она была second grade
+freshness, и читатель воспринял это как очень свежую осетрину, потому
+что она была как второклассник.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>ukr13-22.1</parent_text_id>
+<ParentTextId>ukr13-22.1</ParentTextId>
+<tourId>55002</tourId>
+<tournamentId>623</tournamentId>
+<tourTitle>1 тур</tourTitle>
+<tournamentTitle>Чемпионат Украины по ЧГК сезона 2013/14. Вторая лига, 2 этап</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2013-12-07</tourPlayedAt>
+<tournamentPlayedAt>2013-12-07</tournamentPlayedAt>
+<tourPlayedAt2>2013-12-07</tourPlayedAt2>
+<tournamentPlayedAt2>2013-12-07</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName/>
+<tournamentFileName>vinnbr08.txt</tournamentFileName>
+<QuestionId>950705</QuestionId>
+<ParentId>55965</ParentId>
+<Number>56</Number>
+<Type>Б</Type>
+<TypeNum>2</TypeNum>
+<TextId>vinnbr08.1-56</TextId>
+<Question>По утверждению Джона Берри, &quot;птица счастья садится только на ТАКУЮ
+ладонь&quot;. Какую ТАКУЮ?</Question>
+<Answer>Раскрытую.</Answer>
+<PassCriteria>Открытую.</PassCriteria>
+<Authors>Дмитрий Башук (Харьков)</Authors>
+<Sources>Кошачьи медитации. - М.: ДОБРАЯ КНИГА, 2005. - С. 32.</Sources>
+<Comments/>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>vinnbr08.1</parent_text_id>
+<ParentTextId>vinnbr08.1</ParentTextId>
+<tourId>55965</tourId>
+<tournamentId>1471</tournamentId>
+<tourTitle>1</tourTitle>
+<tournamentTitle>Чемпионат Винницы по брэйн-рингу сезона 2007/08 гг.</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2008-02-20</tourPlayedAt>
+<tournamentPlayedAt>2008-02-20</tournamentPlayedAt>
+<tourPlayedAt2>2008-02-20</tourPlayedAt2>
+<tournamentPlayedAt2>2008-02-20</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>haif2l08.8</tourFileName>
+<tournamentFileName>haif2l08.txt</tournamentFileName>
+<QuestionId>1055863</QuestionId>
+<ParentId>61963</ParentId>
+<Number>20</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>haif2l08.8-20</TextId>
+<Question>[Чтецу: выделять голосом слова &quot;в заключение&quot; и &quot;предварительных&quot;!]
+   В ЗАКЛЮЧЕНИЕ игры перед оглашением ПРЕДВАРИТЕЛЬНЫХ результатов мы
+решили поинтересоваться вашим знанием сленга.
+   В английском сленге это называют Bear Cage, то есть &quot;медвежья
+клетка&quot;, в русском же употребляют существительное, произошедшее от
+названия другого животного. Назовите это существительное.</Question>
+<Answer>Обезьянник.</Answer>
+<PassCriteria/>
+<Authors>Феликс Ушеренко</Authors>
+<Sources>http://www.english4fun.ru/articles/article17.html</Sources>
+<Comments>Сленговое название КПЗ в полицейском/милицейском участке.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id/>
+<ParentTextId>haif2l08.8</ParentTextId>
+<tourId>61963</tourId>
+<tournamentId>2954</tournamentId>
+<tourTitle>8 тур. &quot;Гаудеамус&quot; и &quot;Птица Говорун&quot;</tourTitle>
+<tournamentTitle>14-й Чемпионат Хайфского клуба. Вторая лига</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2008-08-16</tourPlayedAt>
+<tournamentPlayedAt>2008-01-01</tournamentPlayedAt>
+<tourPlayedAt2>2008-08-16</tourPlayedAt2>
+<tournamentPlayedAt2>2008-01-01</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>ukrbr04.3</tourFileName>
+<tournamentFileName>ukrbr04.txt</tournamentFileName>
+<QuestionId>1131773</QuestionId>
+<ParentId>65956</ParentId>
+<Number>31</Number>
+<Type>Б</Type>
+<TypeNum>2</TypeNum>
+<TextId>ukrbr04.3-31</TextId>
+<Question>&quot;Эй, сиди себе и не высовывайся, когда на сцену выходят австралопитеки
+рока&quot; - такими словами начиналась журнальная статья об этой рок-группе.
+Назовите ее.</Question>
+<Answer>&quot;AC/DC&quot;.</Answer>
+<PassCriteria/>
+<Authors>Владимир Улахович (Донецк)</Authors>
+<Sources>&quot;Арт-мозаика&quot;, 2000, N 45.</Sources>
+<Comments>&quot;Эй си ди си&quot; (...бе и не высовывайся), группа из Австралии.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id/>
+<ParentTextId>ukrbr04.3</ParentTextId>
+<tourId>65956</tourId>
+<tournamentId>690</tournamentId>
+<tourTitle>Второй этап</tourTitle>
+<tournamentTitle>VI Чемпионат Украины по брэйн-рингу (Харьков)</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2004-04-09</tourPlayedAt>
+<tournamentPlayedAt>2004-04-09</tournamentPlayedAt>
+<tourPlayedAt2>2004-04-09</tourPlayedAt2>
+<tournamentPlayedAt2>2004-04-09</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>mgp0001.13</tourFileName>
+<tournamentFileName>mgp0001.txt</tournamentFileName>
+<QuestionId>793186</QuestionId>
+<ParentId>47159</ParentId>
+<Number>17</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>mgp0001.13-17</TextId>
+<Question>(На заезженную тему.)
+   Ученый;
+   флотоводец;
+   город-герой;
+   областной центр;
+   революционер;
+   неоднозначное слово из трех букв.
+   Назовите иностранца, еще в 1990-м году входившего в этот список
+наряду с вышеперечисленными.</Question>
+<Answer>Маркс.</Answer>
+<PassCriteria/>
+<Authors>Денис Денисенко</Authors>
+<Sources>   1. Схема линий Московского Метрополитена
+   2. http://main.icp.rssi.ru/metro/history/hist8.htm
+   3. http://www.metro.ru/facts/timeline.html</Sources>
+<Comments>Под &quot;заезженной&quot; темой понимался вопрос о метро. В тексте вопроса
+перечислены те, в честь кого и чего были названы станции московского
+метро, в названии которых присутствует слово &quot;проспект&quot;: Вернадский;
+Нахимов; Волгоград; Рязань; Ленин; Мир. Наряду с ними на Охотном Ряду
+раньше была станция Проспект Маркса (переименована 5 ноября 1990).</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>mgp0001.13</parent_text_id>
+<ParentTextId>mgp0001.13</ParentTextId>
+<tourId>47159</tourId>
+<tournamentId>1888</tournamentId>
+<tourTitle>Тур 13. Команда Дмитрия Вайнмана.</tourTitle>
+<tournamentTitle>Кубок Москвы по ЧГК. Гран-При сезона 2000-2001 годов</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2000-01-01</tourPlayedAt>
+<tournamentPlayedAt>2000-01-01</tournamentPlayedAt>
+<tourPlayedAt2>2000-01-01</tourPlayedAt2>
+<tournamentPlayedAt2>2000-01-01</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
