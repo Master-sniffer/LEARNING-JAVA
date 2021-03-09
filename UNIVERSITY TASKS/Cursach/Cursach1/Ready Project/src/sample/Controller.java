@@ -39,6 +39,9 @@ public class Controller {
     private Button auth;
 
     @FXML
+    private Button back;
+
+    @FXML
     private Button loginSignUp;
 
     @FXML
@@ -62,6 +65,10 @@ public class Controller {
 
         loginSignUp.setOnAction(event -> {
             openWindow("/sample/SignUp.fxml");
+        });
+
+        back.setOnAction(event -> {
+            openWindow("Welcome_Screen.fxml");
         });
     }
 

@@ -3,6 +3,8 @@ package sample;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -49,12 +51,36 @@ public class SignUpController {
     private CheckBox SignUpFemale;
 
     @FXML
+    private Button backd;
+
+    @FXML
+    void loadold(ActionEvent event)  {
+        try{
+            Stage stages = (Stage) backd.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Welcome_Screen.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+            stages.close();
+
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+        }
+
+    }
+
+    @FXML
     void initialize() {
+
+
 
         authSignUp.setOnAction(event -> {
 
             SignUpNewUser();
         });
+
     }
 
     private void SignUpNewUser() {
@@ -76,6 +102,25 @@ public class SignUpController {
 
         dbhandler.SignIpUser(user);
 
+    }
+
+    public void openWindow (String window) {
+        authSignUp.getScene().getWindow().hide(); // прячем окно
+
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource(window)); // показываем какое окно грузить
+
+        try {
+            loader.load(); // пытаемся его загрузить
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        Parent root = loader.getRoot();
+        Stage stage = new Stage();
+
+        stage.setScene(new Scene(root));
+        stage.showAndWait();
     }
 }
 
