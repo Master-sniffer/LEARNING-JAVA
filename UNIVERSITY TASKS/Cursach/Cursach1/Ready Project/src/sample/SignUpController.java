@@ -74,8 +74,6 @@ public class SignUpController {
     @FXML
     void initialize() {
 
-
-
         authSignUp.setOnAction(event -> {
 
             SignUpNewUser();
@@ -104,23 +102,6 @@ public class SignUpController {
 
     }
 
-    public void openWindow (String window) {
-        authSignUp.getScene().getWindow().hide(); // прячем окно
 
-        FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource(window)); // показываем какое окно грузить
-
-        try {
-            loader.load(); // пытаемся его загрузить
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        Parent root = loader.getRoot();
-        Stage stage = new Stage();
-
-        stage.setScene(new Scene(root));
-        stage.showAndWait();
-    }
 }
 

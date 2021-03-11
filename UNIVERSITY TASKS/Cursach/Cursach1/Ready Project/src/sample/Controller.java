@@ -33,16 +33,34 @@ public class Controller {
     private TextField login;
 
     @FXML
+    private Button auth;
+
+    @FXML
     private TextField passwd;
 
     @FXML
-    private Button auth;
+    private Button loginSignUp;
 
     @FXML
     private Button back;
 
     @FXML
-    private Button loginSignUp;
+    void OldScreen(ActionEvent event) {
+        try{
+            Stage stages = (Stage) back.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Welcome_Screen.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+            stages.close();
+
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+        }
+    }
+
 
     @FXML
     void initialize() {
@@ -67,9 +85,6 @@ public class Controller {
             openWindow("/sample/SignUp.fxml");
         });
 
-        back.setOnAction(event -> {
-            openWindow("Welcome_Screen.fxml");
-        });
     }
 
     private void loginuser(String logintext, String loginPassword) {

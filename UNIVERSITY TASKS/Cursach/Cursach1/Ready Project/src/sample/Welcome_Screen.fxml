@@ -16,7 +16,7 @@
       </ImageView>
       <Label prefHeight="147.0" prefWidth="1200.0" text="Добро пожаловать в Ч Г К. Чтобы играть - нужен профиль ! Если такой есть - нажми Login ,в ином случае - Register !!" textAlignment="CENTER" wrapText="true">
          <font>
-            <Font name="Comic Sans MS" size="25.0" />
+            <Font name="Candara" size="27.0" />
          </font>
       </Label>
       <ImageView fitHeight="377.0" fitWidth="439.0" layoutX="760.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
