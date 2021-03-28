@@ -43,5 +43,10 @@
             <Font size="20.0" />
          </font>
       </Button>
+      <Button fx:id="backd1" layoutX="697.0" layoutY="1.0" mnemonicParsing="false" onAction="#loadLOG" prefHeight="55.0" prefWidth="103.0" text="Login my fellow brother">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
     </children>
 </AnchorPane>

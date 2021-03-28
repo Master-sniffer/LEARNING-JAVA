@@ -46,6 +46,7 @@
                   <Font name="System Italic" size="40.0" />
                </font>
             </Text>
+            <TextField fx:id="HiddenButton" disable="true" layoutX="172.0" layoutY="116.0" opacity="0.0" />
          </children>
       </AnchorPane>
       <Label layoutX="298.0" layoutY="26.0" prefHeight="89.0" prefWidth="604.0" text="ШО ? ГДЭ ? КОГДА ?" textAlignment="CENTER" textFill="#fafafa">
@@ -53,7 +54,7 @@
             <Font size="63.0" />
          </font>
       </Label>
-      <Button fx:id="loginSignUp" layoutX="1025.0" layoutY="1.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="175.0" text="Register, noob">
+      <Button fx:id="loginSignUp" layoutX="1025.0" layoutY="1.0" mnemonicParsing="false" onAction="#RegScreen" prefHeight="71.0" prefWidth="175.0" text="Register, noob">
          <font>
             <Font size="30.0" />
          </font>

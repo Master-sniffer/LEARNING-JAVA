@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.ResultSet;
+import java.sql.Blob;
+import java.io.InputStream;
 
 public class DatabaseHandler extends configs {
     Connection dbConnection;
@@ -23,7 +25,7 @@ public class DatabaseHandler extends configs {
     }
 
     public void SignIpUser (User user){
-        String insert = "INSERT INTO " + Const.USER_TABLE + "(" + Const.USERS_FIRSTNAME + "," + Const.USERS_LASTNAME + "," + Const. USERS_USERNAME +","+ Const.USERS_PASSWORD + "," + Const.USERS_LOCATION + "," + Const.USERS_GENDER + ")" + "VALUES(?,?,?,?,?,?)";
+        String insert = "INSERT INTO " + Const.USER_TABLE + "(" + Const.USERS_FIRSTNAME + "," + Const.USERS_LASTNAME + "," + Const. USERS_USERNAME +","+ Const.USERS_PASSWORD + "," + Const.USERS_LOCATION + "," + Const.USERS_GENDER + ","+ Const.Users_Question +  ")" + "VALUES(?,?,?,?,?,?,?)";
 
 
         try {
@@ -34,6 +36,7 @@ public class DatabaseHandler extends configs {
             prSt.setString(4 , user.getPassword());
             prSt.setString(5 , user.getLocation());
             prSt.setString(6 , user.getGender());
+            prSt.setInt(7, user.getQuest());
             prSt.executeUpdate(); // выполнить sql действие
 
         } catch (SQLException throwables) {
@@ -62,5 +65,30 @@ public class DatabaseHandler extends configs {
             e.printStackTrace();
         }
         return resSet;
+    }
+
+    public int GetQuestion (User user) {
+        ResultSet resSet = null;
+
+        String select = "SELECT question FROM "+ Const.USER_TABLE + " WHERE " + Const.USERS_USERNAME + "=? AND " + Const.USERS_PASSWORD + "=?";
+
+        int Score=0;
+        try {
+            PreparedStatement prSt =getDbConnection().prepareStatement(select); // из - за знаков вопросов в конце, мы юзаем это
+            prSt.setString(1, user.getUsername());
+            prSt.setString(2, user.getPassword());
+
+            resSet=prSt.executeQuery(); // Получить данные из бд
+            System.out.println(resSet);
+            System.out.println(resSet.getRow());
+            System.out.println("data");
+            Score=resSet.getRow();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return Score;
     }
 }

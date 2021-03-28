@@ -20,6 +20,8 @@ import sample.animations.shake;
 
 public class Controller {
 
+    private static Integer Score;
+
     @FXML
     private ResourceBundle resources;
 
@@ -45,11 +47,31 @@ public class Controller {
     private Button back;
 
     @FXML
+    private TextField HiddenButton;
+
+    @FXML
     void OldScreen(ActionEvent event) {
         try{
             Stage stages = (Stage) back.getScene().getWindow();
 
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Welcome_Screen.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+            stages.close();
+
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+        }
+    }
+
+    @FXML
+    void RegScreen(ActionEvent event) {
+        try{
+            Stage stages = (Stage) back.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SignUp.fxml"));
             Parent root1 = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
             stage.setScene(new Scene(root1));
@@ -80,11 +102,6 @@ public class Controller {
         });
 
 
-
-        loginSignUp.setOnAction(event -> {
-            openWindow("/sample/SignUp.fxml");
-        });
-
     }
 
     private void loginuser(String logintext, String loginPassword) {
@@ -109,10 +126,33 @@ public class Controller {
 
         if (counter>=1){
 
+        int result = dbhandler.GetQuestion(user);
+        user.setQuest(result);
+        Score=result;
 
-        openWindow("/sample/sample.fxml");
+        //openWindow("/sample/sample.fxml");
 
-            System.out.println("Noice job, nigga");
+        System.out.println("Noice job, nigga");
+            try{
+
+                Stage stages = (Stage) back.getScene().getWindow();
+
+                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Question_N_Answer.fxml"));
+                Parent root1 = (Parent) fxmlLoader.load();
+                Stage stage = new Stage();
+                stage.setScene(new Scene(root1));
+                stage.show();
+                stages.close();
+
+//                Question q = new Question();
+//                q.MakeScore(result);
+//                q.initialize();
+
+            } catch (Exception e){
+                System.err.println(e.getMessage());
+            }
+
+
         } else {
             shake userlogin = new shake(login);
             shake userpass = new shake(passwd);
@@ -120,6 +160,7 @@ public class Controller {
             userpass.playAnim(); // запускаем анимацию
 
         }
+        //System.out.println(Score);
     }
 
     public void openWindow (String window) {
@@ -139,5 +180,13 @@ public class Controller {
 
         stage.setScene(new Scene(root));
         stage.showAndWait();
+    }
+
+    public void setScore(Integer Score){
+        this.Score=Score;
+    }
+
+    public Integer getScore() {
+        return Score;
     }
 }

@@ -72,11 +72,28 @@ public class SignUpController {
     }
 
     @FXML
+    void loadLOG(ActionEvent event) {
+        try{
+            Stage stages = (Stage) backd.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("sample.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+            stages.close();
+
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+        }
+    }
+
+    @FXML
     void initialize() {
 
         authSignUp.setOnAction(event -> {
-
-            SignUpNewUser();
+            if (SignUpName.getText()!="" && SignUpLogin.getText()!="" ){
+                SignUpNewUser();}
         });
 
     }
@@ -96,7 +113,7 @@ public class SignUpController {
         else
             gender="Да";
 
-        User user = new User(firstname, surname,Username ,password, location , gender);
+        User user = new User(firstname, surname,Username ,password, location , gender , 0);
 
         dbhandler.SignIpUser(user);
 
