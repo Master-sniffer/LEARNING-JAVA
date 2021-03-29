@@ -21,6 +21,8 @@ import sample.animations.shake;
 public class Controller {
 
     public static Integer Score;
+    public  static String Name;
+    public static  String Passw;
 
     @FXML
     private ResourceBundle resources;
@@ -126,9 +128,9 @@ public class Controller {
 
         if (counter>=1){
 
-        int result = dbhandler.GetQuestion(user);
-        user.setQuest(result);
-        Score=result;
+            this.Score=dbhandler.GetQuestion(user);
+            this.Name=logintext;
+            this.Passw=loginPassword;
 
         //openWindow("/sample/sample.fxml");
 
@@ -144,9 +146,6 @@ public class Controller {
                 stage.show();
                 stages.close();
 
-//                Question q = new Question();
-//                q.MakeScore(result);
-//                q.initialize();
 
             } catch (Exception e){
                 System.err.println(e.getMessage());
@@ -188,5 +187,19 @@ public class Controller {
 
     public Integer getScore() {
         return Score;
+    }
+
+    public void SetName(String Name){
+        this.Name=Name;
+    }
+    public String GetName() {
+        return Name;
+    }
+
+    public void SetPassw(String passwd){
+        this.Passw=passwd;
+    }
+    public String GetPassw() {
+        return Passw;
     }
 }

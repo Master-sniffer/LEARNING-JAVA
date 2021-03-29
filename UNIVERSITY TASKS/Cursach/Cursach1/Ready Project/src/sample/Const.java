@@ -11,7 +11,7 @@ public class Const {
     public static final String USERS_PASSWORD = "password";
     public static final String USERS_LOCATION = "location";
     public static final String USERS_GENDER = "gender";
-    public static final String Users_Question = "Question";
+    public static final String Users_Question = "question";
 
 }
 

@@ -47,15 +47,9 @@
       <children>
             <TextField fx:id="AnswerWrite" layoutX="106.0" layoutY="258.0" prefHeight="161.0" prefWidth="908.0" promptText="Введите свой ответ здеся">
                <font>
-                  <Font size="40.0" />
+                  <Font size="21.0" />
                </font>
             </TextField>
-            <Button fx:id="nextqe" layoutX="367.0" layoutY="457.0" mnemonicParsing="false" onAction="#NextQes" prefHeight="220.0" prefWidth="322.0" text="ТАК ТОЧНО, ТОВАРИЩ КОВАЛЬСКИ">
-               <font>
-                  <Font name="System Bold Italic" size="16.0" />
-               </font>
-            </Button>
-            <Button fx:id="buttonBACK" mnemonicParsing="false" onAction="#BACCK" prefHeight="49.0" prefWidth="190.0" text="MOMMY GET ME OUTTA HERE" />
             <ImageView fitHeight="754.0" fitWidth="1133.0" opacity="0.2" pickOnBounds="true" smooth="false">
                <image>
                   <Image url="@Z0X5nLJe-5M.jpg" />
@@ -66,12 +60,21 @@
                   <Font size="20.0" />
                </font>
             </Label>
-            <Button fx:id="Skipper" layoutX="943.0" mnemonicParsing="false" onAction="#SkipQuest" prefHeight="49.0" prefWidth="190.0" text="MOMMY GET ME OUTTA HERE" />
+            <Button fx:id="Skipper" layoutX="943.0" mnemonicParsing="false" onAction="#SkipQuest" prefHeight="49.0" prefWidth="190.0" text="sauter la question">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
             <Label fx:id="QuestNumb" layoutX="435.0" layoutY="14.0" prefHeight="86.0" prefWidth="234.0" text="Label" wrapText="true">
                <font>
                   <Font size="24.0" />
                </font>
             </Label>
+            <Button fx:id="nextqe" layoutX="391.0" layoutY="514.0" mnemonicParsing="false" onAction="#NextQes" prefHeight="220.0" prefWidth="322.0" text="ТАК ТОЧНО, ТОВАРИЩ КОВАЛЬСКИ" wrapText="true">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonBACK" mnemonicParsing="false" onAction="#BACCK" prefHeight="49.0" prefWidth="190.0" text="MOMMY GET ME OUTTA HERE" />
       </children>
     </AnchorPane>
   </children>

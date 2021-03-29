@@ -59,6 +59,8 @@ public class DatabaseHandler extends configs {
 
             resSet=prSt.executeQuery(); // Получить данные из бд
 
+            System.out.println(resSet.getRow());
+            System.out.println("That was data");
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         } catch (ClassNotFoundException e) {
@@ -78,11 +80,13 @@ public class DatabaseHandler extends configs {
             prSt.setString(1, user.getUsername());
             prSt.setString(2, user.getPassword());
 
+
             resSet=prSt.executeQuery(); // Получить данные из бд
             System.out.println(resSet);
-            System.out.println(resSet.getRow());
+            resSet.next();
+            System.out.println(resSet.getInt(1));
             System.out.println("data");
-            Score=resSet.getRow();
+            Score=resSet.getInt(1);
 
         } catch (SQLException throwables) {
             throwables.printStackTrace();
@@ -90,5 +94,26 @@ public class DatabaseHandler extends configs {
             e.printStackTrace();
         }
         return Score;
+    }
+
+    public void ChangeScore (String password, String Username, Integer Score){
+        String Change = "UPDATE " + Const.USER_TABLE + " Set " + Const.Users_Question + "="+ Score + " WHERE " + Const.USERS_USERNAME + "=? AND " +Const.USERS_PASSWORD + "=? ;" ;
+        //System.out.println(Change);
+        int affectedrows = 0;
+        try {
+            PreparedStatement prSt =getDbConnection().prepareStatement(Change);
+            prSt.setString(1, Username);
+            prSt.setString(2, password);
+            System.out.println(prSt);
+            affectedrows=prSt.executeUpdate();
+            System.out.println("MY ROWS");
+            System.out.println(affectedrows);
+
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

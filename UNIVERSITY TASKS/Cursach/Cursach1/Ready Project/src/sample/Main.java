@@ -32,6 +32,7 @@ public class Main extends Application {
 
         Media sound = new Media(new File(musicFile).toURI().toString());
         MediaPlayer mediaPlayer = new MediaPlayer(sound);
+        mediaPlayer.setVolume(0.28);
         mediaPlayer.play();
 
         launch(args);
