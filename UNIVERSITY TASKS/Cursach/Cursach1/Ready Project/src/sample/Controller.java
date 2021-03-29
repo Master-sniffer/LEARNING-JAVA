@@ -20,7 +20,7 @@ import sample.animations.shake;
 
 public class Controller {
 
-    private static Integer Score;
+    public static Integer Score;
 
     @FXML
     private ResourceBundle resources;
