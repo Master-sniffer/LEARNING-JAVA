@@ -65,6 +65,12 @@ public class SignUpController {
     @FXML
     void loadold(ActionEvent event)  {
         try{
+            String musicFile = "src/sample/deja-vu.mp3";
+
+            Media sound = new Media(new File(musicFile).toURI().toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(sound);
+            mediaPlayer.play();
+
             Stage stages = (Stage) backd.getScene().getWindow();
 
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Welcome_Screen.fxml"));
@@ -83,6 +89,14 @@ public class SignUpController {
     @FXML
     void loadLOG(ActionEvent event) {
         try{
+            String musicFile = "src/sample/movie_1_C2K5NH0.mp3";
+
+            Media sound = new Media(new File(musicFile).toURI().toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(sound);
+            mediaPlayer.play();
+
+
+
             Stage stages = (Stage) backd.getScene().getWindow();
 
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("sample.fxml"));

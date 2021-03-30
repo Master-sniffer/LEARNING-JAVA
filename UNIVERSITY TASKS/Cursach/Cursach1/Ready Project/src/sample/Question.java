@@ -64,11 +64,36 @@ public class Question {
     @FXML
     void BACCK(ActionEvent event) {
 
+
+        System.out.println("Main MEnu");
+        dbhandler.ChangeScore(Controller.Passw, Controller.Name, Controller.Score);
+        try {
+
+            String musicFile = "src/sample/darude-sandstorm-flute-anime-version-mp3cut.mp3";
+
+            Media sound = new Media(new File(musicFile).toURI().toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(sound);
+            mediaPlayer.play();
+
+            Stage stages = (Stage) QuestionGiven.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Welcome_Screen.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+            stages.close();
+
+
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
     }
+
 
     @FXML
     void NextQes(ActionEvent event) {
-        if (AnswerWrite.getText().toLowerCase().equals(this.answ.toLowerCase())){
+        if (AnswerWrite.getText().toLowerCase().equals(this.answ.toLowerCase())) {
 
             String musicFile = "src/sample/anime-wow-sound-effect.mp3";
 
@@ -78,8 +103,8 @@ public class Question {
 
             System.out.println("Есть пробитие");
             Controller.Score++;
-            dbhandler.ChangeScore(Controller.Passw, Controller.Name , Controller.Score);
-            try{
+            dbhandler.ChangeScore(Controller.Passw, Controller.Name, Controller.Score);
+            try {
 
                 Stage stages = (Stage) QuestionGiven.getScene().getWindow();
 
@@ -91,15 +116,40 @@ public class Question {
                 stages.close();
 
 
-            } catch (Exception e){
+            } catch (Exception e) {
                 System.err.println(e.getMessage());
             }
         }
     }
 
+
     @FXML
     void SkipQuest(ActionEvent event) {
-        Controller.Score++;
+
+        try {
+
+            String musicFile = "src/sample/gmi2-salvaje.mp3";
+
+            Media sound = new Media(new File(musicFile).toURI().toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(sound);
+
+            mediaPlayer.play();
+
+            Stage stages = (Stage) QuestionGiven.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Question_N_Answer.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+            stages.close();
+
+
+
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
+
     }
 
     @FXML
@@ -113,13 +163,12 @@ public class Question {
         String Ques[] = GetAQuestion();
         String Qestion = Ques[0];
         String Answ = Ques[1];
-        this.answ=Answ;
+        this.answ = Answ;
 
         QuestionGiven.setText(Qestion);
 
         //System.out.println(Qestion);
         //System.out.println(Answ);
-
 
 
     }
@@ -150,7 +199,7 @@ public class Question {
         System.out.println("Question : " + eElement.getElementsByTagName("Question").item(0).getTextContent());
         System.out.println("Answer : " + eElement.getElementsByTagName("Answer").item(0).getTextContent());
 
-        String Quest= eElement.getElementsByTagName("Question").item(0).getTextContent();
+        String Quest = eElement.getElementsByTagName("Question").item(0).getTextContent();
         String Answ = eElement.getElementsByTagName("Answer").item(0).getTextContent();
         String data[] = {Quest, Answ};
         return data;
@@ -193,7 +242,6 @@ public class Question {
 //
 
 
-
-
     }
 }
+

@@ -1,6 +1,7 @@
 package sample;
 import javafx.event.ActionEvent;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.sql.ResultSet;
@@ -15,6 +16,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
 import javafx.scene.control.Label;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 import sample.animations.shake;
 
@@ -53,7 +56,16 @@ public class Controller {
 
     @FXML
     void OldScreen(ActionEvent event) {
+
+
+
         try{
+            String musicFile = "src/sample/my-movie-6_0RlWMvM.mp3";
+
+            Media sound = new Media(new File(musicFile).toURI().toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(sound);
+            mediaPlayer.play();
+
             Stage stages = (Stage) back.getScene().getWindow();
 
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Welcome_Screen.fxml"));
@@ -70,6 +82,14 @@ public class Controller {
 
     @FXML
     void RegScreen(ActionEvent event) {
+
+        String musicFile = "src/sample/woo_htcxajK.mp3";
+
+        Media sound = new Media(new File(musicFile).toURI().toString());
+        MediaPlayer mediaPlayer = new MediaPlayer(sound);
+        mediaPlayer.getOnRepeat();
+        mediaPlayer.play();
+
         try{
             Stage stages = (Stage) back.getScene().getWindow();
 
@@ -128,6 +148,7 @@ public class Controller {
 
         if (counter>=1){
 
+
             this.Score=dbhandler.GetQuestion(user);
             this.Name=logintext;
             this.Passw=loginPassword;
@@ -136,6 +157,13 @@ public class Controller {
 
         System.out.println("Noice job, nigga");
             try{
+
+                String musicFile = "src/sample/deep-dark-fantasies.mp3";
+
+                Media sound = new Media(new File(musicFile).toURI().toString());
+                MediaPlayer mediaPlayer = new MediaPlayer(sound);
+                mediaPlayer.getOnRepeat();
+                mediaPlayer.play();
 
                 Stage stages = (Stage) back.getScene().getWindow();
 
