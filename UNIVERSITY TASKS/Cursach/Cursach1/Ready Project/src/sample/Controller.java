@@ -16,8 +16,11 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
 import javafx.scene.control.Label;
+import javafx.scene.layout.VBox;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
+import javafx.scene.text.Text;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import sample.animations.shake;
 
@@ -185,6 +188,21 @@ public class Controller {
             shake userpass = new shake(passwd);
             userlogin.playAnim();
             userpass.playAnim(); // запускаем анимацию
+
+            Stage stages = (Stage) back.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Wrong_house_Foool.fxml"));
+            Parent root1 = null;
+            try {
+                root1 = (Parent) fxmlLoader.load();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+            stages.close();
+
 
         }
         //System.out.println(Score);

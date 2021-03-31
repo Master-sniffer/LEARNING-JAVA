@@ -18,6 +18,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
+import java.util.concurrent.TimeUnit;
 
 // THESE ARE NEEDED TO PARSE
 
@@ -39,12 +40,16 @@ public class Question {
 
     DatabaseHandler dbhandler = new DatabaseHandler();
     public static String answ;
+    public  static int TRY;
 
     @FXML
     private ResourceBundle resources;
 
     @FXML
     private URL location;
+
+    @FXML
+    private Label Fisting;
 
     @FXML
     private TextField AnswerWrite;
@@ -92,7 +97,10 @@ public class Question {
 
 
     @FXML
-    void NextQes(ActionEvent event) {
+    void NextQes(ActionEvent event) throws InterruptedException {
+        AnswerWrite.setEditable(true);
+        AnswerWrite.setDisable(false);
+        AnswerWrite = new TextField();
         if (AnswerWrite.getText().toLowerCase().equals(this.answ.toLowerCase())) {
 
             String musicFile = "src/sample/anime-wow-sound-effect.mp3";
@@ -118,6 +126,30 @@ public class Question {
 
             } catch (Exception e) {
                 System.err.println(e.getMessage());
+            }
+        } else {
+            this.TRY--;
+            Fisting.setText("Times Before Fisting Starts: " + Integer.toString(this.TRY));
+            AnswerWrite.setEditable(true);
+            AnswerWrite.setDisable(false);
+            AnswerWrite = new TextField();
+
+            if (this.TRY==0){
+                QuestionGiven.setText("YOU HAVE LOST THE GAME\nNOOB");
+                Stage stages = (Stage) QuestionGiven.getScene().getWindow();
+
+                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Welcome_Screen.fxml"));
+                Parent root1 = null;
+                try {
+                    root1 = (Parent) fxmlLoader.load();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                Stage stage = new Stage();
+                stage.setScene(new Scene(root1));
+                TimeUnit.SECONDS.sleep(2);
+                stage.show();
+                stages.close();
             }
         }
     }
@@ -157,7 +189,9 @@ public class Question {
 
     @FXML
     void initialize() throws IOException, ParserConfigurationException, SAXException {
-
+        AnswerWrite.setEditable(true);
+        AnswerWrite.setDisable(false);
+        this.TRY=3;
         System.out.println(Controller.Score);
         QuestNumb.setText("Question number " + Integer.toString(Controller.Score));
         String Ques[] = GetAQuestion();
