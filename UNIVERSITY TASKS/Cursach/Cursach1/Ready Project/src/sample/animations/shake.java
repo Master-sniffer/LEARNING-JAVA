@@ -8,6 +8,7 @@ public class shake {
     private TranslateTransition tt;
 
 
+
     public shake(Node node){ // node - может быть поле, текст, кнопка и тд
 
         tt = new TranslateTransition(Duration.millis(70), node); // объявляем тут время и тд
@@ -24,4 +25,6 @@ public class shake {
     public void playAnim (){
         tt.playFromStart(); // таким образом анимация будет проигрываться
     }
+
+
 }

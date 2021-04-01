@@ -22,6 +22,7 @@ import javafx.scene.media.MediaPlayer;
 import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import sample.animations.Otletaet;
 import sample.animations.shake;
 
 public class Controller {
@@ -29,6 +30,7 @@ public class Controller {
     public static Integer Score;
     public  static String Name;
     public static  String Passw;
+    public static Integer TRIES;
 
     @FXML
     private ResourceBundle resources;
@@ -53,6 +55,9 @@ public class Controller {
 
     @FXML
     private Button back;
+
+    @FXML
+    private TextField TRY;
 
     @FXML
     private TextField HiddenButton;
@@ -85,6 +90,9 @@ public class Controller {
 
     @FXML
     void RegScreen(ActionEvent event) {
+
+        Otletaet ulet = new Otletaet(loginSignUp);
+        ulet.playAnim();
 
         String musicFile = "src/sample/woo_htcxajK.mp3";
 
@@ -155,6 +163,18 @@ public class Controller {
             this.Score=dbhandler.GetQuestion(user);
             this.Name=logintext;
             this.Passw=loginPassword;
+            if (TRY.getText().equals("")){
+                System.out.println("DADADA");
+                this.TRIES=3;
+            } else if (TRY.getText().equals(Integer.toString(Integer.parseInt(TRY.getText())))){
+                System.out.println("WAWAWAW");
+                System.out.println(Integer.parseInt(TRY.getText()));
+                this.TRIES=Integer.parseInt(TRY.getText());
+            } else {
+                System.out.println("FAUCK");
+                this.TRIES = 3;
+            }
+
 
         //openWindow("/sample/sample.fxml");
 
@@ -208,6 +228,7 @@ public class Controller {
         //System.out.println(Score);
     }
 
+
     public void openWindow (String window) {
         loginSignUp.getScene().getWindow().hide(); // прячем окно
 
@@ -249,3 +270,4 @@ public class Controller {
         return Passw;
     }
 }
+

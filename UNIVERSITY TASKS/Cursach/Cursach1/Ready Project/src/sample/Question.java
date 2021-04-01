@@ -34,6 +34,8 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
+import sample.animations.Right_Ans;
+import sample.animations.shake;
 
 
 public class Question {
@@ -100,8 +102,13 @@ public class Question {
     void NextQes(ActionEvent event) throws InterruptedException {
         AnswerWrite.setEditable(true);
         AnswerWrite.setDisable(false);
-        AnswerWrite = new TextField();
+        Right_Ans RA = new Right_Ans(nextqe);
+        RA.playAnim();
+
         if (AnswerWrite.getText().toLowerCase().equals(this.answ.toLowerCase())) {
+
+
+
 
             String musicFile = "src/sample/anime-wow-sound-effect.mp3";
 
@@ -138,7 +145,7 @@ public class Question {
                 QuestionGiven.setText("YOU HAVE LOST THE GAME\nNOOB");
                 Stage stages = (Stage) QuestionGiven.getScene().getWindow();
 
-                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Welcome_Screen.fxml"));
+                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("NoLogin.fxml"));
                 Parent root1 = null;
                 try {
                     root1 = (Parent) fxmlLoader.load();
@@ -191,7 +198,8 @@ public class Question {
     void initialize() throws IOException, ParserConfigurationException, SAXException {
         AnswerWrite.setEditable(true);
         AnswerWrite.setDisable(false);
-        this.TRY=3;
+        this.TRY=Controller.TRIES;
+        Fisting.setText("Times Before Fisting Starts: " + Integer.toString(this.TRY));
         System.out.println(Controller.Score);
         QuestNumb.setText("Question number " + Integer.toString(Controller.Score));
         String Ques[] = GetAQuestion();
