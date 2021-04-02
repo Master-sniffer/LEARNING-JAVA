@@ -1,380 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <search>
 <question>
-<tourFileName>izsup09l.5</tourFileName>
-<tournamentFileName>izsup09l.txt</tournamentFileName>
-<QuestionId>1024352</QuestionId>
-<ParentId>60293</ParentId>
-<Number>3</Number>
+<tourFileName>ovsch05.2</tourFileName>
+<tournamentFileName>ovsch05.txt</tournamentFileName>
+<QuestionId>844679</QuestionId>
+<ParentId>50132</ParentId>
+<Number>4</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>izsup09l.5-3</TextId>
-<Question>Некоторые итальянцы утверждают, что ЭТО первыми придумали они. Согласно
-итальянской легенде, один рыбак вернулся домой без улова и, чтобы
-утешить свою девушку, подарил ей очень красивую водоросль сложной формы.
-Девушке подарок понравился, и она впервые изготовила ЭТО. Назовите ЭТО.</Question>
-<Answer>Кружева.</Answer>
-<PassCriteria/>
-<Authors>Вадим Бабин</Authors>
-<Sources>   1. http://www.womenclub.ru/fashonhistory/1317.htm
-   2. &quot;Хочу знать&quot; с Михаилом Ширвиндтом, ОРТ, 05.06.2009 г.</Sources>
-<Comments/>
+<TextId>ovsch05.2-4</TextId>
+<Question>Ч - например, Омск и Москва, Ц - например, Санкт-Петербург и Баку, Н -
+например, Курск и Харьков. Назовите хотя бы один областной центр в
+России, который по вышеприведенной традиции соответствует букве &quot;К&quot;.</Question>
+<Answer>Пенза или Пермь.</Answer>
+<PassCriteria>Один из этих двух городов.</PassCriteria>
+<Authors>Александр Петрусевич (&quot;Реал-Мордовия&quot;, Саранск)</Authors>
+<Sources>   1. http://spravka.gramota.ru/buro.html?action=bytext&amp;findstr=%EF%E5%ED%E7%FF%EA
+   2. http://www.perm.ru/search/?words=%F0%E5%F2%ED%F1%EB%E9&amp;format=long&amp;exclude=&amp;method=and&amp;word=%EF%E5%F0%EC%FF%EA%E8</Sources>
+<Comments>Житель которой мужского рода зовется пензяК (омиЧ, архангелогородеЦ,
+куряниН). Жителей Пензы, согласно данным &quot;Справочной службы русского
+языка&quot;, можно называть как пензенцами, так и пензяками. Жители Перми
+называют себя пермяками.</Comments>
 <Rating/>
 <RatingNumber/>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>izsup09l.5</parent_text_id>
-<ParentTextId>izsup09l.5</ParentTextId>
-<tourId>60293</tourId>
-<tournamentId>374</tournamentId>
-<tourTitle>5 тур. &quot;Ла Гвардия&quot;</tourTitle>
-<tournamentTitle>Суперлига Израиля - 2009. Летняя сессия. Тель-Авив</tournamentTitle>
+<parent_text_id>ovsch05.2</parent_text_id>
+<ParentTextId>ovsch05.2</ParentTextId>
+<tourId>50132</tourId>
+<tournamentId>858</tournamentId>
+<tourTitle>Этап 2</tourTitle>
+<tournamentTitle>Открытый Всероссийский синхронный чемпионат 2005-2006.</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>2009-06-20</tourPlayedAt>
-<tournamentPlayedAt>2009-06-20</tournamentPlayedAt>
-<tourPlayedAt2>2009-06-20</tourPlayedAt2>
-<tournamentPlayedAt2>2009-06-20</tournamentPlayedAt2>
+<tourPlayedAt>2005-10-23</tourPlayedAt>
+<tournamentPlayedAt>2005-01-01</tournamentPlayedAt>
+<tourPlayedAt2>2005-10-23</tourPlayedAt2>
+<tournamentPlayedAt2>2005-01-01</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName>ukrbr06.3</tourFileName>
-<tournamentFileName>ukrbr06.txt</tournamentFileName>
-<QuestionId>1131141</QuestionId>
-<ParentId>65934</ParentId>
-<Number>49</Number>
-<Type>Б</Type>
-<TypeNum>2</TypeNum>
-<TextId>ukrbr06.3-49</TextId>
-<Question>[Ведущему: точки в анекдоте зачитать!]
-   Уважаемые знатоки! Прослушайте короткий анекдот: &quot;Фаберже. [Слово
-пропущено]. Фрагмент&quot;. Пропущенное слово в разных падежах встречается в
-Большой энциклопедии Кирилла и Мефодия в 81 статье, в том числе в таких
-статьях, как &quot;ДАЛИ Сальвадор&quot;, &quot;ВАН ГОГ Винсент&quot;, &quot;ДЮРЕР Альбрехт&quot;.
-Назовите это пропущенное слово.</Question>
-<Answer>Автопортрет.</Answer>
+<tourFileName>ierusa07.3</tourFileName>
+<tournamentFileName>ierusa07.txt</tournamentFileName>
+<QuestionId>1057436</QuestionId>
+<ParentId>62053</ParentId>
+<Number>8</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>ierusa07.3-8</TextId>
+<Question>Герой романа Станислава Лема рассказывает об изобретении машины времени,
+способной совершать путешествия и туда, и обратно. Эта машина получила
+название из семи букв, первые пять из которых - &quot;хроно&quot;. Напишите
+оставшиеся две.</Question>
+<Answer>рх.</Answer>
 <PassCriteria/>
-<Authors>Юрий Вашкулат (Киев)</Authors>
-<Sources>   1. Анекдот, прочитанный автором вопроса.
-   2. Поиск по слову &quot;автопортрет&quot; в БЭКМ-2001, перечисленные статьи.</Sources>
-<Comments>Известные картины - автопортрет Дали с шеей Рафаэля и автопортрет Ван
-Гога с отрезанным ухом. Дюрер считается основоположником автопортрета
-как жанра. Про анекдот, я надеюсь, ничего объяснять не надо.</Comments>
+<Authors>Александр Кудрявцев (Николаев)</Authors>
+<Sources>С. Лем. Футурологический конгресс: Повесть. Осмотр на месте: Роман.
+Пьесы о профессоре Тарантоге. // Собрание сочинений в 10 томах. - Т. 8.
+- М.: Текст, 1994. - С. 116.</Sources>
+<Comments>&quot;Хронорх&quot; - палиндром.</Comments>
 <Rating/>
 <RatingNumber/>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
 <parent_text_id/>
-<ParentTextId>ukrbr06.3</ParentTextId>
-<tourId>65934</tourId>
-<tournamentId>692</tournamentId>
-<tourTitle>Второй этап</tourTitle>
-<tournamentTitle>VIII Чемпионат Украины по брэйн-рингу (Днепропетровск)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2006-04-22</tourPlayedAt>
-<tournamentPlayedAt>2006-04-22</tournamentPlayedAt>
-<tourPlayedAt2>2006-04-22</tourPlayedAt2>
-<tournamentPlayedAt2>2006-04-22</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>ashafb99.3</tourFileName>
-<tournamentFileName>ashafb99.txt</tournamentFileName>
-<QuestionId>659703</QuestionId>
-<ParentId>39318</ParentId>
-<Number>1</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>ashafb99.3-1</TextId>
-<Question>У китайцев - &quot;единственная неба&quot;, у римлян - Трамонтана, а греки
-называли ее &quot;финикийской&quot;. А как ее называем мы?</Question>
-<Answer>Полярная звезда.</Answer>
-<PassCriteria/>
-<Authors>Борис Шойхет (Кишинев - Франкфурт-на-Майне)</Authors>
-<Sources>Коваленко А.П. &quot;Приключения путеводной стрелки&quot;. М., &quot;Мысль&quot;, 1991 г.,
-стр. 22, 72.</Sources>
-<Comments>Известно и Трамонтано (с &quot;о&quot; на конце) - северный ветер. Интересные
-варианты ответов: водка и азбука.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>ashafb99.3</parent_text_id>
-<ParentTextId>ashafb99.3</ParentTextId>
-<tourId>39318</tourId>
-<tournamentId>317</tournamentId>
-<tourTitle>Тур 2</tourTitle>
-<tournamentTitle>Ашаффенбург-99</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>1999-04-03</tourPlayedAt>
-<tournamentPlayedAt>1999-04-03</tournamentPlayedAt>
-<tourPlayedAt2>1999-04-03</tourPlayedAt2>
-<tournamentPlayedAt2>1999-04-03</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>hallow16.3</tourFileName>
-<tournamentFileName>hallow16.txt</tournamentFileName>
-<QuestionId>724523</QuestionId>
-<ParentId>43416</ParentId>
-<Number>12</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>hallow16.3-12</TextId>
-<Question>&quot;Не надо портить ЕЮ хорошую картину&quot; - фраза, приписываемая
-постимпрессионисту Анри Матиссу. Впрочем, непонятно, ОНА ли это.
-Назовите ЕЕ.</Question>
-<Answer>Правда.</Answer>
-<PassCriteria>Истина.</PassCriteria>
-<Authors>Александр Коробейников (Саратов)</Authors>
-<Sources>http://newforum.gramota.ru/viewtopic.php?f=13&amp;t=1925&amp;start=2360#p358295</Sources>
-<Comments>Матисс выступал против чрезмерного реализма в искусстве. Однако
-непонятно, говорил ли он именно эту фразу.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>hallow16.3</parent_text_id>
-<ParentTextId>hallow16.3</ParentTextId>
-<tourId>43416</tourId>
-<tournamentId>24441</tournamentId>
-<tourTitle>3 тур</tourTitle>
-<tournamentTitle>Синхронный турнир &quot;Кубок Хэллоуина - 2016&quot;</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2016-10-28</tourPlayedAt>
-<tournamentPlayedAt>2016-10-28</tournamentPlayedAt>
-<tourPlayedAt2>2016-10-28</tourPlayedAt2>
-<tournamentPlayedAt2>2016-10-28</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName/>
-<tournamentFileName>nata01.txt</tournamentFileName>
-<QuestionId>1097111</QuestionId>
-<ParentId>64117</ParentId>
-<Number>44</Number>
-<Type>Л</Type>
-<TypeNum>4</TypeNum>
-<TextId>nata01.1-44</TextId>
-<Question>   Идет на улице разборка:
-   Кого-то мой миленок бьет;
-   [...
-   ...]</Question>
-<Answer>   На нем защитна гимнастерка,
-   Она с ума меня сведет.</Answer>
-<PassCriteria/>
-<Authors>Сергей Шоргин</Authors>
-<Sources>Песня &quot;Вот кто-то с горочки спустился&quot;.</Sources>
-<Comments/>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>nata01.1</ParentTextId>
-<tourId>64117</tourId>
-<tournamentId>3783</tournamentId>
-<tourTitle>1</tourTitle>
-<tournamentTitle>Бескрылки от Наташи, 2001</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2001-01-01</tourPlayedAt>
-<tournamentPlayedAt>2001-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2001-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>2001-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>don10.2</tourFileName>
-<tournamentFileName>don10.txt</tournamentFileName>
-<QuestionId>1144437</QuestionId>
-<ParentId>66706</ParentId>
-<Number>5</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>don10.2-5</TextId>
-<Question>(pic: 20100152.jpg)
-   В названии этой породы собак есть слово, означающее &quot;ИКС&quot;. От слова,
-означающего ИКС на другом языке, образовано название футбольного клуба,
-который восемь раз становился чемпионом своей страны. Назовите эту
-страну.</Question>
-<Answer>Узбекистан.</Answer>
-<PassCriteria/>
-<Authors>Алексей Богословский (Санкт-Петербург)</Authors>
-<Sources>   1. http://www.sobaka.info/new/common/breeds.php?id=707&amp;letter=%CA
-   2. http://ru.wikipedia.org/wiki/Пахтакор_(футбольный_клуб)</Sources>
-<Comments>Собака эта, как вы видите, белая и пушистая. Она называется
-котОн-де-тулеАр. &quot;Котон&quot; по-французски - хлопок. Он тоже белый и
-пушистый. Чемпионом Узбекистана восемь раз становился клуб &quot;Пахтакор&quot;
-(что в переводе означает &quot;сборщик хлопка&quot;).</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>don10.2</ParentTextId>
-<tourId>66706</tourId>
-<tournamentId>2508</tournamentId>
+<ParentTextId>ierusa07.3</ParentTextId>
+<tourId>62053</tourId>
+<tournamentId>1680</tournamentId>
 <tourTitle>2 тур</tourTitle>
-<tournamentTitle>&quot;Благородный Дон - 2010&quot; (Ростов-на-Дону)</tournamentTitle>
+<tournamentTitle>1-й Международный Кубок Иерусалима</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>2010-05-08</tourPlayedAt>
-<tournamentPlayedAt>2010-05-08</tournamentPlayedAt>
-<tourPlayedAt2>2010-05-08</tourPlayedAt2>
-<tournamentPlayedAt2>2010-05-08</tournamentPlayedAt2>
+<tourPlayedAt>2007-05-18</tourPlayedAt>
+<tournamentPlayedAt>2007-05-18</tournamentPlayedAt>
+<tourPlayedAt2>2007-05-18</tourPlayedAt2>
+<tournamentPlayedAt2>2007-05-18</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName>goroda12.4</tourFileName>
-<tournamentFileName>goroda12.txt</tournamentFileName>
-<QuestionId>714436</QuestionId>
-<ParentId>42856</ParentId>
-<Number>2</Number>
+<tourFileName>okmar14.11</tourFileName>
+<tournamentFileName>okmar14.txt</tournamentFileName>
+<QuestionId>1124936</QuestionId>
+<ParentId>65625</ParentId>
+<Number>13</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>goroda12.4-2</TextId>
-<Question>Несомненно талантливый актер был номинирован на 57-ю премию &quot;Оскар&quot; за
-лучшую мужскую роль, но не получил ее. Премию получил другой актер,
-снявшийся в том же фильме и вложивший в роль много труда. Кого играли
-эти актеры.</Question>
-<Answer>Моцарт, Сальери.</Answer>
-<PassCriteria>В любом порядке.</PassCriteria>
-<Authors>Марина Ермак, Вадим Ермак</Authors>
-<Sources>http://en.wikipedia.org/wiki/Amadeus_(film)#United_States</Sources>
-<Comments>Речь идет о фильме &quot;Амадей&quot;, в котором изображено соперничество
-талантливого Моцарта и трудолюбивого Сальери. При жизни Антонио Сальери
-тоже пользовался бОльшим признанием, чем Моцарт.</Comments>
-<Rating>164/915</Rating>
-<RatingNumber>5.25676</RatingNumber>
-<Complexity>4</Complexity>
+<TextId>okmar14.11-13</TextId>
+<Question>Когда у Евгения Ловчева спросили, кто бы мог получить Золотой мяч 2013
+года от России, он в присущей ему ироничной манере ответил, используя
+название бального танца. А теперь и вы опробуйте воспроизвести ответ
+язвительного Ловчева.</Question>
+<Answer>Ирина Шейк.</Answer>
+<PassCriteria/>
+<Authors>Владимир Ермолин (Архангельск)</Authors>
+<Sources>   1. http://www.sovsport.ru/news/text-item/675266
+   2. http://dic.academic.ru/dic.nsf/enc3p/328142/
+   3. http://ru.wikipedia.org/wiki/Шейк,_Ирина_Валерьевна</Sources>
+<Comments>Российская модель, подруга португальского футболиста Криштиану Роналду.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>goroda12.4</parent_text_id>
-<ParentTextId>goroda12.4</ParentTextId>
-<tourId>42856</tourId>
-<tournamentId>835</tournamentId>
-<tourTitle>3 тур</tourTitle>
-<tournamentTitle>Кубок городов - 2012</tournamentTitle>
+<parent_text_id/>
+<ParentTextId>okmar14.11</ParentTextId>
+<tourId>65625</tourId>
+<tournamentId>2176</tournamentId>
+<tourTitle>11 тур. &quot;Пингвины&quot; (Архангельск)</tourTitle>
+<tournamentTitle>Окский марафон - 2014 (Пущино)</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>2012-04-01</tourPlayedAt>
-<tournamentPlayedAt>2012-04-01</tournamentPlayedAt>
-<tourPlayedAt2>2012-04-01</tourPlayedAt2>
-<tournamentPlayedAt2>2012-04-01</tournamentPlayedAt2>
+<tourPlayedAt>2014-02-01</tourPlayedAt>
+<tournamentPlayedAt>2014-02-01</tournamentPlayedAt>
+<tourPlayedAt2>2014-02-01</tourPlayedAt2>
+<tournamentPlayedAt2>2014-02-01</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>okcher15.1</tourFileName>
+<tournamentFileName>okcher15.txt</tournamentFileName>
+<QuestionId>831873</QuestionId>
+<ParentId>49560</ParentId>
+<Number>9</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>okcher15.1-9</TextId>
+<Question>[Ведущему: &quot;blind&quot; читается &quot;блайнд&quot;.]
+   Шахматист Джордж Колтановски тоже прославился игрой вслепую. В статье
+&quot;Лия Колтановски - королева шахматного короля&quot; слово &quot;blind&quot; в первый
+раз встречается перед ЭТИМ СЛОВОМ. Напишите ЭТО СЛОВО или его перевод на
+русский язык.</Question>
+<Answer>Date.</Answer>
+<PassCriteria>Свидание.</PassCriteria>
+<Authors>Михаил Перлин</Authors>
+<Sources>   1. http://en.wikipedia.org/wiki/George_Koltanowski
+   2. http://en.wikipedia.org/wiki/Blindfold_chess
+   3. http://www.sfgate.com/bayarea/article/Leah-Koltanowski-chess-king-s-queen-2572631.php</Sources>
+<Comments>Лия Колтановски - жена Джорджа Колтановски. Забавно, что их первое
+свидание было свиданием вслепую. &quot;В первый раз встречается&quot; -
+филигранная подсказка.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>okcher15.1</parent_text_id>
+<ParentTextId>okcher15.1</ParentTextId>
+<tourId>49560</tourId>
+<tournamentId>20152</tournamentId>
+<tourTitle>1 тур</tourTitle>
+<tournamentTitle>III Открытый Кубок Черноземья (Воронеж)</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2015-06-06</tourPlayedAt>
+<tournamentPlayedAt>2015-06-06</tournamentPlayedAt>
+<tourPlayedAt2>2015-06-06</tourPlayedAt2>
+<tournamentPlayedAt2>2015-06-06</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
 <tourFileName/>
-<tournamentFileName>kievbr08.txt</tournamentFileName>
-<QuestionId>753674</QuestionId>
-<ParentId>45071</ParentId>
-<Number>67</Number>
-<Type>Б</Type>
-<TypeNum>2</TypeNum>
-<TextId>kievbr08.1-67</TextId>
-<Question>Некое английское слово имеет два основных значения. В одном из них -
-&quot;углубленное открытое помещение в средней или кормовой части палубы для
-рулевого и пассажиров&quot; - оно вошло и в русский язык. Во втором -
-когда-то основном - значении это английское слово означает площадку для
-некоего развлечения. Назовите это развлечение.</Question>
-<Answer>Петушиные бои.</Answer>
-<PassCriteria/>
-<Authors>Дмитрий Борок (Самара)</Authors>
-<Sources>   1. Macmillan English Dictionary for Advanced Learners. ISBN:
-0-333-99093-5. P. 261.
-   2. Большая энциклопедия Кирилла и Мефодия - 2003 (10 CD). Ст.
-&quot;Кокпит&quot;.</Sources>
-<Comments>Это слово &quot;cockpit&quot; [кокпит]. Cock - петух по-английски.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>kievbr08.1</parent_text_id>
-<ParentTextId>kievbr08.1</ParentTextId>
-<tourId>45071</tourId>
-<tournamentId>1756</tournamentId>
-<tourTitle>1</tourTitle>
-<tournamentTitle>Чемпионат Киева по брэйн-рингу</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2008-02-03</tourPlayedAt>
-<tournamentPlayedAt>2008-02-03</tournamentPlayedAt>
-<tourPlayedAt2>2008-02-03</tourPlayedAt2>
-<tournamentPlayedAt2>2008-02-03</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>mgp9899.5</tourFileName>
-<tournamentFileName>mgp9899.txt</tournamentFileName>
-<QuestionId>801463</QuestionId>
-<ParentId>47731</ParentId>
-<Number>6</Number>
+<tournamentFileName>tula4-94.txt</tournamentFileName>
+<QuestionId>915546</QuestionId>
+<ParentId>54221</ParentId>
+<Number>131</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>mgp9899.5-6</TextId>
-<Question>В описании Соловья-Разбойника в одной сказке Эдуарда Успенского особых
-примет нет, но упоминается некая анатомическая особенность, из которой
-мы можем заключить о его скверном расположении духа по утрам. Чем же
-отличался Соловей-Разбойник от нормального существа?</Question>
-<Answer>Обе ноги имел левые.</Answer>
+<TextId>tula4-94.1-131</TextId>
+<Question>Огромной популярностью они стали пользоваться в Японии во время
+нефтяного кризиса в середине 70-х гг., а уже к середине 80-х гг. их
+стало так много, что один приходился на каждых двух японцев. Назовите
+их.</Question>
+<Answer>Велосипеды.</Answer>
 <PassCriteria/>
-<Authors>Дмитрий Лурье</Authors>
-<Sources>Успенский Э. Вниз по волшебной реке - М.: Самовар, 1998, с. 39.</Sources>
-<Comments>Ответ &quot;Не имел правой ноги&quot; - неточен и не принимается.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>mgp9899.5</parent_text_id>
-<ParentTextId>mgp9899.5</ParentTextId>
-<tourId>47731</tourId>
-<tournamentId>1886</tournamentId>
-<tourTitle>5 тур. Команда &quot;Неспроста&quot; (Анатолий Белкин)</tourTitle>
-<tournamentTitle>Кубок Москвы по ЧГК. Гран-При сезона 1998-1999 годов</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>1999-01-01</tourPlayedAt>
-<tournamentPlayedAt>1999-01-01</tournamentPlayedAt>
-<tourPlayedAt2>1999-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>1999-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>miptbr99.8</tourFileName>
-<tournamentFileName>miptbr99.txt</tournamentFileName>
-<QuestionId>804611</QuestionId>
-<ParentId>47971</ParentId>
-<Number>5</Number>
-<Type>Б</Type>
-<TypeNum>2</TypeNum>
-<TextId>miptbr99.8-5</TextId>
-<Question>Он, безусловно, является самым известным человеком на Земле. Его знают
-практически все взрослые, а в некоторых странах и почти все дети. Я
-думаю, вы без труда скажете, сколько ему сейчас было бы лет.</Question>
-<Answer>1998 или 1999.</Answer>
-<PassCriteria/>
-<Authors>Константин Баяндин (Долгопрудный)</Authors>
+<Authors>Сергей Козлов</Authors>
 <Sources/>
 <Comments/>
 <Rating/>
@@ -382,315 +187,358 @@
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>miptbr99.8</parent_text_id>
-<ParentTextId>miptbr99.8</ParentTextId>
-<tourId>47971</tourId>
-<tournamentId>2138</tournamentId>
-<tourTitle>Ж</tourTitle>
-<tournamentTitle>Кубок &quot;Физтех-99&quot;. Брэйн-ринг.</tournamentTitle>
+<parent_text_id>tula4-94.1</parent_text_id>
+<ParentTextId>tula4-94.1</ParentTextId>
+<tourId>54221</tourId>
+<tournamentId>36</tournamentId>
+<tourTitle>1</tourTitle>
+<tournamentTitle>Вопросы Сергея Козлова, Тула (601-800)</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>1999-11-20</tourPlayedAt>
-<tournamentPlayedAt>1999-11-20</tournamentPlayedAt>
-<tourPlayedAt2>1999-11-20</tourPlayedAt2>
-<tournamentPlayedAt2>1999-11-20</tournamentPlayedAt2>
+<tourPlayedAt>1994-12-01</tourPlayedAt>
+<tournamentPlayedAt>1994-12-01</tournamentPlayedAt>
+<tourPlayedAt2>1994-12-01</tourPlayedAt2>
+<tournamentPlayedAt2>1994-12-01</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName>pliga33.2</tourFileName>
-<tournamentFileName>pliga33.txt</tournamentFileName>
-<QuestionId>855276</QuestionId>
-<ParentId>50551</ParentId>
+<tourFileName>antar02.2</tourFileName>
+<tournamentFileName>antar02.txt</tournamentFileName>
+<QuestionId>657473</QuestionId>
+<ParentId>39185</ParentId>
+<Number>3</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>antar02.2-3</TextId>
+<Question>После &quot;Моста&quot; ИХ имена стали для многих синонимом Настоящей Любви На Всю
+Жизнь. Однако в 1999 году ОНИ развелись, а некоторое время спустя ОН
+женился в третий раз. А какой музыкант назвал свой альбом так же, как ОН
+- одну из своих книг?</Question>
+<Answer>Элтон Джон (The One)</Answer>
+<PassCriteria/>
+<Authors>Дмитрий Иванов</Authors>
+<Sources/>
+<Comments>Речь в вопросе идет о Ричарде Бахе (авторе книг &quot;Мост через вечность&quot; и
+&quot;Единственная&quot;), и Лесли Пэрриш-Бах.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>antar02.2</parent_text_id>
+<ParentTextId>antar02.2</ParentTextId>
+<tourId>39185</tourId>
+<tournamentId>1124</tournamentId>
+<tourTitle>2 тур</tourTitle>
+<tournamentTitle>Кубок Антарктиды - 2002</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2002-03-03</tourPlayedAt>
+<tournamentPlayedAt>2002-03-03</tournamentPlayedAt>
+<tourPlayedAt2>2002-03-03</tourPlayedAt2>
+<tournamentPlayedAt2>2002-03-03</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>hodor04.1</tourFileName>
+<tournamentFileName>hodor04.txt</tournamentFileName>
+<QuestionId>734397</QuestionId>
+<ParentId>43905</ParentId>
+<Number>4</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>hodor04.1-4</TextId>
+<Question>В одной из популярных книг по лингвистике ставится вопрос &quot;Так все-таки,
+ИХ 5 или 6?&quot;. Как обоснование последней точки зрения, приводится
+узкоспециализированный лингвистический термин, характеризующий черты
+диалекта, к примеру, уральских казаков. Мы не просим назвать ИХ,
+воспроизведите этот термин.</Question>
+<Answer>Ыканье.</Answer>
+<PassCriteria/>
+<Authors>Антон &quot;Ы&quot; Ходоренко</Authors>
+<Sources>   1. А.И. Моисеев. &quot;Звуки и буквы, буквы и цифры...&quot;. М.:
+&quot;Просвещение&quot;, стр. 85-86.
+   2. &quot;Песни уральских казаков&quot;, от автора, Екатеринбург, &quot;СФЕРА&quot;, 1998.</Sources>
+<Comments>Речь идет о количестве гласных фонем в русском языке. Гласная фонема
+может стоять под ударением в начале слова.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>hodor04.1</parent_text_id>
+<ParentTextId>hodor04.1</ParentTextId>
+<tourId>43905</tourId>
+<tournamentId>1649</tournamentId>
+<tourTitle>1 тур</tourTitle>
+<tournamentTitle>&quot;АНТОШЫНО ГОНЕВО&quot; на ПартиЗанкской поляне 2004 года</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2004-08-18</tourPlayedAt>
+<tournamentPlayedAt>2004-08-18</tournamentPlayedAt>
+<tourPlayedAt2>2004-08-18</tourPlayedAt2>
+<tournamentPlayedAt2>2004-08-18</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>novosi08.4</tourFileName>
+<tournamentFileName>novosi08.txt</tournamentFileName>
+<QuestionId>979549</QuestionId>
+<ParentId>57958</ParentId>
+<Number>20</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>novosi08.4-20</TextId>
+<Question>Википедия пишет о НЕМ так: &quot;В основе композиции лежит виток
+раскручивающейся спирали. Рельефная пластика тела передана очень
+выразительно. Напряженность роднит его с &quot;Дискоболом&quot; Мирона, а волевая
+устремленность, читающаяся в чертах лица, - с &quot;Давидом&quot; Микеланджело&quot;. А
+что у НЕГО в руках?</Question>
+<Answer>Булыжник.</Answer>
+<PassCriteria/>
+<Authors>Семен Родыгин</Authors>
+<Sources>http://ru.wikipedia.org/wiki/Булыжник_%E2%80%94_оружие_пролетариата</Sources>
+<Comments>Речь о известной скульптуре И. Шадра.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>novosi08.4</parent_text_id>
+<ParentTextId>novosi08.4</ParentTextId>
+<tourId>57958</tourId>
+<tournamentId>2254</tournamentId>
+<tourTitle>4 тур. &quot;Т-400&quot; (Томск) и &quot;Вояджер&quot; (Новосибирск)</tourTitle>
+<tournamentTitle>IX Чемпионат Новосибирска по ЧГК (2008/09)</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2008-01-01</tourPlayedAt>
+<tournamentPlayedAt>2008-01-01</tournamentPlayedAt>
+<tourPlayedAt2>2008-01-01</tourPlayedAt2>
+<tournamentPlayedAt2>2008-01-01</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>znat09br.14</tourFileName>
+<tournamentFileName>znat09br.txt</tournamentFileName>
+<QuestionId>1042444</QuestionId>
+<ParentId>61244</ParentId>
 <Number>7</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>pliga33.2-7</TextId>
-<Question>Чтобы делать это правильно, необходимо уделять этому время каждый день.
-Например, американец Джордж Эдлер делал это на протяжении 78 лет своей
-жизни, а у англичанина Баскервиля этого насчитывается 163 штуки, за что
-оба они и попали в Книгу рекордов Гиннесса. А кто, согласно официальной
-версии, не делал этого на войне?</Question>
-<Answer>Л.И. Брежнев.</Answer>
+<Type>Б</Type>
+<TypeNum>2</TypeNum>
+<TextId>znat09br.14-7</TextId>
+<Question>Индейцы считали, что их умершие предки ДЕЛАЮТ ЭТО с вечера и до утра.
+Костюмы одного политика, который регулярно ДЕЛАЛ ЭТО, постоянно
+находились в ремонте из-за дырок. Какой глагол мы заменили на &quot;ДЕЛАТЬ
+ЭТО&quot;?</Question>
+<Answer>Курить.</Answer>
 <PassCriteria/>
-<Authors>Евгений Мартьянов</Authors>
-<Sources>   1. Книга рекордов Гиннесса. - М.: Прогресс, 1991. - С. 153.
-   2. Л.И. Брежнев. Малая Земля.</Sources>
-<Comments>В советское время книга Л.И. Брежнева &quot;Малая Земля&quot; считалась
-автобиографической, а начиналась она словами: &quot;Дневников на войне я не
-вел...&quot;.</Comments>
+<Authors>Евгений Ярков (Тюмень)</Authors>
+<Sources>   1. В. Демин. Тайны вселенной.
+   2. http://www.publish.diaspora.ru/beer/articles/tabak003_2.shtml</Sources>
+<Comments>Индейцы считали, что звезды - огоньки сигар умерших предков. Черчилль
+постоянно курил сигары и прожигал свои костюмы.</Comments>
 <Rating/>
 <RatingNumber/>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>pliga33.2</parent_text_id>
-<ParentTextId>pliga33.2</ParentTextId>
-<tourId>50551</tourId>
-<tournamentId>2379</tournamentId>
-<tourTitle>1 тур</tourTitle>
-<tournamentTitle>III Кубок Поволжской Лиги. 3 тур. Клуб &quot;Группа товарищей&quot; (Ульяновск)</tournamentTitle>
+<parent_text_id>znat09br.14</parent_text_id>
+<ParentTextId>znat09br.14</ParentTextId>
+<tourId>61244</tourId>
+<tournamentId>135</tournamentId>
+<tourTitle>1/8 финала. Бой 2</tourTitle>
+<tournamentTitle>&quot;Знатокиада - 2009&quot; (Всемирные игры знатоков) (Эйлат). Брейн-ринг</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>2000-03-12</tourPlayedAt>
-<tournamentPlayedAt>2000-03-12</tournamentPlayedAt>
-<tourPlayedAt2>2000-03-12</tourPlayedAt2>
-<tournamentPlayedAt2>2000-03-12</tournamentPlayedAt2>
+<tourPlayedAt>2009-10-30</tourPlayedAt>
+<tournamentPlayedAt>2009-10-30</tournamentPlayedAt>
+<tourPlayedAt2>2009-10-30</tourPlayedAt2>
+<tournamentPlayedAt2>2009-10-30</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName>okno12.1</tourFileName>
-<tournamentFileName>okno12.txt</tournamentFileName>
-<QuestionId>1015452</QuestionId>
-<ParentId>59830</ParentId>
-<Number>10</Number>
-<Type>ЧД</Type>
-<TypeNum>1</TypeNum>
-<TextId>okno12.1-10</TextId>
-<Question>В 2006 году на околоземную орбиту был отправлен первый в истории
-космический отель Genesis I. В шутку аппарат называли &quot;Отелем для НИХ&quot; -
-ведь постояльцев-людей в этой надувной конструкции не было... Гость
-отеля &quot;Аква&quot; в Мармарисе вспоминал, что на месте убитого ЕГО он нашел
-корзину фруктов, бутылку мартини и письмо с извинениями. Назовите ЕГО.</Question>
-<Answer>Таракан.</Answer>
-<PassCriteria/>
-<Authors>Андрис Акепсимайтис (Вильнюс)</Authors>
-<Sources>   1. http://www.membrana.ru/particle/3251
-   2. http://ftour.otzyv.ru/read.php?id=63958</Sources>
-<Comments>В настоящих отелях эти насекомые имеются в изобилии, а в орбитальный их
-специально запустили для проверки воздействия радиации и других
-факторов.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>okno12.1</parent_text_id>
-<ParentTextId>okno12.1</ParentTextId>
-<tourId>59830</tourId>
-<tournamentId>59772</tournamentId>
-<tourTitle>1 тур</tourTitle>
-<tournamentTitle>Юношеский турнир &quot;Окно в Европу - 2012&quot; (Гомель)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2012-12-01</tourPlayedAt>
-<tournamentPlayedAt>2012-12-01</tournamentPlayedAt>
-<tourPlayedAt2>2012-12-01</tourPlayedAt2>
-<tournamentPlayedAt2>2012-12-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>marafo12.6</tourFileName>
-<tournamentFileName>marafo12.txt</tournamentFileName>
-<QuestionId>1128939</QuestionId>
-<ParentId>65857</ParentId>
-<Number>23</Number>
+<tourFileName>nester14.3</tourFileName>
+<tournamentFileName>nester14.txt</tournamentFileName>
+<QuestionId>1142418</QuestionId>
+<ParentId>66575</ParentId>
+<Number>11</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>marafo12.6-23</TextId>
-<Question>В 2004 году в честь сороковой годовщины свадьбы Венди и Питер
-отправились в Гваделупу, где опустились в клетке на дно моря и провели
-несколько часов среди многочисленных &quot;пловцов&quot;. Назовите фамилию
-упомянутой супружеской четы.</Question>
-<Answer>Бенчли.</Answer>
+<TextId>nester14.3-11</TextId>
+<Question>[Ведущему: дать командам примерно 10 секунд на ознакомление с текстом.]
+   &lt;раздатка&gt;
+   А. - Я был богатым, как раджа.
+   Б. - А я был беден.
+   Вместе. - Но на тот свет [ПРОПУСК]
+   Мы оба едем.
+   &lt;/раздатка&gt;
+   Перед вами шутливая эпитафия, написанная Редьярдом Киплингом.
+Восстановите два пропущенных нами слова, которые начинаются на одну и ту
+же букву.</Question>
+<Answer>&quot;... без багажа...&quot;.</Answer>
 <PassCriteria/>
-<Authors>Денис Сарканич (Одесса)</Authors>
-<Sources>   1. http://archivsf.narod.ru/1940/peter_benchley/index.htm
-   2. http://www.underwatertimes.com/news.php?article_id=73120485106</Sources>
-<Comments>Автор романа &quot;Челюсти&quot; и его романтичная супруга.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id/>
-<ParentTextId>marafo12.6</ParentTextId>
-<tourId>65857</tourId>
-<tournamentId>2312</tournamentId>
-<tourTitle>Вопросы 376-400</tourTitle>
-<tournamentTitle>XI Одесский марафон (777 вопросов)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2012-07-14</tourPlayedAt>
-<tournamentPlayedAt>2012-07-14</tournamentPlayedAt>
-<tourPlayedAt2>2012-07-14</tourPlayedAt2>
-<tournamentPlayedAt2>2012-07-14</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>wc15.6</tourFileName>
-<tournamentFileName>wc15.txt</tournamentFileName>
-<QuestionId>960502</QuestionId>
-<ParentId>56522</ParentId>
-<Number>6</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>wc15.6-6</TextId>
-<Question>(pic: 20150467.jpg)
-   ЕГО изобретатель применил битумное покрытие, предохраняющее от
-сырости, но не препятствующее притоку кислорода. Фотограф Елена
-Воробьёва назвала свой снимок &quot;ОН весны&quot;. Назовите ЕГО двумя словами.</Question>
-<Answer>Бикфордов шнур.</Answer>
-<PassCriteria/>
-<Authors>Александр Бучацкий (Самара)</Authors>
-<Sources>   1. http://ru.wikipedia.org/wiki/Огнепроводный_шнур
-   2. http://my.mail.ru/mail/elllene/photo/186/1679.html</Sources>
+<Authors>Константин Науменко (Киев)</Authors>
+<Sources>http://www.artsportal.ru/poetry/15807</Sources>
 <Comments/>
 <Rating/>
 <RatingNumber/>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>wc15.6</parent_text_id>
-<ParentTextId>wc15.6</ParentTextId>
-<tourId>56522</tourId>
-<tournamentId>124</tournamentId>
-<tourTitle>Финальный этап. 2 тур</tourTitle>
-<tournamentTitle>Чемпионат мира по ЧГК (Тбилиси, 2015)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2015-11-13</tourPlayedAt>
-<tournamentPlayedAt>2015-11-13</tournamentPlayedAt>
-<tourPlayedAt2>2015-11-13</tourPlayedAt2>
-<tournamentPlayedAt2>2015-11-13</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>lugan03.2</tourFileName>
-<tournamentFileName>lugan03.txt</tournamentFileName>
-<QuestionId>781846</QuestionId>
-<ParentId>46724</ParentId>
-<Number>14</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>lugan03.2-14</TextId>
-<Question>В интервью журналу &quot;Иностранная литература&quot; Милорад Павич рассказал, что
-у него есть много номеров этого журнала, причем Павич постоянно
-использует их в своем творчестве. Это связано с особенностями работы
-писателя над романами: ведь у &quot;Иностранной литературы&quot; широкие... Что?</Question>
-<Answer>Поля.</Answer>
-<PassCriteria/>
-<Authors>Ольга Неумывакина (Харьков)</Authors>
-<Sources>&quot;Иностранная литература&quot;, 2002, N 5.</Sources>
-<Comments>Павич использует их в качестве черновиков и для всяких заметок.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>lugan03.2</parent_text_id>
-<ParentTextId>lugan03.2</ParentTextId>
-<tourId>46724</tourId>
-<tournamentId>1835</tournamentId>
-<tourTitle>2 тур</tourTitle>
-<tournamentTitle>&quot;Майский жук - 2003&quot; (Луганск)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2003-05-24</tourPlayedAt>
-<tournamentPlayedAt>2003-05-24</tournamentPlayedAt>
-<tourPlayedAt2>2003-05-24</tourPlayedAt2>
-<tournamentPlayedAt2>2003-05-24</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>ukrbr11.1</tourFileName>
-<tournamentFileName>ukrbr11.txt</tournamentFileName>
-<QuestionId>938947</QuestionId>
-<ParentId>55183</ParentId>
-<Number>117</Number>
-<Type>Б</Type>
-<TypeNum>2</TypeNum>
-<TextId>ukrbr11.1-117</TextId>
-<Question>Считается, что первым ИМ являлся Иисус Христос. Затем данной проблемой
-заведовала церковь, практикуя самые разные способы: от нравоучений до
-принудительного сожжения. В православной церкви ЕГО работа называется
-отчитка. А как в католической?</Question>
-<Answer>Экзорцизм.</Answer>
-<PassCriteria/>
-<Authors>Борис Шойхет (Франкфурт-на-Майне)</Authors>
-<Sources>   1. http://shkolazhizni.ru/archive/0/n-45114/
-   2. http://ru.wikipedia.org/wiki/Экзорцизм</Sources>
-<Comments>Речь идет об изгнании бесов. Христиане считают, основываясь на Библии,
-что Иисус Христос излечил многих бесноватых. В Евангелии описано, как он
-излечил сильно одержимого, живущего в гробах, и вылетевшие из того бесы
-по повелению Иисуса вселились и убили стадо свиней, и власть бесов над
-людьми прекратилась.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>ukrbr11.1</parent_text_id>
-<ParentTextId>ukrbr11.1</ParentTextId>
-<tourId>55183</tourId>
-<tournamentId>697</tournamentId>
-<tourTitle>Первый этап</tourTitle>
-<tournamentTitle>XIII Чемпионат Украины по брэйн-рингу (Харьков)</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2011-04-23</tourPlayedAt>
-<tournamentPlayedAt>2011-04-23</tournamentPlayedAt>
-<tourPlayedAt2>2011-04-23</tourPlayedAt2>
-<tournamentPlayedAt2>2011-04-23</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>okmar18.2</tourFileName>
-<tournamentFileName>okmar18.txt</tournamentFileName>
-<QuestionId>1173892</QuestionId>
-<ParentId>68224</ParentId>
-<Number>22</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>okmar18.2-22</TextId>
-<Question>В известной игре ОНА называется &quot;Усердный бобер&quot;. Гуннар Хансен,
-снявшийся в фильме, в названии которого упоминается ОНА, в 11 лет
-переехал вместе с семьей. В какой штат?</Question>
-<Answer>Техас.</Answer>
-<PassCriteria/>
-<Authors>Серафим Шибанов (Москва)</Authors>
-<Sources>   1. https://ru.wikipedia.org/wiki/Doom
-   2. https://en.wikipedia.org/wiki/Gunnar_Hansen</Sources>
-<Comments>Гуннар Хансен сыграл роль маньяка Кожаное лицо в знаменитом фильме
-ужасов &quot;Техасская резня бензопилой&quot;.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
 <parent_text_id/>
-<ParentTextId>okmar18.2</ParentTextId>
-<tourId>68224</tourId>
-<tournamentId>66739</tournamentId>
-<tourTitle>2 тур. &quot;Палец в носу застрял&quot; (Москва)</tourTitle>
-<tournamentTitle>Окский марафон - 2018 (Пущино)</tournamentTitle>
+<ParentTextId>nester14.3</ParentTextId>
+<tourId>66575</tourId>
+<tournamentId>1876</tournamentId>
+<tourTitle>3 тур</tourTitle>
+<tournamentTitle>&quot;Нестерка - 2014&quot; (Минск)</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>2018-01-27</tourPlayedAt>
-<tournamentPlayedAt>2018-01-27</tournamentPlayedAt>
-<tourPlayedAt2>2018-01-27</tourPlayedAt2>
-<tournamentPlayedAt2>2018-01-27</tournamentPlayedAt2>
+<tourPlayedAt>2014-10-25</tourPlayedAt>
+<tournamentPlayedAt>2014-10-25</tournamentPlayedAt>
+<tourPlayedAt2>2014-10-25</tourPlayedAt2>
+<tournamentPlayedAt2>2014-10-25</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName>konsis95.6</tourFileName>
-<tournamentFileName>konsis95.txt</tournamentFileName>
-<QuestionId>761292</QuestionId>
-<ParentId>45572</ParentId>
-<Number>24</Number>
+<tourFileName>haif1l01.3</tourFileName>
+<tournamentFileName>haif1l01.txt</tournamentFileName>
+<QuestionId>716844</QuestionId>
+<ParentId>43026</ParentId>
+<Number>23</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>konsis95.6-24</TextId>
-<Question>Из кого состоит комитет, присуждающий премию под названием &quot;Фемина&quot;,
-которая ежегодно присуждается во Франции?</Question>
-<Answer>Из женщин.</Answer>
+<TextId>haif1l01.3-23</TextId>
+<Question>Из российского армейского юмора. Приходит прапорщик под утро домой.
+Начинает раздеваться. Жена: &quot;А почему у тебя помада на трусах?&quot;
+Внимание, вопрос: что отвечает прапорщик?</Question>
+<Answer>&quot;На губе сидел&quot;.</Answer>
+<PassCriteria/>
+<Authors>Леня Папков</Authors>
+<Sources>http://smexxx.nm.ru/anekdot/army5.html</Sources>
+<Comments/>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>haif1l01.3</parent_text_id>
+<ParentTextId>haif1l01.3</ParentTextId>
+<tourId>43026</tourId>
+<tournamentId>2939</tournamentId>
+<tourTitle>Тур 4. Команда &quot;ЛавиNа&quot;.</tourTitle>
+<tournamentTitle>7-й Чемпионат Хайфского клуба. Первая лига</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2001-04-28</tourPlayedAt>
+<tournamentPlayedAt>2001-01-27</tournamentPlayedAt>
+<tourPlayedAt2>2001-04-28</tourPlayedAt2>
+<tournamentPlayedAt2>2001-01-27</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>iche14-1.1</tourFileName>
+<tournamentFileName>iche14-1.txt</tournamentFileName>
+<QuestionId>737362</QuestionId>
+<ParentId>44020</ParentId>
+<Number>6</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>iche14-1.1-6</TextId>
+<Question>Действие одного из романов Харуки Мураками происходит поочередно в
+реальном Токио и в фантазиях главного героя. Рассказывая о работе над
+романом, Мураками пишет о своеобразном разделении, при этом в описании
+мира фантазий упоминается ОНО. Назовите ЕГО двумя словами, начинающимися
+на одну и ту же букву.</Question>
+<Answer>Правое полушарие.</Answer>
+<PassCriteria/>
+<Authors>Максим Мерзляков (Воронеж)</Authors>
+<Sources>Х. Мураками. Страна Чудес без тормозов и Конец света.
+http://www.royallib.com/read/murakami_haruki/strana_chudes_bez_tormozov_i_konets_sveta.html#0</Sources>
+<Comments>Мураками рассказывает, что при написании романа разделил свое сознание
+на две части и левым полушарием писал реальные части романа, а правым -
+фантастические.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>iche14-1.1</parent_text_id>
+<ParentTextId>iche14-1.1</ParentTextId>
+<tourId>44020</tourId>
+<tournamentId>1157</tournamentId>
+<tourTitle>1 тур</tourTitle>
+<tournamentTitle>Синхронный турнир &quot;Кубок Ичеришехер&quot; - 2014/15. 1 этап</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2014-11-28</tourPlayedAt>
+<tournamentPlayedAt>2014-11-28</tournamentPlayedAt>
+<tourPlayedAt2>2014-11-28</tourPlayedAt2>
+<tournamentPlayedAt2>2014-11-28</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>rusch06.5</tourFileName>
+<tournamentFileName>rusch06.txt</tournamentFileName>
+<QuestionId>876372</QuestionId>
+<ParentId>51986</ParentId>
+<Number>3</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>rusch06.5-3</TextId>
+<Question>Ридингофобия заключается в страхе человека перед тем, о чем он только
+что прочитал. Один из персонажей фантастического рассказа Олега
+Овчинникова &quot;Ридингофобия&quot; выходит на улицу, где с трудом спасается от
+двух автомобилей. И это после того, как он всего лишь увидел титры
+известного кинофильма. Назовите этот фильм.</Question>
+<Answer>&quot;Волга-Волга&quot;.</Answer>
+<PassCriteria/>
+<Authors>Артем Матухно (Одесса)</Authors>
+<Sources>http://lib.align.ru/book/win/14424.html</Sources>
+<Comments/>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>rusch06.5</parent_text_id>
+<ParentTextId>rusch06.5</ParentTextId>
+<tourId>51986</tourId>
+<tournamentId>453</tournamentId>
+<tourTitle>5 тур</tourTitle>
+<tournamentTitle>6-й чемпионат России по ЧГК. Саранск</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2006-02-25</tourPlayedAt>
+<tournamentPlayedAt>2006-02-25</tournamentPlayedAt>
+<tourPlayedAt2>2006-02-25</tourPlayedAt2>
+<tournamentPlayedAt2>2006-02-25</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>kursk94.1</tourFileName>
+<tournamentFileName>kursk94.txt</tournamentFileName>
+<QuestionId>1149262</QuestionId>
+<ParentId>66912</ParentId>
+<Number>11</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>kursk94.1-11</TextId>
+<Question>Их происхождение связывали с ударами молний, выпадение росы,
+сгущением испарений. Один ученый определил их как &quot;травы и кустарники
+без цветов и плодов&quot;; другой назвал их &quot;...  изобретением дьявола,
+придуманным им для того, чтобы нарушать гармонию остальной природы и
+приводить в отчаяние исследователей.&quot; О чем идет речь?</Question>
+<Answer>О грибах.</Answer>
 <PassCriteria/>
 <Authors/>
 <Sources/>
@@ -700,112 +548,198 @@
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>konsis95.6</parent_text_id>
-<ParentTextId>konsis95.6</ParentTextId>
-<tourId>45572</tourId>
-<tournamentId>3521</tournamentId>
-<tourTitle>Шестая сотня</tourTitle>
-<tournamentTitle>Вопросы клуба &quot;Консистория&quot; для тренировок</tournamentTitle>
+<parent_text_id/>
+<ParentTextId>kursk94.1</ParentTextId>
+<tourId>66912</tourId>
+<tournamentId>3524</tournamentId>
+<tourTitle>Тур 1</tourTitle>
+<tournamentTitle>Мельников-Курск 1/2</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>1995-01-01</tourPlayedAt>
-<tournamentPlayedAt>1995-01-01</tournamentPlayedAt>
-<tourPlayedAt2>1995-01-01</tourPlayedAt2>
-<tournamentPlayedAt2>1995-01-01</tournamentPlayedAt2>
+<tourPlayedAt>1994-12-01</tourPlayedAt>
+<tournamentPlayedAt>1994-12-01</tournamentPlayedAt>
+<tourPlayedAt2>1994-12-01</tourPlayedAt2>
+<tournamentPlayedAt2>1994-12-01</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName>burda92.31</tourFileName>
-<tournamentFileName>burda92.txt</tournamentFileName>
-<QuestionId>1110930</QuestionId>
-<ParentId>64791</ParentId>
-<Number>24</Number>
+<tourFileName>mgp0708.7</tourFileName>
+<tournamentFileName>mgp0708.txt</tournamentFileName>
+<QuestionId>794967</QuestionId>
+<ParentId>47257</ParentId>
+<Number>14</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>burda92.31-24</TextId>
-<Question>Это может находиться на еде, на мыле, замазке, воске, и даже на
-свинцовых пломбах. Индийский царь Таскхацила оставлял это на
-государственной печати и советовал сыну с помощью этого проверять свои
-приказы на подлинность. Что это?</Question>
-<Answer>Отпечатки зубов.</Answer>
+<TextId>mgp0708.7-14</TextId>
+<Question>(pic: 20070320.jpg) (pic: 20070321.jpg)
+   Картина, изображение которой вы видите на рисунке, принадлежит кисти
+Павла Филонова. Если бы не человек, изображенный на фотографии, эта
+картина могла и не появиться. Назовите город, в котором не так давно был
+установлен памятник этому человеку.</Question>
+<Answer>Герника.</Answer>
 <PassCriteria/>
-<Authors>Борис Бурда</Authors>
+<Authors>Максим Богатов</Authors>
+<Sources>   1. http://www.staratel.com/pictures/rusavang/filonov/pic94.htm
+   2. http://www.lenta.ru/articles/2006/04/27/times/_Printed.htm</Sources>
+<Comments>Картина называются &quot;Налет&quot;. Журналист Джордж Стир написал статью, из
+которой мир узнал о Гернике. В 2006 году в Гернике Стиру был установлен
+памятник.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>mgp0708.7</parent_text_id>
+<ParentTextId>mgp0708.7</ParentTextId>
+<tourId>47257</tourId>
+<tournamentId>1895</tournamentId>
+<tourTitle>7 тур. Команда Бориса Гуревича</tourTitle>
+<tournamentTitle>Кубок Москвы по ЧГК. Гран-При сезона 2007/08 гг.</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2008-03-01</tourPlayedAt>
+<tournamentPlayedAt>2007-01-01</tournamentPlayedAt>
+<tourPlayedAt2>2008-03-01</tourPlayedAt2>
+<tournamentPlayedAt2>2007-01-01</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>mgucup12.1</tourFileName>
+<tournamentFileName>mgucup12.txt</tournamentFileName>
+<QuestionId>803029</QuestionId>
+<ParentId>47873</ParentId>
+<Number>6</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>mgucup12.1-6</TextId>
+<Question>Персонаж Джона Кольера делает свой вариант ЭТОГО ПРОИЗВЕДЕНИЯ. Так, в
+его варианте все родственники героини учились в Гарварде, а главный
+герой заявляет, что окончил Йель. Впрочем, на самом деле он тоже из
+Гарварда - это позволит добавить хэппи-энд. Кроме того, герой занимается
+альпинизмом - ведь одна из ключевых сцен должна разыграться на
+небоскребе. Назовите это произведение.</Question>
+<Answer>&quot;Ромео и Джульетта&quot;.</Answer>
+<PassCriteria/>
+<Authors>Михаил Иванов (Саратов)</Authors>
+<Sources>Дж. Кольер. Кино горит. http://lib.ru/INPROZ/KOLER/halfway.txt</Sources>
+<Comments>Сцена на балконе должна быть сценой на балконе небоскреба.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>mgucup12.1</parent_text_id>
+<ParentTextId>mgucup12.1</ParentTextId>
+<tourId>47873</tourId>
+<tournamentId>2051</tournamentId>
+<tourTitle>1 тур</tourTitle>
+<tournamentTitle>IV Открытый кубок МГУ (Москва)</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2012-11-24</tourPlayedAt>
+<tournamentPlayedAt>2012-11-24</tournamentPlayedAt>
+<tourPlayedAt2>2012-11-24</tourPlayedAt2>
+<tournamentPlayedAt2>2012-11-24</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName/>
+<tournamentFileName>tula5-95.txt</tournamentFileName>
+<QuestionId>915690</QuestionId>
+<ParentId>54222</ParentId>
+<Number>75</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>tula5-95.1-75</TextId>
+<Question>Один из старейших германских городов возник из римского военного лагеря
+в I веке до н.э. В 50 году он получил статус римской колонии и название
+Colonia Agrippinensis, так как здесь родилась мать Нерона Агриппина. Как
+сейчас называется этот город?</Question>
+<Answer>Кельн.</Answer>
+<PassCriteria/>
+<Authors>Сергей Козлов</Authors>
 <Sources/>
 <Comments/>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>tula5-95.1</parent_text_id>
+<ParentTextId>tula5-95.1</ParentTextId>
+<tourId>54222</tourId>
+<tournamentId>37</tournamentId>
+<tourTitle>1</tourTitle>
+<tournamentTitle>Вопросы Сергея Козлова, Тула (801-1000)</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>1995-06-01</tourPlayedAt>
+<tournamentPlayedAt>1995-06-01</tournamentPlayedAt>
+<tourPlayedAt2>1995-06-01</tourPlayedAt2>
+<tournamentPlayedAt2>1995-06-01</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>kaynoz18.2</tourFileName>
+<tournamentFileName>kaynoz18.txt</tournamentFileName>
+<QuestionId>1103426</QuestionId>
+<ParentId>64463</ParentId>
+<Number>2</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>kaynoz18.2-2</TextId>
+<Question>(pic: 20180217.jpg)
+   Внимание: надпись &quot;Верх&quot; указывает на правильную ориентацию
+раздаточного материала и не несет иного смысла.
+   Перед вами серия минималистичных постеров. Назовите произведение 1989
+года, которому посвящен средний постер.</Question>
+<Answer>&quot;Назад в будущее - 2&quot;.</Answer>
+<PassCriteria/>
+<Authors>Денис Дёмин (Санкт-Петербург)</Authors>
+<Sources>https://www.reddit.com/r/movies/comments/dzndc/back_to_the_future_minimalist_posters/</Sources>
+<Comments>Линии описывают перемещение главного персонажа во времени, включая
+альтернативную версию настоящего для героя 1985 года.</Comments>
 <Rating/>
 <RatingNumber/>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
 <parent_text_id/>
-<ParentTextId>burda92.31</ParentTextId>
-<tourId>64791</tourId>
-<tournamentId>14</tournamentId>
-<tourTitle>31 тур</tourTitle>
-<tournamentTitle>Тренировки Бориса Бурды. 1992</tournamentTitle>
+<ParentTextId>kaynoz18.2</ParentTextId>
+<tourId>64463</tourId>
+<tournamentId>64461</tournamentId>
+<tourTitle>2 тур</tourTitle>
+<tournamentTitle>Синхронный турнир &quot;Кубок Кайнозоя - 2018. Кубок Антропоцена&quot;</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>1992-09-07</tourPlayedAt>
-<tournamentPlayedAt>1992-01-01</tournamentPlayedAt>
-<tourPlayedAt2>1992-09-07</tourPlayedAt2>
-<tournamentPlayedAt2>1992-01-01</tournamentPlayedAt2>
+<tourPlayedAt>2018-06-23</tourPlayedAt>
+<tournamentPlayedAt>2018-06-23</tournamentPlayedAt>
+<tourPlayedAt2>2018-06-23</tourPlayedAt2>
+<tournamentPlayedAt2>2018-06-23</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName/>
-<tournamentFileName>120br.txt</tournamentFileName>
-<QuestionId>652869</QuestionId>
-<ParentId>38916</ParentId>
-<Number>41</Number>
-<Type>Б</Type>
-<TypeNum>2</TypeNum>
-<TextId>120br.1-41</TextId>
-<Question>На одном из постеров к фильму, снятому на основе сериала, тени главных
-героев пересекаются. Назовите этот фильм.</Question>
-<Answer>&quot;Секретные материалы: Хочу верить&quot;.</Answer>
-<PassCriteria>&quot;Секретные материалы&quot;; &quot;Секретные материалы - 2&quot;; &quot;The X-Files&quot;.</PassCriteria>
-<Authors>Игорь Волобуев (Донецк)</Authors>
-<Sources>http://www.kinopoisk.ru/picture/780346/</Sources>
-<Comments>Тени образуют букву &quot;X&quot;.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>120br.1</parent_text_id>
-<ParentTextId>120br.1</ParentTextId>
-<tourId>38916</tourId>
-<tournamentId>3587</tournamentId>
-<tourTitle>1</tourTitle>
-<tournamentTitle>120 вопросов для брэйн-ринга</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2014-01-29</tourPlayedAt>
-<tournamentPlayedAt>2014-01-29</tournamentPlayedAt>
-<tourPlayedAt2>2014-01-29</tourPlayedAt2>
-<tournamentPlayedAt2>2014-01-29</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>cel07-5.4</tourFileName>
-<tournamentFileName>cel07-5.txt</tournamentFileName>
-<QuestionId>679307</QuestionId>
-<ParentId>40653</ParentId>
-<Number>3</Number>
+<tourFileName>odessch2.3</tourFileName>
+<tournamentFileName>odessch2.txt</tournamentFileName>
+<QuestionId>830563</QuestionId>
+<ParentId>49508</ParentId>
+<Number>14</Number>
 <Type>Ч</Type>
 <TypeNum>1</TypeNum>
-<TextId>cel07-5.4-3</TextId>
-<Question>Моя подружка по ЖЖ Олханнинен утверждает, что в финском языке это слово
-вообще не имеет мужской ипостаси - только женскую. А вот на советских
-плакатах им интересуются враги и шпионы. Наконец, программа с таким
-названием позиционирует себя как виртуального собеседника, который
-обладает зачатками (искусственного) разума. Назовите этого собеседника.</Question>
-<Answer>Болтун.</Answer>
+<TextId>odessch2.3-14</TextId>
+<Question>Британский принц Чарльз принимает большое участие в судьбах безработных,
+немало хлопочет об облегчении их участи. Видный деятель консерваторов
+Норман Тэббитс считает это вполне естественным и легко объяснимым. Как
+же он это объясняет?</Question>
+<Answer>принц принимает близко к сердцу участь безработных, будучи сам в таком
+положении.</Answer>
 <PassCriteria/>
-<Authors>Георгий Жарков</Authors>
+<Authors/>
 <Sources/>
 <Comments/>
 <Rating/>
@@ -813,143 +747,218 @@
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>cel07-5.4</parent_text_id>
-<ParentTextId>cel07-5.4</ParentTextId>
-<tourId>40653</tourId>
-<tournamentId>3265</tournamentId>
-<tourTitle>3 тур</tourTitle>
-<tournamentTitle>II Чемпионат Центрально-Европейской лиги России. 5 тур. Владимирская область</tournamentTitle>
+<parent_text_id>odessch2.3</parent_text_id>
+<ParentTextId>odessch2.3</ParentTextId>
+<tourId>49508</tourId>
+<tournamentId>2290</tournamentId>
+<tourTitle>Тур 3</tourTitle>
+<tournamentTitle>2-й Чемпионат Одессы по ЧГК. Одесса, 1996-1997.</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>2008-05-11</tourPlayedAt>
-<tournamentPlayedAt>2008-05-11</tournamentPlayedAt>
-<tourPlayedAt2>2008-05-11</tourPlayedAt2>
-<tournamentPlayedAt2>2008-05-11</tournamentPlayedAt2>
+<tourPlayedAt>1996-09-22</tourPlayedAt>
+<tournamentPlayedAt>1996-01-01</tournamentPlayedAt>
+<tourPlayedAt2>1996-09-22</tourPlayedAt2>
+<tournamentPlayedAt2>1996-01-01</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>
 <question>
-<tourFileName>moscup17.2</tourFileName>
-<tournamentFileName>moscup17.txt</tournamentFileName>
-<QuestionId>813011</QuestionId>
-<ParentId>48643</ParentId>
-<Number>12</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>moscup17.2-12</TextId>
-<Question>[Ведущему: квадратные скобки в тексте вопроса игнорировать!]
-   В пьесе Людмилы Петрушевской малоимущие герои танцуют на роликах.
-Когда героиня говорит, что слышала о существовании ЕГО, герой заявляет:
-&quot;[Это] для нас несбыточная мечта! У нас и пальто-то одно на двоих&quot;.
-Назовите ЕГО двумя словами, которые начинаются на одну и ту же букву.</Question>
-<Answer>Тройной тулуп.</Answer>
-<PassCriteria/>
-<Authors>Павел Солахян (Ереван)</Authors>
-<Sources>   1. Л.С. Петрушевская. Московский хор.
-http://flibusta.is/b/325307/read
-   2. http://ru.wikipedia.org/wiki/Тулуп_(прыжок)</Sources>
-<Comments>У героя это понятие ассоциируется только с верхней одеждой.</Comments>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>moscup17.2</parent_text_id>
-<ParentTextId>moscup17.2</ParentTextId>
-<tourId>48643</tourId>
-<tournamentId>37556</tournamentId>
-<tourTitle>2 тур</tourTitle>
-<tournamentTitle>Кубок Москвы - 2017</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2017-10-01</tourPlayedAt>
-<tournamentPlayedAt>2017-10-01</tournamentPlayedAt>
-<tourPlayedAt2>2017-10-01</tourPlayedAt2>
-<tournamentPlayedAt2>2017-10-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>taviv04.3</tourFileName>
-<tournamentFileName>taviv04.txt</tournamentFileName>
-<QuestionId>905570</QuestionId>
-<ParentId>53742</ParentId>
-<Number>18</Number>
-<Type>Ч</Type>
-<TypeNum>1</TypeNum>
-<TextId>taviv04.3-18</TextId>
-<Question>По мнению Раймонда Рассела, ОНИ обладают притягательной силой. Многие
-древние народы, от кельтов до китайцев, придавали некоторым из НИХ
-мистический смысл. Марко Поло называл ИМИ все земли, о которых он слышал
-что-нибудь примечательное, но лично не посетил. Один бард утверждал, что
-ИХ вообще не существует. А первый раз, по мнению все того же Рассела,
-упоминание о НИХ в ИХ современном значении, хоть это и звучит
-парадоксально, содержится в книге Антониу Галвану, повествующей, в
-частности, о некоей задумке фараона Сесостриса III, который еще в те
-годы пытался реализовать известный проект 19 века. Назовите ИХ.</Question>
-<Answer>Острова.</Answer>
-<PassCriteria/>
-<Authors>Игорь Гроссман</Authors>
-<Sources>Раймонд Рассел. Открытия, которых никогда не было.</Sources>
-<Comments/>
-<Rating/>
-<RatingNumber/>
-<Complexity/>
-<Topic/>
-<ProcessedBySearch/>
-<parent_text_id>taviv04.3</parent_text_id>
-<ParentTextId>taviv04.3</ParentTextId>
-<tourId>53742</tourId>
-<tournamentId>2847</tournamentId>
-<tourTitle>3 тур. &quot;Формула пороха&quot;</tourTitle>
-<tournamentTitle>6-й Чемпионат Тель-Авивского клуба</tournamentTitle>
-<tourType>Т</tourType>
-<tournamentType>Ч</tournamentType>
-<tourPlayedAt>2004-03-30</tourPlayedAt>
-<tournamentPlayedAt>2004-01-01</tournamentPlayedAt>
-<tourPlayedAt2>2004-03-30</tourPlayedAt2>
-<tournamentPlayedAt2>2004-01-01</tournamentPlayedAt2>
-<Notices>
-</Notices>
-</question>
-<question>
-<tourFileName>eu06stbr.29</tourFileName>
-<tournamentFileName>eu06stbr.txt</tournamentFileName>
-<QuestionId>700532</QuestionId>
-<ParentId>41873</ParentId>
+<tourFileName>ruch12sh.5</tourFileName>
+<tournamentFileName>ruch12sh.txt</tournamentFileName>
+<QuestionId>874410</QuestionId>
+<ParentId>51835</ParentId>
 <Number>1</Number>
-<Type>Б</Type>
-<TypeNum>2</TypeNum>
-<TextId>eu06stbr.29-1</TextId>
-<Question>В одном биографическом издании поступление А. Пушкина в Царскосельский
-Лицей прокомментировано так: &quot;Пушкины готовят &quot;недоросля Александра&quot; по
-опубликованной программе испытаний и 16 июля отправляют с ПЕРВЫМ и
-ВТОРЫМ&quot;. Подскажем, что ВТОРОЙ - это дядя поэта В.Л. Пушкин. Назовите
-ПЕРВОГО.</Question>
-<Answer>Бог.</Answer>
+<Type>ЧД</Type>
+<TypeNum>1</TypeNum>
+<TextId>ruch12sh.5-1</TextId>
+<Question>[Ведущему: АмедЕо МодильЯни.]
+   Внимание, в вопросе слово &quot;Девушки&quot; - замена.
+   Одно время Амедео Модильяни занимался скульптурой. Александр Генис
+пишет, что он был одним из немногих, для кого ДЕВУШКИ были
+самостоятельным произведением искусства, а не просто функциональным
+элементом: ДЕВУШКИ стоят свободно, склонившись лишь под тяжестью судьбы.
+Какое слово мы заменили на &quot;девушки&quot;?</Question>
+<Answer>Кариатиды.</Answer>
 <PassCriteria/>
-<Authors>Татьяна Лещенко (Харьков)</Authors>
-<Sources>Жизнь Пушкина: Переписка; Воспоминания; Дневники: В 2 томах. - Т. 1. -
-М.: Правда, 1988. - С. 107.</Sources>
-<Comments>Обыгрывается известное устойчивое напутствие &quot;с Богом!&quot;; этот вопрос
-пусть тоже будет своеобразным напутствием командам, играющим в финале.</Comments>
+<Authors>Михаил Иванов (Саратов)</Authors>
+<Sources>А. Генис. Эссе 2003-2008. Ахматова у Модильяни.</Sources>
+<Comments>Его кариатиды не поддерживают крыши или балконы.</Comments>
 <Rating/>
 <RatingNumber/>
 <Complexity/>
 <Topic/>
 <ProcessedBySearch/>
-<parent_text_id>eu06stbr.29</parent_text_id>
-<ParentTextId>eu06stbr.29</ParentTextId>
-<tourId>41873</tourId>
-<tournamentId>190</tournamentId>
-<tourTitle>Финал. Бой 1</tourTitle>
-<tournamentTitle>II Кубок Европы по интеллектуальным играм среди студентов (Петродворец). Брэйн-ринг</tournamentTitle>
+<parent_text_id>ruch12sh.5</parent_text_id>
+<ParentTextId>ruch12sh.5</ParentTextId>
+<tourId>51835</tourId>
+<tournamentId>474</tournamentId>
+<tourTitle>5 тур</tourTitle>
+<tournamentTitle>XII чемпионат России среди школьников по ЧГК (Тюмень)</tournamentTitle>
 <tourType>Т</tourType>
 <tournamentType>Ч</tournamentType>
-<tourPlayedAt>2006-11-10</tourPlayedAt>
-<tournamentPlayedAt>2006-11-10</tournamentPlayedAt>
-<tourPlayedAt2>2006-11-10</tourPlayedAt2>
-<tournamentPlayedAt2>2006-11-10</tournamentPlayedAt2>
+<tourPlayedAt>2012-04-29</tourPlayedAt>
+<tournamentPlayedAt>2012-04-29</tournamentPlayedAt>
+<tourPlayedAt2>2012-04-29</tourPlayedAt2>
+<tournamentPlayedAt2>2012-04-29</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName/>
+<tournamentFileName>tel02per.txt</tournamentFileName>
+<QuestionId>909948</QuestionId>
+<ParentId>53914</ParentId>
+<Number>22</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>tel02per.1-22</TextId>
+<Question>На карте современной Греции, изданной в одной из европейских стран в
+1998 году, Черное море (его южная часть, оказавшаяся в правом верхнем
+углу карты) обозначено как KARA DENIZ (КАРА ДЕНИЗ); Мраморное море - как
+MARMARA DENIZ (МАРМАРА ДЕНИЗ). А вот Адриатическое море (его
+юго-восточная часть, в левом верхнем углу карты) - DETI ADRIATIK (ДЭТИ
+АДРИАТИК). Объясните расхождение в терминах, соответствующих русскому
+слову &quot;море&quot;.</Question>
+<Answer>Они написаны на разных языках.</Answer>
+<PassCriteria/>
+<Authors>Галина Наумова (Москва)</Authors>
+<Sources/>
+<Comments>В каждом конкретном случае - на языке той страны, территориальные воды
+которой находятся на данном участке акватории.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>tel02per.1</parent_text_id>
+<ParentTextId>tel02per.1</ParentTextId>
+<tourId>53914</tourId>
+<tournamentId>427</tournamentId>
+<tourTitle>1</tourTitle>
+<tournamentTitle>Переходный турнир XIII Телефонного чемпионата</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2002-09-07</tourPlayedAt>
+<tournamentPlayedAt>2002-09-07</tournamentPlayedAt>
+<tourPlayedAt2>2002-09-07</tourPlayedAt2>
+<tournamentPlayedAt2>2002-09-07</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>znat14ch.3</tourFileName>
+<tournamentFileName>znat14ch.txt</tournamentFileName>
+<QuestionId>969008</QuestionId>
+<ParentId>57207</ParentId>
+<Number>9</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>znat14ch.3-9</TextId>
+<Question>У одного из героев произведения 1831 года между красным поясом и синей
+рубашкой проглядывает исподнее. Назовите это произведение.</Question>
+<Answer>&quot;Свобода, ведущая народ&quot;.</Answer>
+<PassCriteria>&quot;Свобода на баррикадах&quot;.</PassCriteria>
+<Authors>Дмитрий Борок</Authors>
+<Sources>http://ru.wikipedia.org/wiki/Свобода,_ведущая_народ</Sources>
+<Comments>Цвета одежды персонажа - синяя куртка, красный пояс и выглядывающая
+между ними сорочка - повторяют цвета французского флага в руке у
+центральной фигуры.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>znat14ch.3</parent_text_id>
+<ParentTextId>znat14ch.3</ParentTextId>
+<tourId>57207</tourId>
+<tournamentId>161</tournamentId>
+<tourTitle>2 тур</tourTitle>
+<tournamentTitle>&quot;Знатокиада - 2014&quot; (Всемирные игры знатоков) (Одесса). ЧГК</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2014-08-23</tourPlayedAt>
+<tournamentPlayedAt>2014-08-23</tournamentPlayedAt>
+<tourPlayedAt2>2014-08-23</tourPlayedAt2>
+<tournamentPlayedAt2>2014-08-23</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>etazhi16.3</tourFileName>
+<tournamentFileName>etazhi16.txt</tournamentFileName>
+<QuestionId>987420</QuestionId>
+<ParentId>58361</ParentId>
+<Number>9</Number>
+<Type>Ч</Type>
+<TypeNum>1</TypeNum>
+<TextId>etazhi16.3-9</TextId>
+<Question>Герой одного сериала - владелец музыкального лейбла - хочет подписать
+контракт с группой &quot;Led Zeppelin&quot; [лэд зЕппелин]. Отвечая на вопрос
+своего немецкого коллеги о положении дел, герой хочет задеть собеседника
+и упоминает ЕГО. Назовите ЕГО.</Question>
+<Answer>Дирижабль &quot;Гинденбург&quot;.</Answer>
+<PassCriteria>Гинденбург.</PassCriteria>
+<Authors>Олег Михеев (Краснодар)</Authors>
+<Sources>Сериал &quot;Винил&quot;, s01e01.</Sources>
+<Comments>Цеппелинами называют дирижабли. &quot;Гинденбург&quot; - самый большой дирижабль
+своего времени, названный в честь рейхспрезидента Германии, - загорелся
+и потерпел крушение в 1937 году. На вопрос, как дела с контрактом, герой
+отвечает: &quot;Получше, чем у Гинденбурга&quot;.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id>etazhi16.3</parent_text_id>
+<ParentTextId>etazhi16.3</ParentTextId>
+<tourId>58361</tourId>
+<tournamentId>23890</tournamentId>
+<tourTitle>3 тур</tourTitle>
+<tournamentTitle>Студенческий фестиваль &quot;Этажи - 2016&quot; (Краснодар)</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2016-04-10</tourPlayedAt>
+<tournamentPlayedAt>2016-04-10</tournamentPlayedAt>
+<tourPlayedAt2>2016-04-10</tourPlayedAt2>
+<tournamentPlayedAt2>2016-04-10</tournamentPlayedAt2>
+<Notices>
+</Notices>
+</question>
+<question>
+<tourFileName>ukbr10sh.8</tourFileName>
+<tournamentFileName>ukbr10sh.txt</tournamentFileName>
+<QuestionId>1076417</QuestionId>
+<ParentId>62993</ParentId>
+<Number>13</Number>
+<Type>ДБ</Type>
+<TypeNum>2</TypeNum>
+<TextId>ukbr10sh.8-13</TextId>
+<Question>Дмитрий Быков считает, что авторы сценария этого фильма имели в виду
+экзотическое оружие, в виде которого якобы возвращается к людям
+сотворенное ими зло. Догадавшись, что это за оружие, назовите упомянутый
+фильм.</Question>
+<Answer>&quot;Бумер&quot;.</Answer>
+<PassCriteria/>
+<Authors>Сергей Перехрест (Кременчуг)</Authors>
+<Sources>Д. Быков. Вместо жизни. - М.: Вагриус, 2006. - С. 344.</Sources>
+<Comments>Словом &quot;оружие&quot; заменили слово &quot;бумеранг&quot;.</Comments>
+<Rating/>
+<RatingNumber/>
+<Complexity/>
+<Topic/>
+<ProcessedBySearch/>
+<parent_text_id/>
+<ParentTextId>ukbr10sh.8</ParentTextId>
+<tourId>62993</tourId>
+<tournamentId>733</tournamentId>
+<tourTitle>Старшая возрастная группа. Игры 1/2 финала</tourTitle>
+<tournamentTitle>Чемпионат Украины по брэйн-рингу среди школьников (Одесса)</tournamentTitle>
+<tourType>Т</tourType>
+<tournamentType>Ч</tournamentType>
+<tourPlayedAt>2010-05-02</tourPlayedAt>
+<tournamentPlayedAt>2010-05-02</tournamentPlayedAt>
+<tourPlayedAt2>2010-05-02</tourPlayedAt2>
+<tournamentPlayedAt2>2010-05-02</tournamentPlayedAt2>
 <Notices>
 </Notices>
 </question>

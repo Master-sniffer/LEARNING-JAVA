@@ -31,6 +31,8 @@ public class Controller {
     public  static String Name;
     public static  String Passw;
     public static Integer TRIES;
+    public static Integer ROW;
+
 
     @FXML
     private ResourceBundle resources;
@@ -163,6 +165,7 @@ public class Controller {
             this.Score=dbhandler.GetQuestion(user);
             this.Name=logintext;
             this.Passw=loginPassword;
+            this.ROW=0;
             if (TRY.getText().equals("")){
                 System.out.println("DADADA");
                 this.TRIES=3;

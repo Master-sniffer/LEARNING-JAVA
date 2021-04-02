@@ -100,6 +100,8 @@ public class Question {
 
     @FXML
     void NextQes(ActionEvent event) throws InterruptedException {
+
+
         AnswerWrite.setEditable(true);
         AnswerWrite.setDisable(false);
         Right_Ans RA = new Right_Ans(nextqe);
@@ -118,23 +120,48 @@ public class Question {
 
             System.out.println("Есть пробитие");
             Controller.Score++;
+            Controller.ROW++;
             dbhandler.ChangeScore(Controller.Passw, Controller.Name, Controller.Score);
-            try {
+            System.out.println(Controller.ROW);
+            if (Controller.ROW==5){
+                System.out.println("DA");
+                try {
 
-                Stage stages = (Stage) QuestionGiven.getScene().getWindow();
+                    Stage stages = (Stage) QuestionGiven.getScene().getWindow();
 
-                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Question_N_Answer.fxml"));
-                Parent root1 = (Parent) fxmlLoader.load();
-                Stage stage = new Stage();
-                stage.setScene(new Scene(root1));
-                stage.show();
-                stages.close();
+                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Finish.fxml"));
+                    Parent root1 = (Parent) fxmlLoader.load();
+                    Stage stage = new Stage();
+                    stage.setScene(new Scene(root1));
+                    stage.show();
+                    stages.close();
 
 
-            } catch (Exception e) {
-                System.err.println(e.getMessage());
+                } catch (Exception e) {
+                    System.err.println(e.getMessage());
+                }
             }
+            else {
+
+                try {
+
+                    Stage stages = (Stage) QuestionGiven.getScene().getWindow();
+
+                    FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Question_N_Answer.fxml"));
+                    Parent root1 = (Parent) fxmlLoader.load();
+                    Stage stage = new Stage();
+                    stage.setScene(new Scene(root1));
+                    stage.show();
+                    stages.close();
+
+
+                } catch (Exception e) {
+                    System.err.println(e.getMessage());
+                }
+            }
+
         } else {
+            Controller.ROW=0;
             this.TRY--;
             Fisting.setText("Times Before Fisting Starts: " + Integer.toString(this.TRY));
             AnswerWrite.setEditable(true);
