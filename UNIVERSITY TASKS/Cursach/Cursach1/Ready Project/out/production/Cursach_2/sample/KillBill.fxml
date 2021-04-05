@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="843.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BILL">
+   <children>
+      <ImageView fitHeight="596.0" fitWidth="843.0" pickOnBounds="true">
+         <image>
+            <Image url="@-4C4TA0lHDI.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Korea" layoutX="716.0" mnemonicParsing="false" onAction="#CLOSEIT" prefHeight="77.0" prefWidth="127.0" text="Цонх хаах">
+         <font>
+            <Font name="Ink Free" size="21.0" />
+         </font>
+      </Button>
+      <Label layoutX="260.0" prefHeight="120.0" prefWidth="323.0" text="Who needs to be killed" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Medium" size="33.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Logim" layoutX="272.0" layoutY="263.0" prefHeight="77.0" prefWidth="299.0" promptText="Login here">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="Paass" layoutX="272.0" layoutY="378.0" prefHeight="77.0" prefWidth="299.0" promptText="Password here">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="Btt" layoutX="349.0" layoutY="485.0" mnemonicParsing="false" onAction="#KillBill" prefHeight="67.0" prefWidth="146.0" text="ファックキル">
+         <font>
+            <Font name="Microsoft Himalaya" size="19.0" />
+         </font>
+      </Button>
+      <Label fx:id="ffff" layoutX="622.0" layoutY="475.0" prefHeight="87.0" prefWidth="189.0" text="RESULT WILL BE HERE" textFill="WHITE">
+         <font>
+            <Font name="Lato Regular" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
