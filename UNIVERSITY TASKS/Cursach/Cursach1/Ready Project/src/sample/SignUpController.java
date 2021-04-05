@@ -143,15 +143,13 @@ public class SignUpController {
         String Username = SignUpLogin.getText();
 
         if (SgnUpMale.isSelected())
-            gender="Гей";
+            gender="Вертолет";
         else
             gender="Да";
 
         User user = new User(firstname, surname,Username ,password, location , gender , 0);
 
         dbhandler.SignIpUser(user);
-
-
 
 
     }

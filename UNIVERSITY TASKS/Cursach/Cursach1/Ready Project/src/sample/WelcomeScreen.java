@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -26,6 +28,26 @@ public class WelcomeScreen {
 
     @FXML
     private Button Reg;
+
+    @FXML
+    private Button Author;
+
+    @FXML
+    void ShowAuthor(ActionEvent event) {
+        try{
+            Stage stages = (Stage) Reg.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("OfAuthor.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+
+
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+        }
+    }
 
     @FXML
     void initialize() {

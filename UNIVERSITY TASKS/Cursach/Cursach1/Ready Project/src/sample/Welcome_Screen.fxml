@@ -14,7 +14,7 @@
             <Image url="@1_ZmpgStvNsZXnyUfMGDVj2Q.jpeg" />
          </image>
       </ImageView>
-      <Label prefHeight="147.0" prefWidth="1200.0" text="Добро пожаловать в Ч Г К. Чтобы играть - нужен профиль ! Если такой есть - нажми Login ,в ином случае - Register !!" textAlignment="CENTER" wrapText="true">
+      <Label layoutY="18.0" prefHeight="147.0" prefWidth="1200.0" text="Добро пожаловать в Ч Г К. Чтобы играть - нужен профиль ! Если такой есть - нажми Login ,в ином случае - Register !!" textAlignment="CENTER" wrapText="true">
          <font>
             <Font name="Candara" size="27.0" />
          </font>
@@ -32,6 +32,11 @@
       <Button fx:id="Reg" layoutX="816.0" layoutY="285.0" mnemonicParsing="false" text="Register" textFill="#2f91a3">
          <font>
             <Font size="65.0" />
+         </font>
+      </Button>
+      <Button fx:id="Author" layoutY="-2.0" mnemonicParsing="false" onAction="#ShowAuthor" prefHeight="54.0" prefWidth="91.0" text="Author">
+         <font>
+            <Font size="20.0" />
          </font>
       </Button>
    </children>

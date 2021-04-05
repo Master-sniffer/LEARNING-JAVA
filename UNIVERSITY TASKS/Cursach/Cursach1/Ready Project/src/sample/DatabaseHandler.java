@@ -116,4 +116,24 @@ public class DatabaseHandler extends configs {
             e.printStackTrace();
         }
     }
+
+    public int DeleteUser (String password, String Username){
+        String SQL = "DELETE FROM "+Const.USER_TABLE+  " WHERE username =? AND password =?";
+        System.out.println(SQL);
+        int res=0;
+        try {
+            PreparedStatement prSt =getDbConnection().prepareStatement(SQL);
+
+            prSt.setString(1,Username);
+            prSt.setString(2,password);
+
+            res=prSt.executeUpdate();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return res;
+    }
 }

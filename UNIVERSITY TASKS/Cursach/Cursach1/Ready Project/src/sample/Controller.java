@@ -65,6 +65,26 @@ public class Controller {
     private TextField HiddenButton;
 
     @FXML
+    private Button German;
+
+    @FXML
+    void Delete(ActionEvent event) {
+        try{
+            Stage stages = (Stage) back.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("KillBill.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+
+
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+        }
+    }
+
+    @FXML
     void OldScreen(ActionEvent event) {
 
 
