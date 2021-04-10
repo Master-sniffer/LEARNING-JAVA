@@ -156,32 +156,23 @@ public class Controller {
     }
 
     private void loginuser(String logintext, String loginPassword) {
-        org.example.DatabaseHandler dbhandler = new org.example.DatabaseHandler();
-        org.example.User user = new org.example.User();
+        Database dbhandler = new Database();
+        User user = new User();
         user.setUsername(logintext);
         user.setPassword(loginPassword);
-        ResultSet resultSet = dbhandler.GetUser(user);
-
         int counter = 0;
+        counter = dbhandler.GetUser(user);
 
 
-        while (true) {
-            try {
-                if (!resultSet.next()) break;
-            } catch (SQLException throwables) {
-                throwables.printStackTrace();
-            }
-            counter++;
-        }
 
 
         if (counter>=1){
-
 
             this.Score=dbhandler.GetQuestion(user);
             this.Name=logintext;
             this.Passw=loginPassword;
             this.ROW=0;
+            System.out.println("Score is " + this.Score);
             if (TRY.getText().equals("")){
                 System.out.println("DADADA");
                 this.TRIES=3;
@@ -210,11 +201,13 @@ public class Controller {
                 Stage stages = (Stage) back.getScene().getWindow();
 
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Question_N_Answer.fxml"));
+
                 Parent root1 = (Parent) fxmlLoader.load();
                 Stage stage = new Stage();
                 stage.setScene(new Scene(root1));
                 stage.show();
                 stages.close();
+
 
 
             } catch (Exception e){

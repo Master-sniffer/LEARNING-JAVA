@@ -33,7 +33,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Question {
 
-    org.example.DatabaseHandler dbhandler = new org.example.DatabaseHandler();
+    Database dbhandler = new Database();
     public static String answ;
     public  static int TRY;
 
@@ -69,7 +69,7 @@ public class Question {
         dbhandler.ChangeScore(Controller.Passw, Controller.Name, Controller.Score);
         try {
 
-            String musicFile = "src/sample/darude-sandstorm-flute-anime-version-mp3cut.mp3";
+            String musicFile = "src/main/resources/org/example/darude-sandstorm-flute-anime-version-mp3cut.mp3";
 
             Media sound = new Media(new File(musicFile).toURI().toString());
             MediaPlayer mediaPlayer = new MediaPlayer(sound);
@@ -100,7 +100,7 @@ public class Question {
         Right_Ans RA = new Right_Ans(nextqe);
         RA.playAnim();
 
-        if (AnswerWrite.getText().toLowerCase().equals(this.answ.toLowerCase())) {
+        if (AnswerWrite.getText().toLowerCase().trim().equals(this.answ.toLowerCase().trim())) {
 
 
 
@@ -220,7 +220,7 @@ public class Question {
         AnswerWrite.setDisable(false);
         this.TRY=Controller.TRIES;
         Fisting.setText("Times Before Fisting Starts: " + Integer.toString(this.TRY));
-        System.out.println(Controller.Score);
+        System.out.println(Controller.Score + " this is the score");
         QuestNumb.setText("Question number " + Integer.toString(Controller.Score));
         String Ques[] = GetAQuestion();
         String Qestion = Ques[0];
@@ -229,8 +229,7 @@ public class Question {
 
         QuestionGiven.setText(Qestion);
 
-        //System.out.println(Qestion);
-        //System.out.println(Answ);
+
 
 
     }
@@ -240,12 +239,12 @@ public class Question {
 
         URL website = new URL("https://db.chgk.info/xml/random");
         ReadableByteChannel rbc = Channels.newChannel(website.openStream());
-        FileOutputStream fos = new FileOutputStream("src/sample/Quest.xml");
+        FileOutputStream fos = new FileOutputStream("src/main/resources/org/example/Quest.xml");
+
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
 
         // Now let's parse the file
-
-        File fXmlFile = new File("src/sample/Quest.xml");
+        File fXmlFile = new File("src/main/resources/org/example/Quest.xml");
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
         Document doc = dBuilder.parse(fXmlFile);

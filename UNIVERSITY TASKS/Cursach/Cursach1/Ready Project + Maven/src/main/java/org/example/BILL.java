@@ -56,9 +56,9 @@ public class BILL {
     @FXML
     void KillBill(ActionEvent event) {
         if (!Logim.getText().equals("") && !Paass.getText().equals("")) {
-            org.example.DatabaseHandler dbhandler = new org.example.DatabaseHandler();
+            org.example.Database dbhandler = new org.example.Database();
             int res;
-            res=dbhandler.DeleteUser(Paass.getText(), Logim.getText());
+            res=dbhandler.Delete_user(Paass.getText(), Logim.getText());
             if (res>0){
                 ffff.setText("We've Killed him, boss!");
             }

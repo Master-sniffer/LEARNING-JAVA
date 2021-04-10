@@ -10,7 +10,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idusers;
 
-    private String firstName;
+    private String firstname;
     private String lastname;
     private String username;
     private String password;
@@ -19,7 +19,7 @@ public class User {
     private Integer quest;
 
     public User(String firstName, String lastname, String username, String password, String location , String gender , Integer Quest) {
-        this.firstName = firstName;
+        this.firstname = firstName;
         this.lastname = lastname;
         this.username = username;
         this.password = password;
@@ -33,13 +33,7 @@ public class User {
 
     }
 
-    public String getFirstName() {
-        return firstName;
-    }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
 
     public String getLastname() {
         return lastname;
@@ -91,5 +85,18 @@ public class User {
 
     public int getIdusers() {
         return idusers;
+    }
+
+    @Override
+    public String toString() {
+        return "Id: " + idusers + ", firstName: "+ firstname +", String lastname: " +lastname + " , Username " + username + " , password " + password + "  location " + location + " , gender " + gender + " Amount of right answers " + quest;
+    }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
     }
 }

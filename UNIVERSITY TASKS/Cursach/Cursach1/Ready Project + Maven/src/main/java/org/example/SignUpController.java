@@ -7,6 +7,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.media.Media;
@@ -108,11 +109,15 @@ public class SignUpController {
     }
 
     @FXML
+    private Label IAMLABEL;
+
+
+    @FXML
     void initialize() {
 
         authSignUp.setOnAction(event -> {
-            if (SignUpName.getText()!="" && SignUpLogin.getText()!="" ){
-                sh();
+            if (SignUpSurname.getText()!="" && SignUpLogin.getText()!="" && SignUpPassword.getText()!="" ){
+
                 try {
                     SignUpNewUser();
                 } catch (IOException e) {
@@ -123,13 +128,15 @@ public class SignUpController {
                 Media sound = new Media(new File(musicFile).toURI().toString());
                 MediaPlayer mediaPlayer = new MediaPlayer(sound);
                 mediaPlayer.play();
+            } else {
+                IAMLABEL.setText("Please, Input Password, Surname and Login");
             }
         });
 
     }
 
     private void SignUpNewUser() throws IOException {
-        org.example.DatabaseHandler dbhandler = new org.example.DatabaseHandler();
+        Database dbhandler = new Database();
 
         String firstname = SignUpName.getText();
         String surname = SignUpSurname.getText();
@@ -143,9 +150,10 @@ public class SignUpController {
         else
             gender="Да";
 
-        org.example.User user = new org.example.User(firstname, surname,Username ,password, location , gender , 0);
+        User user = new User(firstname, surname,Username ,password, location , gender , 0);
 
-        dbhandler.SignIpUser(user);
+        dbhandler.Save_user(user);
+        sh();
 
 
     }
