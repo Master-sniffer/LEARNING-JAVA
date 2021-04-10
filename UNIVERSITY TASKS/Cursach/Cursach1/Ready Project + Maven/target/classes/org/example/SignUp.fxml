@@ -48,5 +48,10 @@
             <Font size="22.0" />
          </font>
       </Button>
+      <Label fx:id="IAMLABEL" layoutX="57.0" layoutY="129.0" prefHeight="144.0" prefWidth="682.0" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
     </children>
 </AnchorPane>
