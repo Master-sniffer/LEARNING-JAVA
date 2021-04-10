@@ -58,7 +58,7 @@ public class BILL {
         if (!Logim.getText().equals("") && !Paass.getText().equals("")) {
             org.example.Database dbhandler = new org.example.Database();
             int res;
-            res=dbhandler.Delete_user(Paass.getText(), Logim.getText());
+            res=dbhandler.Delete_user( Logim.getText(), Paass.getText());
             if (res>0){
                 ffff.setText("We've Killed him, boss!");
             }

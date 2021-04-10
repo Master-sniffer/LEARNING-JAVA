@@ -55,7 +55,9 @@ public class Database {
         List<Integer> rows = query.list();
         stat=rows.get(0);
         res=rows.size();
+        System.out.println(stat);
         User user =session.find(User.class , stat);
+        System.out.println(user);
         session.delete(user);
         tx1.commit();
         session.close();
