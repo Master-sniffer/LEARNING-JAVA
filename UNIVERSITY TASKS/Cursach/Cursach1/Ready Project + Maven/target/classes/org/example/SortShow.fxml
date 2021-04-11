@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="687.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SortShow">
+   <children>
+      <ImageView fitHeight="687.0" fitWidth="854.0" opacity="0.65" pickOnBounds="true">
+         <image>
+            <Image url="@97hUzNgr9xY.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="Show" editable="false" layoutX="64.0" layoutY="89.0" opacity="0.9" prefHeight="565.0" prefWidth="726.0" />
+   </children>
+</AnchorPane>
