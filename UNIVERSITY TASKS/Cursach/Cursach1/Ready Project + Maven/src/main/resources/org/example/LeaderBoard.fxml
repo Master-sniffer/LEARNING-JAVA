@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Leader">
+   <children>
+      <ImageView fitHeight="633.0" fitWidth="818.0" opacity="0.3" pickOnBounds="true">
+         <image>
+            <Image url="@zQGtFDn9ISE.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="257.0" layoutY="14.0" prefHeight="139.0" prefWidth="304.0" text="Top 3 Leaders of the game">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Bacc" layoutX="718.0" mnemonicParsing="false" onAction="#Welcome" prefHeight="57.0" prefWidth="100.0" text="Go Back">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="Us1" editable="false" layoutX="158.0" layoutY="153.0" prefHeight="72.0" prefWidth="198.0" text="Username">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Sc1" editable="false" layoutX="456.0" layoutY="153.0" prefHeight="72.0" prefWidth="210.0" text="Score">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Us11" editable="false" layoutX="158.0" layoutY="252.0" prefHeight="72.0" prefWidth="198.0" text="Username">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Sc11" editable="false" layoutX="456.0" layoutY="252.0" prefHeight="72.0" prefWidth="210.0" text="Score">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Sc111" editable="false" layoutX="456.0" layoutY="367.0" prefHeight="72.0" prefWidth="210.0" text="Score">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Us111" editable="false" layoutX="158.0" layoutY="367.0" prefHeight="72.0" prefWidth="198.0" text="Username">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

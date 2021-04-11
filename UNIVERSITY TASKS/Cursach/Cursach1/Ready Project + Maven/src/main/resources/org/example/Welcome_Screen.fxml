@@ -39,5 +39,20 @@
             <Font size="20.0" />
          </font>
       </Button>
+      <Button fx:id="Filter" layoutX="944.0" mnemonicParsing="false" onAction="#FilterData" prefHeight="54.0" prefWidth="104.0" text="Filter Data">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="Sort" layoutX="1096.0" mnemonicParsing="false" onAction="#SortData" prefHeight="54.0" prefWidth="104.0" text="Sort Data">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Leader" layoutX="587.0" layoutY="305.0" mnemonicParsing="false" onAction="#LeaderBoard" prefHeight="99.0" prefWidth="151.0" text="Leaderboard" textFill="#b000f7">
+         <font>
+            <Font name="Lato Bold Italic" size="22.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

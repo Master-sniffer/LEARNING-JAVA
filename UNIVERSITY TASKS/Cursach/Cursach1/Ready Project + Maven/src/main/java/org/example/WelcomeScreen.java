@@ -33,6 +33,77 @@ public class WelcomeScreen {
     private Button Author;
 
     @FXML
+    private Button Filter;
+
+    @FXML
+    private Button Sort;
+
+    @FXML
+    private Button Leader;
+
+    @FXML
+    void FilterData(ActionEvent event) {
+        try {
+
+            Stage stages = (Stage) Leader.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Finish.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+            stages.close();
+
+
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
+
+    }
+
+    @FXML
+    void LeaderBoard(ActionEvent event) {
+
+        try {
+
+            Stage stages = (Stage) Leader.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("LeaderBoard.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+            stages.close();
+
+
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
+
+    }
+
+    @FXML
+    void SortData(ActionEvent event) {
+
+        try {
+
+            Stage stages = (Stage) Leader.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("SortWhat.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+            stages.close();
+
+
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
+
+    }
+
+    @FXML
     void ShowAuthor(ActionEvent event) {
         try{
             Stage stages = (Stage) Reg.getScene().getWindow();
