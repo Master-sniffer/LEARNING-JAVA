@@ -6,7 +6,9 @@ import org.hibernate.criterion.Order;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class Database {
@@ -165,6 +167,12 @@ public class Database {
             criteria.addOrder(Order.asc(Arra.get(6).toString()).nulls(NullPrecedence.LAST));
         }
 
+        if (Arra.get(7).equals("")) {
+            System.out.println("Date is empty");
+        } else {
+            criteria.addOrder(Order.asc(Arra.get(7).toString()).nulls(NullPrecedence.LAST));
+        }
+
         System.out.println(criteria);
         List result = criteria.list();
         System.out.println(result);
@@ -172,6 +180,25 @@ public class Database {
         tx1.commit();
         session.close();
         return result;
+    }
+
+    public List<Object[]> ChartBoard (ArrayList<LocalDate> Data){
+
+        Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
+        Transaction tx1 = session.beginTransaction();
+
+        Query query = session.createSQLQuery("SELECT username, date , quest FROM users.users WHERE date BETWEEN '" + Data.get(0) + "' AND '" + Data.get(1) + "'" );
+        List<Object[]> rows = query.list();
+
+
+//        for (Object[] row : rows) {
+//            System.out.println(row[1]);
+//        }
+
+
+        tx1.commit();
+        session.close();
+        return rows;
     }
 
 }

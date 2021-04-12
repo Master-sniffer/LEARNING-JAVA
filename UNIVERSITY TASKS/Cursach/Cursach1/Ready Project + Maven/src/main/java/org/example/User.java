@@ -1,6 +1,8 @@
 package org.example;
 
 import javax.persistence.*;
+import java.time.LocalDate;
+import java.util.Date;
 
 @Entity
 @Table(name="users.users")
@@ -17,8 +19,10 @@ public class User {
     private String location;
     private String gender;
     private Integer quest;
+    private LocalDate date;
 
-    public User(String firstName, String lastname, String username, String password, String location , String gender , Integer Quest) {
+
+    public User(String firstName, String lastname, String username, String password, String location , String gender , Integer Quest , LocalDate data) {
         this.firstname = firstName;
         this.lastname = lastname;
         this.username = username;
@@ -26,6 +30,7 @@ public class User {
         this.location = location;
         this.gender = gender;
         this.quest=Quest;
+        this.date=data;
     }
 
 
@@ -89,7 +94,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "Id: " + idusers + ", firstName: "+ firstname +", String lastname: " +lastname + " , Username " + username + " , password " + password + "  location " + location + " , gender " + gender + " Amount of right answers " + quest;
+        return "Id: " + idusers + " , FirstName: "+ firstname +" , Lastname: " +lastname + " , Username: " + username + " , Password: " + password + " , Location: " + location + " , Gender: " + gender + " , Amount of right answers: " + quest + " , Date is: " + date;
     }
 
     public String getFirstname() {
@@ -98,5 +103,13 @@ public class User {
 
     public void setFirstname(String firstname) {
         this.firstname = firstname;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
     }
 }

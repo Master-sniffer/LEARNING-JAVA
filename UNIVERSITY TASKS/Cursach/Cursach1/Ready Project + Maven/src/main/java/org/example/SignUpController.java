@@ -17,6 +17,8 @@ import javafx.stage.Stage;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+import java.time.LocalDate;
+import java.util.Date;
 import java.util.ResourceBundle;
 
 public class SignUpController {
@@ -144,13 +146,15 @@ public class SignUpController {
         String gender = "";
         String location = SignUpCountry.getText();
         String Username = SignUpLogin.getText();
+        LocalDate data = LocalDate.now();
+
 
         if (SgnUpMale.isSelected())
             gender="Вертолет";
         else
             gender="Да";
 
-        User user = new User(firstname, surname,Username ,password, location , gender , 0);
+        User user = new User(firstname, surname,Username ,password, location , gender , 0 , data);
 
         dbhandler.Save_user(user);
         sh();

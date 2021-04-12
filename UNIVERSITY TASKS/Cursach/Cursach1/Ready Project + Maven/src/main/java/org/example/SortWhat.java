@@ -53,6 +53,9 @@ public class SortWhat {
     private Button bb;
 
     @FXML
+    private CheckBox Date;
+
+    @FXML
     void Back(ActionEvent event) {
         try {
 
@@ -123,6 +126,13 @@ public class SortWhat {
         } else {
             this.Array.add("");
         }
+
+        if (Date.isSelected()){
+            this.Array.add("date");
+        } else {
+            this.Array.add("");
+        }
+
 
         try {
 
