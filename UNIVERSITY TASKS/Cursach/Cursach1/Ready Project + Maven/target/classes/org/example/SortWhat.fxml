@@ -65,5 +65,10 @@
             <Font size="62.0" />
          </font>
       </Button>
+      <CheckBox fx:id="Date" layoutX="529.0" layoutY="304.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="269.0" text="By date">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </CheckBox>
    </children>
 </AnchorPane>
