@@ -47,7 +47,7 @@ public class User {
 
     @Override
     public String toString() {
-        return name + ", " + surname + ", " + gender + ", " + age + ", " + flight + ", " + number + ", " + serial + ", " + ID  ;
+        return name + ", " + surname + ", " + gender + ", " + age + ", " + flight + ", " + number + ", " + serial  ;
     }
 
 

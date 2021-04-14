@@ -85,7 +85,19 @@ public class WhatChange {
 
     @FXML
     void CheckTheTime(ActionEvent event) {
+        try{
+            Stage stages = (Stage) BB.getScene().getWindow();
 
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Times.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+
+
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+        }
     }
 
     @FXML

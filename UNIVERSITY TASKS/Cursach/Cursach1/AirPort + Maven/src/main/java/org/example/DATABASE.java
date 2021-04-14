@@ -1,9 +1,7 @@
 package org.example;
 
-import org.hibernate.Query;
-import org.hibernate.SQLQuery;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
+import org.hibernate.*;
+import org.hibernate.criterion.Order;
 
 import java.util.List;
 
@@ -140,5 +138,55 @@ public class DATABASE extends configs {
         session.close();
 
         return res;
+    }
+
+    public String Sorting (String What){
+        Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
+        Transaction tx1 = session.beginTransaction();
+
+        String Reply="";
+
+        Criteria criteria = session.createCriteria(User.class, "users.airport");
+        System.out.println(What);
+        criteria.addOrder(Order.asc(What.toString()).nulls(NullPrecedence.LAST));
+
+
+        List<Object[]> result = criteria.list();
+        System.out.println(result.size());
+
+        for (int i=0 ; i < result.size(); i++ ){
+            System.out.println("dadad");
+            Reply+=(result.get(i)) + "\n";
+
+
+        }
+
+        System.out.println(Reply);
+        tx1.commit();
+        session.close();
+        return Reply;
+    }
+
+    public List<Object[]> Statistika (){
+
+        Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
+        Transaction tx1 = session.beginTransaction();
+
+        Query query = session.createSQLQuery("SELECT flight, COUNT(flight) FROM users.airport GROUP BY flight " );
+        List<Object[]> rows = query.list();
+
+        System.out.println(rows);
+
+
+
+
+//        for (Object[] row : rows) {
+//            System.out.println(row[1]);
+//        }
+
+
+        tx1.commit();
+        session.close();
+        return rows;
     }
 }

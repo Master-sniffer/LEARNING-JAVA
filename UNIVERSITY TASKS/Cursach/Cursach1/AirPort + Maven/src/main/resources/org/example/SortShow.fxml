@@ -33,17 +33,17 @@
 -->
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="621.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Welcome_Scr">
+<VBox prefHeight="502.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ShowSort">
   <children>
-    <MenuBar VBox.vgrow="NEVER">
+    <MenuBar prefHeight="0.0" prefWidth="816.0" VBox.vgrow="NEVER">
       <menus>
         <Menu fx:id="Author" mnemonicParsing="false" text="Author">
                <items>
@@ -58,38 +58,18 @@
       </menus>
     </MenuBar>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
-      <children>
-        <Label alignment="CENTER" layoutX="272.0" layoutY="68.0" prefHeight="111.0" prefWidth="388.0" style="&#10;" text="Welcome, Admin" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
-          <font>
-            <Font size="47.0" />
-          </font>
-        </Label>
-            <Button fx:id="Chang" layoutX="87.0" layoutY="263.0" mnemonicParsing="false" onAction="#ChangeUser" prefHeight="85.0" prefWidth="185.0" text="Change User's Details">
+         <children>
+            <Button fx:id="bb" layoutX="847.0" mnemonicParsing="false" onAction="#back" prefHeight="52.0" prefWidth="88.0" text="Back">
                <font>
-                  <Font size="16.0" />
+                  <Font size="24.0" />
                </font>
             </Button>
-            <Button fx:id="Del" layoutX="374.0" layoutY="422.0" mnemonicParsing="false" onAction="#Delete" prefHeight="85.0" prefWidth="185.0" text="Delete User">
+            <TextArea fx:id="HereText" editable="false" layoutX="1.0" layoutY="59.0" prefHeight="523.0" prefWidth="935.0">
                <font>
-                  <Font size="28.0" />
+                  <Font size="19.0" />
                </font>
-            </Button>
-            <Button fx:id="Add" layoutX="686.0" layoutY="263.0" mnemonicParsing="false" onAction="#AddUser" prefHeight="85.0" prefWidth="185.0" text="Add User">
-               <font>
-                  <Font size="34.0" />
-               </font>
-            </Button>
-            <Button fx:id="View" layoutX="374.0" layoutY="263.0" mnemonicParsing="false" onAction="#ViewUser" prefHeight="85.0" prefWidth="185.0" text="View User">
-               <font>
-                  <Font size="32.0" />
-               </font>
-            </Button>
-            <Button fx:id="sorta" layoutX="686.0" layoutY="422.0" mnemonicParsing="false" onAction="#Sorting" prefHeight="85.0" prefWidth="185.0" text="Sort Users">
-               <font>
-                  <Font size="28.0" />
-               </font>
-            </Button>
-      </children>
+            </TextArea>
+         </children>
     </AnchorPane>
   </children>
 </VBox>

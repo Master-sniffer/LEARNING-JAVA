@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="741.0" prefWidth="970.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Stata">
+   <children>
+      <LineChart fx:id="Statiskticka" layoutY="61.0" prefHeight="680.0" prefWidth="970.0" title="Flight Statistics">
+        <xAxis>
+          <CategoryAxis fx:id="X" side="BOTTOM">
+               <tickLabelFont>
+                  <Font size="16.0" />
+               </tickLabelFont>
+            </CategoryAxis>
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="Y" side="LEFT">
+               <tickLabelFont>
+                  <Font name="System Bold Italic" size="16.0" />
+               </tickLabelFont>
+            </NumberAxis>
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>

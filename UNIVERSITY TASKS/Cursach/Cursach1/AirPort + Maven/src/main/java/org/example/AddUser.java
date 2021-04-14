@@ -89,7 +89,19 @@ public class AddUser {
 
     @FXML
     void CheckTheTime(ActionEvent event) {
+        try{
+            Stage stages = (Stage) BB.getScene().getWindow();
 
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("Times.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+
+
+        } catch (Exception e){
+            System.err.println(e.getMessage());
+        }
     }
 
     @FXML
@@ -119,6 +131,7 @@ public class AddUser {
             String Firstname = name.getText();
             String Surname = surname.getText();
             Integer Age = Integer.parseInt(age.getText());
+            System.out.println(Integer.parseInt(age.getText())+1);
             String gender = "NULL";
             Integer Flight = 0;
             Integer Serial = 0;
