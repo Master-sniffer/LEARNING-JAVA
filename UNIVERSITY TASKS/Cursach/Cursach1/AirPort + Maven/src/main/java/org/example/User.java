@@ -35,6 +35,16 @@ public class User {
 
     }
 
+    public User (Integer age, Integer flight, String gender , String name, Integer number, Integer serial, String surname ){
+        this.name = name;
+        this.surname = surname;
+        this.gender = gender;
+        this.flight = flight;
+        this.number = number;
+        this.serial = serial;
+        this.age=age;
+    }
+
     @Override
     public String toString() {
         return name + ", " + surname + ", " + gender + ", " + age + ", " + flight + ", " + number + ", " + serial + ", " + ID  ;

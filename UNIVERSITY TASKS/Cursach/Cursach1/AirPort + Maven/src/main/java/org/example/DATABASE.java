@@ -69,6 +69,19 @@ public class DATABASE extends configs {
 
     }
 
+    public List<Object[]> GetInfo (String Name, String Surname) {
+        Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
+        Transaction trans = session.beginTransaction();
+
+        SQLQuery query = session.createSQLQuery("SELECT * FROM users.airport WHERE name= '"+ Name + "' AND surname= '" +Surname + "'" );
+        System.out.println(query);
+        List<Object[]> rows = query.list();
+
+        trans.commit();
+        session.close();
+        return rows;
+    }
+
     public void ChangeUser (Integer id , String quer){
 
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
