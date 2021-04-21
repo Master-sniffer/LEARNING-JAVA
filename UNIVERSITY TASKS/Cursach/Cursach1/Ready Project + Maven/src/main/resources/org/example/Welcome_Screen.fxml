@@ -54,5 +54,10 @@
             <Font name="Lato Bold Italic" size="22.0" />
          </font>
       </Button>
+      <Button fx:id="admin" layoutX="760.0" mnemonicParsing="false" onAction="#GoAdmin" prefHeight="54.0" prefWidth="104.0" text="Admin">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

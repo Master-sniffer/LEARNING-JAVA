@@ -201,4 +201,28 @@ public class Database {
         return rows;
     }
 
+    public int Zeroes (String name){
+        Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
+        Transaction tx1 = session.beginTransaction();
+
+
+        int result=0;
+
+        try {
+
+
+            Query query = session.createSQLQuery("UPDATE users.users SET quest= " + 0 + " WHERE username= '" + name + "'");
+            System.out.println(query.executeUpdate());
+            System.out.println(query);
+            result=1;
+        } catch (Exception e){
+            System.out.println("problem");
+        }
+
+
+        tx1.commit();
+        session.close();
+        return result;
+    }
+
 }

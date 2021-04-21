@@ -42,6 +42,28 @@ public class WelcomeScreen {
     private Button Leader;
 
     @FXML
+    private Button admin;
+
+    @FXML
+    void GoAdmin(ActionEvent event) {
+        try {
+
+            Stage stages = (Stage) Leader.getScene().getWindow();
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("AdminLog.fxml"));
+            Parent root1 = (Parent) fxmlLoader.load();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root1));
+            stage.show();
+            stages.close();
+
+
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
+    }
+
+    @FXML
     void FilterData(ActionEvent event) {
         try {
 
