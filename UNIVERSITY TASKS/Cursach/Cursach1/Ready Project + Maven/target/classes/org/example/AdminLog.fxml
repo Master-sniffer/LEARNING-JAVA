@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="843.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.AdminLog">
+   <children>
+      <ImageView fitHeight="596.0" fitWidth="843.0" opacity="0.35" pickOnBounds="true">
+         <image>
+            <Image url="@7rVAW-5K2m0.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Korea" layoutX="737.0" mnemonicParsing="false" onAction="#CLOSEIT" prefHeight="67.0" prefWidth="106.0" text="Back">
+         <font>
+            <Font name="Ink Free" size="26.0" />
+         </font>
+      </Button>
+      <Label layoutX="150.0" layoutY="34.0" prefHeight="120.0" prefWidth="543.0" text="Enter Password And Username for Admin" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Medium" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Logim" layoutX="272.0" layoutY="263.0" prefHeight="77.0" prefWidth="299.0" promptText="Username">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="Paass" layoutX="272.0" layoutY="378.0" prefHeight="77.0" prefWidth="299.0" promptText="Password ">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="Btt" layoutX="349.0" layoutY="485.0" mnemonicParsing="false" onAction="#KillBill" prefHeight="67.0" prefWidth="146.0" text="Go">
+         <font>
+            <Font name="Microsoft Himalaya" size="47.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
