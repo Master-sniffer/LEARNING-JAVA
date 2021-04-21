@@ -125,33 +125,61 @@ public class AddUser {
     void Confirm(ActionEvent event) {
         if (!name.getText().equals("") && !surname.getText().equals("") && !age.getText().equals("")) {
 
+            //System.out.println(age.getText().getClass().getSimpleName());
+
             DATABASE dbhandler = new DATABASE();
 
 
             String Firstname = name.getText();
             String Surname = surname.getText();
-            Integer Age = Integer.parseInt(age.getText());
-            System.out.println(Integer.parseInt(age.getText())+1);
+            Integer Age;
             String gender = "NULL";
             Integer Flight = 0;
             Integer Serial = 0;
             Integer Number = 0 ;
+
+            String Serial_Check;
+            String Number_Check;
+
             try {
-                 gender = Gender.getText();
 
                  Flight = Integer.parseInt(flight.getText());
-                 Serial = Integer.parseInt(serial.getText());
-                 Number = Integer.parseInt(passport.getText());
-                System.out.println(gender);
+//                 Serial = Integer.parseInt(serial.getText());
+//                 Number = Integer.parseInt(passport.getText());
+
             } catch (Exception e){
-                 gender = "NULL";
                  Flight = 0;
-                 Serial = 0;
-                 Number = 0 ;
+            }
+
+            try {
+                gender = Gender.getText();
+
+            } catch (Exception e){
+                gender = "NULL";
+            }
+
+            try {
+                Age = Integer.parseInt(age.getText());
+
+            } catch (Exception e){
+                Age=18;
+            }
+
+            try {
+                Serial_Check = (serial.getText());
+                Number_Check = (passport.getText());
+
+                Serial =Integer.parseInt(Serial_Check.substring(0, 4));
+                Number = Integer.parseInt(Number_Check.substring(0, 6));
+
+            } catch (Exception e){
+                Serial = 0;
+                Number = 0 ;
             }
 
 
-
+            System.out.println(Number);
+            System.out.println(Serial);
             User user = new User(Firstname, Surname, gender, Flight, Number, Serial, Age);
             Integer res= dbhandler.SignIpUser(user);
 
