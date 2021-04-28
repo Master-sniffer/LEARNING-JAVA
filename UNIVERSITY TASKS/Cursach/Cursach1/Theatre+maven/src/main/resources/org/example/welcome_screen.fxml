@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="1023.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.welcome_screen">
+   <children>
+      <Button fx:id="button_log" layoutX="131.0" layoutY="158.0" mnemonicParsing="false" onAction="#login" prefHeight="114.0" prefWidth="193.0" text="Зайти, как пользователь">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="admin" layoutX="727.0" layoutY="158.0" mnemonicParsing="false" onAction="#admin_log" prefHeight="114.0" prefWidth="193.0" text="Зайти, как админ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="regis" layoutX="131.0" layoutY="385.0" mnemonicParsing="false" onAction="#register" prefHeight="114.0" prefWidth="193.0" text="Зарегестироваться">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="afisa" layoutX="727.0" layoutY="385.0" mnemonicParsing="false" onAction="#afisha" prefHeight="114.0" prefWidth="193.0" text="Посмотреть афишу">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="441.0" layoutY="516.0" mnemonicParsing="false" onAction="#sh_auth" prefHeight="100.0" prefWidth="141.0" text="Автор">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
