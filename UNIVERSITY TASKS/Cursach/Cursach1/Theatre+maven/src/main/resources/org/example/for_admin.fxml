@@ -6,7 +6,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:controller="org.example.for_admin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="696.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="696.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.for_admin">
    <children>
       <Line endX="-100.0" endY="694.0" layoutX="100.0" layoutY="1.0" startX="-100.0" strokeWidth="3.0" />
       <Line endX="-100.0" endY="694.0" layoutX="253.0" layoutY="2.0" startX="-100.0" strokeWidth="3.0" />
@@ -15,9 +15,9 @@
       <Line endX="-100.0" endY="694.0" layoutX="658.0" layoutY="1.0" startX="-100.0" strokeWidth="3.0" />
       <Line endX="-100.0" endY="694.0" layoutX="775.0" layoutY="1.0" startX="-100.0" strokeWidth="3.0" />
       <Line endX="-100.0" endY="694.0" layoutX="888.0" layoutY="1.0" startX="-100.0" strokeWidth="3.0" />
-      <Button fx:id="btt" layoutX="790.0" layoutY="-3.0" mnemonicParsing="false" onAction="#exit" prefHeight="34.0" prefWidth="64.0" text="выход">
+      <Button fx:id="btt" layoutX="790.0" layoutY="2.0" mnemonicParsing="false" onAction="#exit" prefHeight="81.0" prefWidth="147.0" text="выход">
          <font>
-            <Font size="15.0" />
+            <Font size="23.0" />
          </font>
       </Button>
       <Line endX="686.5" layoutX="103.0" layoutY="71.0" startX="-100.0" strokeWidth="3.0" />
@@ -31,9 +31,9 @@
             <Font size="16.0" />
          </font>
       </Button>
-      <TextArea editable="false" layoutX="155.0" layoutY="2.0" prefHeight="68.0" prefWidth="140.0" text="Данные &#10;аккаунта">
+      <TextArea editable="false" layoutX="155.0" layoutY="2.0" prefHeight="68.0" prefWidth="140.0" text="Данные &#10;аккаунта: password">
          <font>
-            <Font size="19.0" />
+            <Font size="13.0" />
          </font>
       </TextArea>
       <TextArea editable="false" layoutX="301.0" layoutY="2.0" prefHeight="68.0" prefWidth="125.0" text="Название &#10;спектакля">
@@ -116,29 +116,130 @@
             <Font size="19.0" />
          </font>
       </TextArea>
-      <Button fx:id="name_scene_0" layoutX="301.0" layoutY="73.0" mnemonicParsing="false" onAction="#change_scene_0" prefHeight="95.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="name_scene_1" layoutX="301.0" layoutY="174.0" mnemonicParsing="false" onAction="#change_scene_1" prefHeight="106.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="name_scene_2" layoutX="301.0" layoutY="289.0" mnemonicParsing="false" onAction="#change_scene_2" prefHeight="113.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="name_scene_3" layoutX="301.0" layoutY="410.0" mnemonicParsing="false" onAction="#change_scene_3" prefHeight="95.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="name_scene_4" layoutX="301.0" layoutY="508.0" mnemonicParsing="false" onAction="#change_scene_4" prefHeight="87.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="name_scene_5" layoutX="301.0" layoutY="601.0" mnemonicParsing="false" onAction="#change_scene_5" prefHeight="95.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="grim_5" layoutX="429.0" layoutY="603.0" mnemonicParsing="false" onAction="#change_grim_5" prefHeight="95.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="grim_4" layoutX="429.0" layoutY="508.0" mnemonicParsing="false" onAction="#change_grim_4" prefHeight="87.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="grim_3" layoutX="429.0" layoutY="410.0" mnemonicParsing="false" onAction="#change_grim_3" prefHeight="95.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="grim_2" layoutX="429.0" layoutY="289.0" mnemonicParsing="false" onAction="#change_grim_2" prefHeight="113.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="grim_1" layoutX="429.0" layoutY="174.0" mnemonicParsing="false" onAction="#change_grim_1" prefHeight="106.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="grim_0" layoutX="429.0" layoutY="73.0" mnemonicParsing="false" onAction="#change_grim_0" prefHeight="95.0" prefWidth="125.0" text="Add info" />
-      <Button fx:id="repa_0" layoutX="560.0" layoutY="73.0" mnemonicParsing="false" onAction="#change_repa_0" prefHeight="95.0" prefWidth="112.0" text="Add info" />
-      <Button fx:id="vist_0" layoutX="676.0" layoutY="73.0" mnemonicParsing="false" onAction="#change_vist_0" prefHeight="95.0" prefWidth="112.0" text="Add info" />
-      <Button fx:id="vist_1" layoutX="676.0" layoutY="174.0" mnemonicParsing="false" onAction="#change_vist_1" prefHeight="106.0" prefWidth="112.0" text="Add info" />
-      <Button fx:id="vist_2" layoutX="676.0" layoutY="289.0" mnemonicParsing="false" onAction="#change_vist_2" prefHeight="113.0" prefWidth="112.0" text="Add info" />
-      <Button fx:id="vist_3" layoutX="676.0" layoutY="410.0" mnemonicParsing="false" onAction="#change_vist_3" prefHeight="95.0" prefWidth="112.0" text="Add info" />
-      <Button fx:id="vist_4" layoutX="676.0" layoutY="508.0" mnemonicParsing="false" onAction="#change_vist_4" prefHeight="87.0" prefWidth="112.0" text="Add info" />
-      <Button fx:id="vist_5" layoutX="676.0" layoutY="601.0" mnemonicParsing="false" onAction="#change_vist_5" prefHeight="95.0" prefWidth="112.0" text="Add info" />
-      <Button fx:id="repa_5" layoutX="560.0" layoutY="603.0" mnemonicParsing="false" onAction="#change_repa_5" prefHeight="95.0" prefWidth="112.0" text="Add info" />
-      <Button fx:id="repa_4" layoutX="560.0" layoutY="508.0" mnemonicParsing="false" onAction="#change_repa_4" prefHeight="87.0" prefWidth="112.0" text="Add info" />
-      <Button fx:id="repa_3" layoutX="560.0" layoutY="410.0" mnemonicParsing="false" onAction="#change_repa_3" prefHeight="95.0" prefWidth="112.0" text="Add info" />
-      <Button fx:id="repa_2" layoutX="560.0" layoutY="289.0" mnemonicParsing="false" onAction="#change_repa_2" prefHeight="113.0" prefWidth="112.0" text="Add info" />
-      <Button fx:id="repa_1" layoutX="560.0" layoutY="174.0" mnemonicParsing="false" onAction="#change_repa_1" prefHeight="106.0" prefWidth="112.0" text="Add info" />
+      <TextArea fx:id="name_scene_0" editable="false" layoutX="301.0" layoutY="73.0" prefHeight="95.0" prefWidth="125.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="grim_0" editable="false" layoutX="429.0" layoutY="73.0" prefHeight="95.0" prefWidth="125.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="repa_0" editable="false" layoutX="560.0" layoutY="73.0" prefHeight="95.0" prefWidth="112.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="vist_0" editable="false" layoutX="676.0" layoutY="73.0" prefHeight="95.0" prefWidth="112.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="name_scene_1" editable="false" layoutX="301.0" layoutY="179.0" prefHeight="106.0" prefWidth="125.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="name_scene_2" editable="false" layoutX="301.0" layoutY="288.0" prefHeight="113.0" prefWidth="125.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="grim_2" editable="false" layoutX="429.0" layoutY="293.0" prefHeight="113.0" prefWidth="125.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="repa_2" editable="false" layoutX="560.0" layoutY="293.0" prefHeight="113.0" prefWidth="112.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="vist_2" editable="false" layoutX="676.0" layoutY="293.0" prefHeight="113.0" prefWidth="112.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="vist_3" editable="false" layoutX="676.0" layoutY="410.0" prefHeight="95.0" prefWidth="112.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="name_scene_3" editable="false" layoutX="301.0" layoutY="410.0" prefHeight="95.0" prefWidth="125.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="grim_3" editable="false" layoutX="429.0" layoutY="410.0" prefHeight="95.0" prefWidth="125.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="grim_1" editable="false" layoutX="429.0" layoutY="179.0" prefHeight="106.0" prefWidth="125.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="repa_1" editable="false" layoutX="560.0" layoutY="179.0" prefHeight="106.0" prefWidth="112.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="vist_1" editable="false" layoutX="676.0" layoutY="179.0" prefHeight="106.0" prefWidth="112.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="repa_3" editable="false" layoutX="564.0" layoutY="410.0" prefHeight="95.0" prefWidth="105.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="name_scene_4" editable="false" layoutX="301.0" layoutY="511.0" prefHeight="81.0" prefWidth="125.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="grim_4" editable="false" layoutX="433.0" layoutY="514.0" prefHeight="81.0" prefWidth="118.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="repa_4" editable="false" layoutX="563.0" layoutY="511.0" prefHeight="81.0" prefWidth="105.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="vist_4" editable="false" layoutX="679.0" layoutY="514.0" prefHeight="81.0" prefWidth="105.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="vist_5" editable="false" layoutX="680.0" layoutY="604.0" prefHeight="81.0" prefWidth="105.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="repa_5" editable="false" layoutX="567.0" layoutY="604.0" prefHeight="81.0" prefWidth="105.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="grim_5" editable="false" layoutX="433.0" layoutY="604.0" prefHeight="81.0" prefWidth="118.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="name_scene_5" editable="false" layoutX="304.0" layoutY="607.0" prefHeight="81.0" prefWidth="118.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="btt1" layoutX="790.0" layoutY="290.0" mnemonicParsing="false" onAction="#chng" prefHeight="120.0" prefWidth="147.0" text="Изменить данные">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

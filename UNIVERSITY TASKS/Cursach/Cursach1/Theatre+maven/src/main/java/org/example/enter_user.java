@@ -6,6 +6,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextArea;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -33,22 +34,30 @@ public class enter_user {
     private Button making;
 
     @FXML
-    void exit(ActionEvent event) {
-
+    void exit(ActionEvent event) throws IOException {
+        App.setRoot("welcome_screen");
     }
 
     @FXML
-    void make(ActionEvent event) {
-
+    void make(ActionEvent event) throws IOException {
+        if (!login.getText().toString().equals("") && !password.getText().toString().equals("") ){
+            Database database = new Database();
+            theatre theatre = new theatre();
+            theatre.setLogin(login.getText().toString());
+            theatre.setPassword(password.getText().toString());
+            int da = database.Getscene(theatre);
+            if (da>0){
+                App.setRoot("show_user");
+            } else {
+                info.setText("Такой пользователь не был найден !");
+            }
+        } else {
+            info.setText("Ошибка ! Исправьте проблему");
+        }
     }
 
     @FXML
     void initialize() {
-        assert btt != null : "fx:id=\"btt\" was not injected: check your FXML file 'enter_user.fxml'.";
-        assert password != null : "fx:id=\"password\" was not injected: check your FXML file 'enter_user.fxml'.";
-        assert login != null : "fx:id=\"login\" was not injected: check your FXML file 'enter_user.fxml'.";
-        assert info != null : "fx:id=\"info\" was not injected: check your FXML file 'enter_user.fxml'.";
-        assert making != null : "fx:id=\"making\" was not injected: check your FXML file 'enter_user.fxml'.";
 
     }
 }

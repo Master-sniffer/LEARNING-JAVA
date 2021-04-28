@@ -33,8 +33,8 @@ public class welcome_screen {
     }
 
     @FXML
-    void sh_auth(ActionEvent event) {
-
+    void sh_auth(ActionEvent event) throws IOException {
+        App.setRoot("");
     }
 
     @FXML

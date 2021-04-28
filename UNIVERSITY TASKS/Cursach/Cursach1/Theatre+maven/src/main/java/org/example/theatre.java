@@ -1,6 +1,5 @@
 package org.example;
 import javax.persistence.*;
-import java.util.Date;
 
 
 @Entity
@@ -10,7 +9,7 @@ public class theatre {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idscene;
     private String scenename;
-    private Date scenedate;
+    private String scenedate;
     private String grimer;
     private String repa;
     private String vistup;
@@ -19,7 +18,7 @@ public class theatre {
 
 
 
-    public theatre(String scenename , Date scenedate , String grimer , String repa , String vistup , String login , String password) {
+    public theatre(String scenename , String scenedate , String grimer , String repa , String vistup , String login , String password) {
         this.scenename=scenename;
         this.scenedate=scenedate;
         this.grimer=grimer;
@@ -46,11 +45,11 @@ public class theatre {
         this.scenename = scenename;
     }
 
-    public Date getScenedate() {
+    public String getScenedate() {
         return scenedate;
     }
 
-    public void setScenedate(Date scenedate) {
+    public void setScenedate(String scenedate) {
         this.scenedate = scenedate;
     }
 

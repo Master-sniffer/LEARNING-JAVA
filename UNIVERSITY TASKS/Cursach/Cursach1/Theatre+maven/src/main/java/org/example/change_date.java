@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class makeScene {
+public class change_date {
 
     @FXML
     private ResourceBundle resources;
@@ -51,25 +51,24 @@ public class makeScene {
 
     @FXML
     void exit(ActionEvent event) throws IOException {
-        App.setRoot("welcome_screen");
+        App.setRoot("Screen_Change");
+
     }
 
     @FXML
     void make(ActionEvent event) {
-        if (!login.getText().toString().equals("") && !password.getText().toString().equals("") ){
-            Database database = new Database();
+        if (!data.getText().toString().equals("") && (!grimer.getText().toString().equals("") || !repa.getText().toString().equals("") || !vistup.getText().toString().equals("") || !scene.getText().toString().equals("") || !password.getText().toString().equals("") || !login.getText().toString().equals(""))){
             theatre theatre = new theatre();
-            theatre.setLogin(login.getText().toString());
-            theatre.setPassword(password.getText().toString());
-            theatre.setRepa(repa.getText().toString());
             theatre.setGrimer(grimer.getText().toString());
-            theatre.setScenedate(data.getText());
-            theatre.setScenename(scene.getText().toString());
             theatre.setVistup(vistup.getText().toString());
-
-            database.Save_scene(theatre);
+            theatre.setScenename(scene.getText().toString());
+            theatre.setPassword(password.getText().toString());
+            theatre.setLogin(login.getText().toString());
+            theatre.setRepa(repa.getText().toString());
+            Database database = new Database();
+            database.ChangeSet(theatre , "scenedate",data.getText().toString());
         } else {
-            info.setText("Ошибка ! Исправьте проблему. Введите логин и пароль, как минимум");
+            info.setText("Проверьте все данные еще раз!");
         }
     }
 
