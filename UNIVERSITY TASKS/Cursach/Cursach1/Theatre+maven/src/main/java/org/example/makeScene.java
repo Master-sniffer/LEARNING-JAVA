@@ -9,6 +9,7 @@ import javafx.scene.control.TextArea;
 
 import java.io.IOException;
 import java.net.URL;
+import java.text.ParseException;
 import java.util.ResourceBundle;
 
 public class makeScene {
@@ -55,7 +56,7 @@ public class makeScene {
     }
 
     @FXML
-    void make(ActionEvent event) {
+    void make(ActionEvent event) throws ParseException {
         if (!login.getText().toString().equals("") && !password.getText().toString().equals("") ){
             Database database = new Database();
             theatre theatre = new theatre();
@@ -72,6 +73,7 @@ public class makeScene {
             info.setText("Ошибка ! Исправьте проблему. Введите логин и пароль, как минимум");
         }
     }
+
 
     @FXML
     void initialize() {

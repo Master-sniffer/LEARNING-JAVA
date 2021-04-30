@@ -155,15 +155,73 @@ public class for_admin {
         Database database = new Database();
         List<Object[]> listes =  database.GetInfo();
         int count=0;
+        System.out.println(listes.size());
         for (Object[] li : listes){
             if (count==5){
                 break;
             }
 
-            if (count==0){
+            if (count==0 && count<=listes.size()-1){
                 theatre theatre = new theatre();
-                System.out.println(li[0].toString());
+                idfield_0.setText(li[6].toString());
+                datafield_0.setText(li[7].toString());
+                name_scene_0.setText(li[1].toString());
+                grim_0.setText(li[3].toString());
+                repa_0.setText(li[4].toString());
+                vist_0.setText(li[5].toString());
             }
+
+            if (count==1 && count<=listes.size()-1){
+                theatre theatre = new theatre();
+                idfield_1.setText(li[6].toString());
+                datafield_1.setText(li[7].toString());
+                name_scene_1.setText(li[1].toString());
+                grim_1.setText(li[3].toString());
+                repa_1.setText(li[4].toString());
+                vist_1.setText(li[5].toString());
+            }
+
+            if (count==2 && count<=listes.size()-1){
+                theatre theatre = new theatre();
+                idfield_2.setText(li[6].toString());
+                datafield_2.setText(li[7].toString());
+                name_scene_2.setText(li[1].toString());
+                grim_2.setText(li[3].toString());
+                repa_2.setText(li[4].toString());
+                vist_2.setText(li[5].toString());
+            }
+
+            if (count==3 && count<=listes.size()-1){
+                theatre theatre = new theatre();
+                idfield_3.setText(li[6].toString());
+                datafield_3.setText(li[7].toString());
+                name_scene_3.setText(li[1].toString());
+                grim_3.setText(li[3].toString());
+                repa_3.setText(li[4].toString());
+                vist_3.setText(li[5].toString());
+            }
+
+            if (count==4 && count<=listes.size()-1){
+                theatre theatre = new theatre();
+                idfield_4.setText(li[6].toString());
+                datafield_4.setText(li[7].toString());
+                name_scene_4.setText(li[1].toString());
+                grim_4.setText(li[3].toString());
+                repa_4.setText(li[4].toString());
+                vist_4.setText(li[5].toString());
+            }
+
+            if (count==5 && count<=listes.size()-1){
+                theatre theatre = new theatre();
+                idfield_5.setText(li[6].toString());
+                datafield_5.setText(li[7].toString());
+                name_scene_5.setText(li[1].toString());
+                grim_5.setText(li[3].toString());
+                repa_5.setText(li[4].toString());
+                vist_5.setText(li[5].toString());
+            }
+
+            count++;
         }
     }
 }

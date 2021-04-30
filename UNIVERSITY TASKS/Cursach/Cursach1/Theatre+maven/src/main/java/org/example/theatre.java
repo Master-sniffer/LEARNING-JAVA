@@ -1,15 +1,21 @@
 package org.example;
+
 import javax.persistence.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 
 @Entity
 @Table(name="users.theatre")
 public class theatre {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idscene;
+    private Integer Id;
+
     private String scenename;
-    private String scenedate;
+    private Date scenedate;
     private String grimer;
     private String repa;
     private String vistup;
@@ -18,14 +24,20 @@ public class theatre {
 
 
 
-    public theatre(String scenename , String scenedate , String grimer , String repa , String vistup , String login , String password) {
+    public theatre(String scenename , String scenedate , String grimer , String repa , String vistup , String login , String password) throws ParseException {
         this.scenename=scenename;
-        this.scenedate=scenedate;
+        //this.scenedate=scenedate;
+        try{
+            this.scenedate=new SimpleDateFormat("yyyy-MM-dd").parse(scenedate);
+        } catch (Exception e){
+            this.scenedate=new SimpleDateFormat("yyyy MM dd").parse(scenedate); }
+
         this.grimer=grimer;
         this.repa=repa;
         this.vistup=vistup;
         this.login=login;
         this.password=password;
+
     }
 
 
@@ -33,9 +45,6 @@ public class theatre {
 
     }
 
-    public Integer getIdscene() {
-        return idscene;
-    }
 
     public String getScenename() {
         return scenename;
@@ -45,12 +54,17 @@ public class theatre {
         this.scenename = scenename;
     }
 
-    public String getScenedate() {
+    public Date getScenedate() {
         return scenedate;
     }
 
-    public void setScenedate(String scenedate) {
-        this.scenedate = scenedate;
+    public void setScenedate(String scenedate) throws ParseException {
+        //this.scenedate = scenedate;
+        try{
+            this.scenedate=new SimpleDateFormat("yyyy-MM-dd").parse(scenedate);
+        } catch (Exception e){
+            this.scenedate=new SimpleDateFormat("yyyy MM dd").parse(scenedate); }
+
     }
 
     public String getGrimer() {
