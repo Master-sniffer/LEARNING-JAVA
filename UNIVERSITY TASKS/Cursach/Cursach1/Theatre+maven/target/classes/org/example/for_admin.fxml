@@ -61,36 +61,6 @@
             <Font size="19.0" />
          </font>
       </TextArea>
-      <TextArea fx:id="idfield_0" editable="false" layoutX="6.0" layoutY="73.0" prefHeight="95.0" prefWidth="140.0">
-         <font>
-            <Font size="19.0" />
-         </font>
-      </TextArea>
-      <TextArea fx:id="idfield_1" editable="false" layoutX="6.0" layoutY="179.0" prefHeight="106.0" prefWidth="140.0">
-         <font>
-            <Font size="19.0" />
-         </font>
-      </TextArea>
-      <TextArea fx:id="idfield_2" editable="false" layoutX="6.0" layoutY="289.0" prefHeight="113.0" prefWidth="140.0">
-         <font>
-            <Font size="19.0" />
-         </font>
-      </TextArea>
-      <TextArea fx:id="idfield_3" editable="false" layoutX="6.0" layoutY="410.0" prefHeight="95.0" prefWidth="140.0">
-         <font>
-            <Font size="19.0" />
-         </font>
-      </TextArea>
-      <TextArea fx:id="idfield_4" editable="false" layoutX="6.0" layoutY="508.0" prefHeight="87.0" prefWidth="140.0">
-         <font>
-            <Font size="19.0" />
-         </font>
-      </TextArea>
-      <TextArea fx:id="idfield_5" editable="false" layoutX="6.0" layoutY="601.0" prefHeight="87.0" prefWidth="140.0">
-         <font>
-            <Font size="19.0" />
-         </font>
-      </TextArea>
       <TextArea fx:id="datafield_1" editable="false" layoutX="155.0" layoutY="179.0" prefHeight="106.0" prefWidth="140.0">
          <font>
             <Font size="19.0" />
@@ -236,9 +206,39 @@
             <Font size="19.0" />
          </font>
       </TextArea>
-      <Button fx:id="btt1" layoutX="790.0" layoutY="290.0" mnemonicParsing="false" onAction="#chng" prefHeight="120.0" prefWidth="147.0" text="Изменить данные">
+      <Button fx:id="btt1" layoutX="790.0" layoutY="290.0" mnemonicParsing="false" onAction="#chng" prefHeight="120.0" prefWidth="147.0" text="Удалить данные">
          <font>
             <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="idfield_0" layoutX="3.0" layoutY="73.0" mnemonicParsing="false" onAction="#chang_0" prefHeight="95.0" prefWidth="147.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="idfield_1" layoutX="3.0" layoutY="177.0" mnemonicParsing="false" onAction="#chang_1" prefHeight="106.0" prefWidth="147.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="idfield_2" layoutX="3.0" layoutY="289.0" mnemonicParsing="false" onAction="#chang_2" prefHeight="113.0" prefWidth="147.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="idfield_3" layoutX="3.0" layoutY="410.0" mnemonicParsing="false" onAction="#chang_3" prefHeight="95.0" prefWidth="147.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="idfield_4" layoutX="3.0" layoutY="506.0" mnemonicParsing="false" onAction="#chang_4" prefHeight="87.0" prefWidth="147.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="idfield_5" layoutX="3.0" layoutY="602.0" mnemonicParsing="false" onAction="#chang_5" prefHeight="87.0" prefWidth="147.0">
+         <font>
+            <Font size="17.0" />
          </font>
       </Button>
    </children>

@@ -4,10 +4,14 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 
+import java.io.IOException;
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class show_user {
+
+
 
     @FXML
     private ResourceBundle resources;
@@ -75,31 +79,59 @@ public class show_user {
     }
 
     @FXML
-    void exit(ActionEvent event) {
-
+    void exit(ActionEvent event) throws IOException {
+        App.setRoot("welcome_screen");
     }
 
     @FXML
     void initialize() {
-        assert btt != null : "fx:id=\"btt\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert button != null : "fx:id=\"button\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert namespec_0 != null : "fx:id=\"namespec_0\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert namespec_1 != null : "fx:id=\"namespec_1\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert grimer_1 != null : "fx:id=\"grimer_1\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert grimer_0 != null : "fx:id=\"grimer_0\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert repet_0 != null : "fx:id=\"repet_0\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert repet_1 != null : "fx:id=\"repet_1\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert vistup_0 != null : "fx:id=\"vistup_0\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert vistup_1 != null : "fx:id=\"vistup_1\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert vistup_2 != null : "fx:id=\"vistup_2\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert repet_2 != null : "fx:id=\"repet_2\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert grimer_2 != null : "fx:id=\"grimer_2\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert namespec_2 != null : "fx:id=\"namespec_2\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert namespec_3 != null : "fx:id=\"namespec_3\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert grimer_3 != null : "fx:id=\"grimer_3\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert repet_3 != null : "fx:id=\"repet_3\" was not injected: check your FXML file 'show_user.fxml'.";
-        assert vistup_3 != null : "fx:id=\"vistup_3\" was not injected: check your FXML file 'show_user.fxml'.";
+        System.out.println(enter_user.texta.toString());
+        button.setText("Привет "+ enter_user.texta);
+        Database database = new Database();
+        List<Object[]> listes =  database.GetInfo();
+        int count=0;
+        System.out.println(listes.size());
+        for (Object[] li : listes) {
+            if (count == 4) {
+                break;
+            }
+            if (li[8].toString().equals("scena")) {
 
+                if (count == 0 && count <= listes.size() - 1) {
+                    theatre theatre = new theatre();
+                    namespec_0.setText(li[1].toString());
+                    grimer_0.setText(li[3].toString());
+                    repet_0.setText(li[4].toString());
+                    vistup_0.setText(li[5].toString());
+                }
+
+                if (count == 1 && count <= listes.size() - 1) {
+                    theatre theatre = new theatre();
+                    namespec_1.setText(li[1].toString());
+                    grimer_1.setText(li[3].toString());
+                    repet_1.setText(li[4].toString());
+                    vistup_1.setText(li[5].toString());
+                }
+
+                if (count == 2 && count <= listes.size() - 1) {
+                    theatre theatre = new theatre();
+                    namespec_2.setText(li[1].toString());
+                    grimer_2.setText(li[3].toString());
+                    repet_2.setText(li[4].toString());
+                    vistup_2.setText(li[5].toString());
+                }
+
+                if (count == 3 && count <= listes.size() - 1) {
+                    theatre theatre = new theatre();
+                    namespec_3.setText(li[1].toString());
+                    grimer_3.setText(li[3].toString());
+                    repet_3.setText(li[4].toString());
+                    vistup_3.setText(li[5].toString());
+                }
+
+                count++;
+            }
+        }
     }
 }
 

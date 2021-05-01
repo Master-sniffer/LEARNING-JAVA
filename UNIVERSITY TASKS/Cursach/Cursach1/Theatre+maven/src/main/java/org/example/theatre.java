@@ -1,5 +1,7 @@
 package org.example;
 
+import org.hibernate.annotations.DynamicUpdate;
+
 import javax.persistence.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -7,6 +9,7 @@ import java.util.Date;
 
 
 @Entity
+@DynamicUpdate
 @Table(name="users.theatre")
 public class theatre {
 
@@ -21,10 +24,11 @@ public class theatre {
     private String vistup;
     private String login;
     private String password;
+    private String role;
 
 
 
-    public theatre(String scenename , String scenedate , String grimer , String repa , String vistup , String login , String password) throws ParseException {
+    public theatre(String scenename , String scenedate , String grimer , String repa , String vistup , String login , String password, String role) throws ParseException {
         this.scenename=scenename;
         //this.scenedate=scenedate;
         try{
@@ -37,7 +41,7 @@ public class theatre {
         this.vistup=vistup;
         this.login=login;
         this.password=password;
-
+        this.role=role;
     }
 
 
@@ -54,8 +58,8 @@ public class theatre {
         this.scenename = scenename;
     }
 
-    public Date getScenedate() {
-        return scenedate;
+    public String getScenedate() {
+        return scenedate.toString();
     }
 
     public void setScenedate(String scenedate) throws ParseException {
@@ -105,5 +109,21 @@ public class theatre {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    public void setId(Integer id) {
+        Id = id;
+    }
+
+    public Integer getId() {
+        return Id;
     }
 }

@@ -67,6 +67,27 @@ public class makeScene {
             theatre.setScenedate(data.getText());
             theatre.setScenename(scene.getText().toString());
             theatre.setVistup(vistup.getText().toString());
+            theatre.setRole("scena");
+
+            if (repa.getText().toString().equals("")){
+                theatre.setRepa("Пока неизвестно");
+            }
+
+            if (grimer.getText().toString().equals("")){
+                theatre.setGrimer("Пока неизвестно");
+            }
+
+            if (data.getText().toString().equals("")){
+                theatre.setScenedate("1970-01-01");
+            }
+
+            if (scene.getText().toString().equals("")){
+                theatre.setScenename("Пока неизвестно");
+            }
+
+            if (vistup.getText().toString().equals("")){
+                theatre.setVistup("Пока неизвестно");
+            }
 
             database.Save_scene(theatre);
         } else {

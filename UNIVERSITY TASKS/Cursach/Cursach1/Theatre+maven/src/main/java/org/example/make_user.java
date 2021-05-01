@@ -47,7 +47,9 @@ public class make_user {
             theatre theatre = new theatre();
             theatre.setLogin(login.getText().toString());
             theatre.setPassword(password.getText().toString());
+            theatre.setRole("user");
             database.Save_scene(theatre);
+            info.setText("Операция прошла успешно ! Возвращайтесь на главный экран");
         } else {
             info.setText("Ошибка ! Исправьте проблему");
         }

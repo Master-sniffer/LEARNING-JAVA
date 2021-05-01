@@ -12,6 +12,8 @@ import java.util.ResourceBundle;
 
 public class enter_user {
 
+    public static String texta;
+
     @FXML
     private ResourceBundle resources;
 
@@ -40,14 +42,17 @@ public class enter_user {
 
     @FXML
     void make(ActionEvent event) throws IOException {
-        if (!login.getText().toString().equals("") && !password.getText().toString().equals("") ){
+        if (!login.getText().toString().equals("") && !password.getText().toString().equals("")  && ( !login.getText().toString().equals("admin") || !password.getText().toString().equals("admin")   )){
             Database database = new Database();
             theatre theatre = new theatre();
             theatre.setLogin(login.getText().toString());
             theatre.setPassword(password.getText().toString());
+
             int da = database.Getscene(theatre);
             if (da>0){
+                this.texta=login.getText().toString();
                 App.setRoot("show_user");
+
             } else {
                 info.setText("Такой пользователь не был найден !");
             }
