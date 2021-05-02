@@ -1,8 +1,7 @@
 package org.example;
 
-import org.hibernate.SQLQuery;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
+import org.hibernate.*;
+import org.hibernate.criterion.Order;
 
 import java.text.ParseException;
 import java.util.List;
@@ -47,13 +46,13 @@ public class Database {
         }
 
         if (problem=="grimer"){
-            theatres.setScenename(theatre.getGrimer());
+            theatres.setGrimer(theatre.getGrimer());
             res++;
             session.update(theatres);
         }
 
         if (problem=="scenedate"){
-            theatres.setScenedate(theatre.getLogin());
+            theatres.setScenedate(theatre.getScenedate());
             res++;
             session.update(theatres);
         }
@@ -68,6 +67,7 @@ public class Database {
         if (problem=="password"){
             theatres.setPassword(theatre.getPassword());
             res++;
+            System.out.println(theatres.getPassword());
             session.update(theatres);
         }
 
@@ -178,6 +178,34 @@ public class Database {
 
         trans.commit();
         session.close();
+    }
+
+    public List<theatre> sortirovka(String cas) {
+        Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
+        Transaction trans = session.beginTransaction();
+
+        Criteria criteria = session.createCriteria(theatre.class, "users.theatre");
+        if (cas=="Grim"){
+            criteria.addOrder(Order.asc("grimer").nulls(NullPrecedence.LAST));
+        }
+
+        if (cas=="Name"){
+            criteria.addOrder(Order.asc("scenename").nulls(NullPrecedence.LAST));
+        }
+
+        if (cas=="Repa"){
+            criteria.addOrder(Order.asc("repa").nulls(NullPrecedence.LAST));
+        }
+
+        if (cas=="Vistup"){
+            criteria.addOrder(Order.asc("scenedate").nulls(NullPrecedence.LAST));
+        }
+        System.out.println(criteria);
+        List<theatre> result = criteria.list();
+        System.out.println(result);
+        trans.commit();
+        session.close();
+        return result;
     }
 }
 

@@ -29,13 +29,13 @@ public class change_admin {
 
     @FXML
     void change(ActionEvent event) {
-Database database= new Database();
-database.changeadmin(log.getText().toString() , pass.getText().toString());
+        Database database= new Database();
+        database.changeadmin(log.getText().toString() , pass.getText().toString());
     }
 
     @FXML
     void exit(ActionEvent event) throws IOException {
-App.setRoot("for_admin");
+        App.setRoot("for_admin");
     }
 
     @FXML

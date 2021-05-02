@@ -52,7 +52,7 @@ public class makeScene {
 
     @FXML
     void exit(ActionEvent event) throws IOException {
-        App.setRoot("welcome_screen");
+        App.setRoot("for_admin");
     }
 
     @FXML

@@ -34,12 +34,12 @@ public class welcome_screen {
 
     @FXML
     void sh_auth(ActionEvent event) throws IOException {
-        App.setRoot("");
+        App.setRoot("AUTHOR");
     }
 
     @FXML
     void afisha(ActionEvent event) throws IOException {
-        App.setRoot("");
+        App.setRoot("sortBy");
     }
 
     @FXML

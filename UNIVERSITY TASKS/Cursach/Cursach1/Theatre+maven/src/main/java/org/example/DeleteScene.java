@@ -6,6 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -38,8 +39,8 @@ public class DeleteScene {
     }
 
     @FXML
-    void exit(ActionEvent event) {
-
+    void exit(ActionEvent event) throws IOException {
+        App.setRoot("for_admin");
     }
 
     @FXML

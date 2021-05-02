@@ -6,6 +6,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
+import java.io.IOException;
 import java.net.URL;
 import java.text.ParseException;
 import java.util.ResourceBundle;
@@ -31,7 +32,8 @@ public class change_grimerka {
     private TextArea grimer;
 
     @FXML
-    void exit(ActionEvent event) {
+    void exit(ActionEvent event) throws IOException {
+        App.setRoot("Screen_Change");
 
     }
 
