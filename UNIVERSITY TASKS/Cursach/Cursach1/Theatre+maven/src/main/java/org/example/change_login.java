@@ -43,7 +43,10 @@ public class change_login {
         theatre theatre = new theatre();
         theatre.setId(for_admin.id_for_time);
         theatre.setLogin(login.getText().toString());
-        database.ChangeSet(theatre, "login");
+        int res = database.ChangeSet(theatre, "login");
+        if (res>0){
+            info.setText("Успешно !");
+        }
     }
 
     @FXML

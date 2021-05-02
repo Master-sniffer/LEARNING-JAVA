@@ -43,8 +43,10 @@ public class change_vistup {
         theatre theatre = new theatre();
         theatre.setId(for_admin.id_for_time);
         theatre.setVistup(vistup.getText().toString());
-        database.ChangeSet(theatre, "vistup");
-
+       int res =  database.ChangeSet(theatre, "vistup");
+        if (res>0){
+            info.setText("Успешно !");
+        }
     }
 
     @FXML

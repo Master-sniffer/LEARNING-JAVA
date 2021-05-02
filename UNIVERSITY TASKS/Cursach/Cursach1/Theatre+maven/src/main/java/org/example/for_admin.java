@@ -268,4 +268,10 @@ public class for_admin {
 
         }
     }
+
+
+    @FXML
+    void log_pass(ActionEvent event) throws IOException {
+        App.setRoot("change_admin");
+    }
 }

@@ -34,42 +34,52 @@ public class Database {
         session.close();
     }
 
-    public void ChangeSet (theatre theatre, String problem) throws ParseException {
+    public int ChangeSet (theatre theatre, String problem) throws ParseException {
         Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
         Transaction trans = session.beginTransaction();
         theatre theatres = (theatre) session.get(theatre.class , theatre.getId());
+        int res=0;
         if (problem=="scenename"){
             theatres.setScenename(theatre.getScenename());
+            res++;
             session.update(theatres);
+
         }
 
         if (problem=="grimer"){
             theatres.setScenename(theatre.getGrimer());
+            res++;
             session.update(theatres);
         }
 
         if (problem=="scenedate"){
             theatres.setScenedate(theatre.getLogin());
+            res++;
             session.update(theatres);
         }
 
         if (problem=="login"){
+
             theatres.setLogin(theatre.getLogin());
+            res++;
             session.update(theatres);
         }
 
         if (problem=="password"){
             theatres.setPassword(theatre.getPassword());
+            res++;
             session.update(theatres);
         }
 
         if (problem=="repa"){
             theatres.setRepa(theatre.getRepa());
+            res++;
             session.update(theatres);
         }
 
         if (problem=="vistup"){
             theatres.setVistup(theatre.getVistup());
+            res++;
             session.update(theatres);
         }
 
@@ -116,6 +126,7 @@ public class Database {
 
         trans.commit();
         session.close();
+        return  res;
     }
 
     public List<Object[]> GetInfo () {
@@ -149,4 +160,25 @@ public class Database {
         session.close();
         return result;
     }
+
+    public void changeadmin(String log, String pass){
+        Session session = HibernateSessionFactoryUtil.getSessionFactory().openSession();
+        Transaction trans = session.beginTransaction();
+        if (!log.equals("")){
+            theatre admin = (theatre) session.get(theatre.class , 0);
+            admin.setLogin(log);
+            session.update(admin);
+        }
+
+        if (!pass.equals("")){
+            theatre admin = (theatre) session.get(theatre.class , 0);
+            admin.setPassword(pass);
+            session.update(admin);
+        }
+
+        trans.commit();
+        session.close();
+    }
 }
+
+

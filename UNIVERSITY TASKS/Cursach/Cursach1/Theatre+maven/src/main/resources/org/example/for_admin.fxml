@@ -241,5 +241,10 @@
             <Font size="17.0" />
          </font>
       </Button>
+      <Button layoutX="790.0" layoutY="536.0" mnemonicParsing="false" onAction="#log_pass" prefHeight="81.0" prefWidth="147.0" text="Изменить пароль&#10;логин ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

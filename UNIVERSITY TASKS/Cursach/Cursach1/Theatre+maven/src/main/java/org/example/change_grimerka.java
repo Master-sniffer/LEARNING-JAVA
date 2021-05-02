@@ -41,8 +41,10 @@ public class change_grimerka {
         theatre theatre = new theatre();
         theatre.setId(for_admin.id_for_time);
         theatre.setGrimer(grimer.getText().toString());
-        database.ChangeSet(theatre, "grimer");
-
+        int res = database.ChangeSet(theatre, "grimer");
+        if (res>0){
+            info.setText("Успешно !");
+        }
 
     }
 

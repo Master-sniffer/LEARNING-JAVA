@@ -42,9 +42,10 @@ public class change_date {
         theatre theatre = new theatre();
         theatre.setId(for_admin.id_for_time);
         theatre.setLogin(data.getText().toString());
-        database.ChangeSet(theatre, "scenedate");
-
-    }
+        int res = database.ChangeSet(theatre, "scenedate");
+        if (res>0){
+        info.setText("Успешно !");
+    }}
 
     @FXML
     void initialize() {

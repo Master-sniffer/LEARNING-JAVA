@@ -43,7 +43,10 @@ public class change_password {
         theatre theatre = new theatre();
         theatre.setId(for_admin.id_for_time);
         theatre.setPassword(password.getText().toString());
-        database.ChangeSet(theatre, "password");
+        int res =database.ChangeSet(theatre, "password");
+        if (res>0){
+            info.setText("Успешно !");
+        }
     }
 
     @FXML

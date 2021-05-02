@@ -43,7 +43,10 @@ public class change_repa {
         theatre theatre = new theatre();
         theatre.setId(for_admin.id_for_time);
         theatre.setRepa(repa.getText().toString());
-        database.ChangeSet(theatre, "repa");
+   int res=    database.ChangeSet(theatre, "repa");
+        if (res>0){
+            info.setText("Успешно !");
+        }
     }
 
     @FXML

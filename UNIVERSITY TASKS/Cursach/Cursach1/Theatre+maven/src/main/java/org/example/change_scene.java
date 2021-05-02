@@ -43,7 +43,10 @@ public class change_scene {
         theatre theatre = new theatre();
         theatre.setId(for_admin.id_for_time);
         theatre.setScenename(scene.getText().toString());
-        database.ChangeSet(theatre, "scenename");
+        int res =database.ChangeSet(theatre, "scenename");
+        if (res>0){
+            info.setText("Успешно !");
+        }
     }
 
     @FXML
