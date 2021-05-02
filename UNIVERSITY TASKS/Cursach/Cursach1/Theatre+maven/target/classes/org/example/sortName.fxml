@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="664.0" prefWidth="1022.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.sortName">
+   <children>
+      <Line endX="-100.0" endY="663.0" layoutX="254.0" layoutY="1.0" startX="-100.0" strokeWidth="3.0" />
+      <Line endX="-100.0" endY="663.0" layoutX="494.0" startX="-100.0" strokeWidth="3.0" />
+      <Line endX="-100.0" endY="663.0" layoutX="734.0" layoutY="1.0" startX="-100.0" strokeWidth="3.0" />
+      <Line endX="-100.0" endY="663.0" layoutX="942.0" layoutY="1.0" startX="-100.0" strokeWidth="3.0" />
+      <Line endX="603.5" endY="162.0" layoutX="237.0" layoutY="-71.0" startX="-237.0" startY="162.0" strokeWidth="3.0" />
+      <Line endX="-100.0" endY="663.0" layoutX="100.0" layoutY="1.0" startX="-100.0" strokeWidth="3.0" />
+      <Line endX="603.5" endY="162.0" layoutX="240.0" layoutY="-163.0" startX="-237.0" startY="162.0" strokeWidth="3.0" />
+      <Line endX="605.5" endY="162.0" layoutX="235.0" layoutY="74.0" startX="-237.0" startY="162.0" strokeWidth="3.0" />
+      <Line endX="605.5" endY="162.0" layoutX="235.0" layoutY="252.0" startX="-237.0" startY="162.0" strokeWidth="3.0" />
+      <Line endX="601.5" endY="162.0" layoutX="237.0" layoutY="377.0" startX="-237.0" startY="162.0" strokeWidth="3.0" />
+      <Button fx:id="btt" layoutX="914.0" layoutY="591.0" mnemonicParsing="false" onAction="#exit" prefHeight="73.0" prefWidth="108.0" text="Выйти">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="button" layoutX="845.0" layoutY="71.0" mnemonicParsing="false" onAction="#changeUser" prefHeight="109.0" prefWidth="177.0" text="Привет Username">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="2.0" layoutY="1.0" prefHeight="87.0" prefWidth="148.0" text="Название спектакля\&#10;пьесы">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="156.0" layoutY="1.0" prefHeight="87.0" prefWidth="233.0" text="Гримерная">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="395.0" layoutY="1.0" prefHeight="87.0" prefWidth="233.0" text="Репетиции">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutX="636.0" layoutY="2.0" prefHeight="85.0" prefWidth="201.0" text="Выступление">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="namespec_0" editable="false" layoutX="2.0" layoutY="93.0" prefHeight="136.0" prefWidth="148.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="namespec_1" editable="false" layoutX="2.0" layoutY="238.0" prefHeight="174.0" prefWidth="148.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="grimer_1" editable="false" layoutX="156.0" layoutY="238.0" prefHeight="174.0" prefWidth="233.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="grimer_0" editable="false" layoutX="156.0" layoutY="93.0" prefHeight="142.0" prefWidth="233.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="repet_0" editable="false" layoutX="395.0" layoutY="93.0" prefHeight="142.0" prefWidth="233.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="repet_1" editable="false" layoutX="396.0" layoutY="238.0" prefHeight="174.0" prefWidth="233.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="vistup_0" editable="false" layoutX="636.0" layoutY="93.0" prefHeight="142.0" prefWidth="201.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="vistup_1" editable="false" layoutX="636.0" layoutY="238.0" prefHeight="174.0" prefWidth="201.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="vistup_2" editable="false" layoutX="636.0" layoutY="417.0" prefHeight="121.0" prefWidth="201.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="repet_2" editable="false" layoutX="396.0" layoutY="417.0" prefHeight="121.0" prefWidth="233.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="grimer_2" editable="false" layoutX="156.0" layoutY="417.0" prefHeight="121.0" prefWidth="233.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="namespec_2" editable="false" layoutX="2.0" layoutY="417.0" prefHeight="121.0" prefWidth="148.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="namespec_3" editable="false" layoutX="2.0" layoutY="544.0" prefHeight="115.0" prefWidth="148.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="grimer_3" editable="false" layoutX="156.0" layoutY="541.0" prefHeight="121.0" prefWidth="233.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="repet_3" editable="false" layoutX="395.0" layoutY="541.0" prefHeight="121.0" prefWidth="233.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="vistup_3" editable="false" layoutX="636.0" layoutY="541.0" prefHeight="121.0" prefWidth="201.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

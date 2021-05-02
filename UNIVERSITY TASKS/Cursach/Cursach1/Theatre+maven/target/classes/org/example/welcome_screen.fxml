@@ -21,9 +21,9 @@
             <Font size="19.0" />
          </font>
       </Button>
-      <Button fx:id="afisa" layoutX="727.0" layoutY="385.0" mnemonicParsing="false" onAction="#afisha" prefHeight="114.0" prefWidth="193.0" text="Посмотреть афишу">
+      <Button fx:id="afisa" layoutX="727.0" layoutY="385.0" mnemonicParsing="false" onAction="#afisha" prefHeight="114.0" prefWidth="193.0" text="сортировка выступлений">
          <font>
-            <Font size="18.0" />
+            <Font size="14.0" />
          </font>
       </Button>
       <Button layoutX="441.0" layoutY="516.0" mnemonicParsing="false" onAction="#sh_auth" prefHeight="100.0" prefWidth="141.0" text="Автор">
