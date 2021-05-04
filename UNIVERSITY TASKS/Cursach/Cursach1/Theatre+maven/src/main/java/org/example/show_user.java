@@ -99,32 +99,32 @@ public class show_user {
 
                 if (count == 0 && count <= listes.size() - 1) {
                     theatre theatre = new theatre();
-                    namespec_0.setText(li[1].toString());
-                    grimer_0.setText(li[3].toString());
+                    namespec_0.setText(li[6].toString());
+                    grimer_0.setText(li[1].toString());
                     repet_0.setText(li[4].toString());
                     vistup_0.setText(li[5].toString());
                 }
 
                 if (count == 1 && count <= listes.size() - 1) {
                     theatre theatre = new theatre();
-                    namespec_1.setText(li[1].toString());
-                    grimer_1.setText(li[3].toString());
+                    namespec_1.setText(li[6].toString());
+                    grimer_1.setText(li[1].toString());
                     repet_1.setText(li[4].toString());
                     vistup_1.setText(li[5].toString());
                 }
 
                 if (count == 2 && count <= listes.size() - 1) {
                     theatre theatre = new theatre();
-                    namespec_2.setText(li[1].toString());
-                    grimer_2.setText(li[3].toString());
+                    namespec_2.setText(li[6].toString());
+                    grimer_2.setText(li[1].toString());
                     repet_2.setText(li[4].toString());
                     vistup_2.setText(li[5].toString());
                 }
 
                 if (count == 3 && count <= listes.size() - 1) {
                     theatre theatre = new theatre();
-                    namespec_3.setText(li[1].toString());
-                    grimer_3.setText(li[3].toString());
+                    namespec_3.setText(li[6].toString());
+                    grimer_3.setText(li[1].toString());
                     repet_3.setText(li[4].toString());
                     vistup_3.setText(li[5].toString());
                 }

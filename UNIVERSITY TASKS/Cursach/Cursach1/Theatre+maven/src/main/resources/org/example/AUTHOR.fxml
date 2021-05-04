@@ -5,10 +5,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane fx:controller="org.example.author" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="701.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.author">
    <children>
-      <Label layoutX="202.0" layoutY="184.0" prefHeight="121.0" prefWidth="297.0" text="Сделано Егором Быковом&#10;ПИ19-1">
+      <Label layoutX="202.0" layoutY="189.0" prefHeight="111.0" prefWidth="297.0" text="Сделано Егором Быковым&#10;ПИ19-1">
          <font>
             <Font size="24.0" />
          </font>

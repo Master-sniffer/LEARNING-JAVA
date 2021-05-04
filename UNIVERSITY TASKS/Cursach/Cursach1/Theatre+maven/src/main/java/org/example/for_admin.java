@@ -210,7 +210,7 @@ public class for_admin {
                     name_scene_0.setText(li[6].toString());
                     grim_0.setText(li[1].toString());
                     repa_0.setText(li[4].toString());
-                    vist_0.setText(li[7].toString());
+                    vist_0.setText(li[5].toString());
                 }
 
                 if (count == 1 && count <= listes.size() - 1) {
@@ -220,7 +220,7 @@ public class for_admin {
                     name_scene_1.setText(li[6].toString());
                     grim_1.setText(li[1].toString());
                     repa_1.setText(li[4].toString());
-                    vist_1.setText(li[7].toString());
+                    vist_1.setText(li[5].toString());
                 }
 
                 if (count == 2 && count <= listes.size() - 1) {
@@ -230,7 +230,7 @@ public class for_admin {
                     name_scene_2.setText(li[6].toString());
                     grim_2.setText(li[1].toString());
                     repa_2.setText(li[4].toString());
-                    vist_2.setText(li[7].toString());
+                    vist_2.setText(li[5].toString());
                 }
 
                 if (count == 3 && count <= listes.size() - 1) {
@@ -240,7 +240,7 @@ public class for_admin {
                     name_scene_3.setText(li[6].toString());
                     grim_3.setText(li[1].toString());
                     repa_3.setText(li[4].toString());
-                    vist_3.setText(li[7].toString());
+                    vist_3.setText(li[5].toString());
                 }
 
                 if (count == 4 && count <= listes.size() - 1) {
@@ -250,7 +250,7 @@ public class for_admin {
                     name_scene_4.setText(li[6].toString());
                     grim_4.setText(li[1].toString());
                     repa_4.setText(li[4].toString());
-                    vist_4.setText(li[7].toString());
+                    vist_4.setText(li[5].toString());
                 }
 
                 if (count == 5 && count <= listes.size() - 1) {
@@ -260,7 +260,7 @@ public class for_admin {
                     name_scene_5.setText(li[6].toString());
                     grim_5.setText(li[1].toString());
                     repa_5.setText(li[4].toString());
-                    vist_5.setText(li[7].toString());
+                    vist_5.setText(li[5].toString());
                 }
                 count++;
             }
