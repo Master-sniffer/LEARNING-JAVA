@@ -85,8 +85,11 @@ public class ChangeUser {
     }
 
     @FXML
+    private CheckBox tick;
+
+    @FXML
     void Confirm(ActionEvent event) {
-        if (!name.getText().toString().equals("") && !surname.getText().toString().equals("")){
+        if (!name.getText().toString().equals("") && !surname.getText().toString().equals("") && tick.isSelected()){
             DATABASE database = new DATABASE();
             this.id = database.GetUser(name.getText().toString() ,surname.getText().toString() );
 
@@ -105,6 +108,8 @@ public class ChangeUser {
             } catch (Exception e) {
                 System.err.println(e.getMessage());
             }
+        } else {
+            lab.setText("Something went wrong...");
         }
     }
 
