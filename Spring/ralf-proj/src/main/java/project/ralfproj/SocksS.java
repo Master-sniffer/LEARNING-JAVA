@@ -7,7 +7,7 @@ public class SocksS {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true, nullable = false)
-    Integer id;
+    Long id;
 
     String color;
     String cotton;
@@ -23,7 +23,7 @@ public class SocksS {
 
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
