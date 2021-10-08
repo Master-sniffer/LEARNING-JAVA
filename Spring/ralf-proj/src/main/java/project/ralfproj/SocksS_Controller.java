@@ -90,12 +90,22 @@ public class SocksS_Controller {
         }
 
     }
+
+    @RequestMapping(value = "/api/socks?color={color}&operation={ope}&cottonPart={cotton}" , method = RequestMethod.GET)
+    public String getSocks(@RequestParam (value = "color") String color){
+        System.out.println(color );
+        System.out.println("AADAD");
+        return color;
+    }
+
 //
 //    @RequestMapping("/socks/{id}")
 //    public SocksS getSocks(@PathVariable Integer id){
 //        return ServiceSocks.getSock(id);
 //    }
 //
+
+
 
 
 }
