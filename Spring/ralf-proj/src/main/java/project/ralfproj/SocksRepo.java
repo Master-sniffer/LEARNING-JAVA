@@ -10,4 +10,8 @@ public interface SocksRepo  extends CrudRepository<SocksS, Long> {
     @Query(value = "SELECT * FROM sockss WHERE cotton = ?1 AND color = ?2", nativeQuery = true) //WHERE cotton = ?1 AND color= ?2
     List<SocksS> findBycottonAndcolor(String cotton , String color); //String cotton, String color
 
+
+    @Query(value="SELECT * FROM sockss WHERE color = ?1 AND cotton=?2 ?3", nativeQuery = true)
+    List<SocksS> findByCottonColorOperation(String color , String cotton, String operation); //String cotton, String color
+
 }
