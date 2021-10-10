@@ -12,8 +12,6 @@ import java.util.List;
 @RestController
 public class SocksS_Controller {
 
-    @Autowired
-    private ServiceSocks ServiceSocks;
 
     @Autowired
     private SocksRepo socksRepo;
@@ -51,11 +49,9 @@ public class SocksS_Controller {
                     System.out.println("HTTP 200");
                     return ("HTTP 200");
                 } catch (Exception e){
-                    System.out.println("HTTP 500");
+                    System.out.println(e);
                     return ("HTTP 500");
                 }
-
-
 
             } catch (Exception e){
                 System.out.println("HTTP 400 ");
@@ -85,19 +81,18 @@ public class SocksS_Controller {
 
 
             try {
-                List<SocksS> sock = socksRepo.findBycottonAndcolor(cottonPart, color); //color, cottonPart
+                List<SocksS> sock = socksRepo.findBycottonAndcolor(cottonPart, color);
                 for (int i = 0; i<iter; i++){
                     SocksS socker = sock.get(i);
                     socksRepo.deleteById(socker.getId());
                 }
                 System.out.println("HTTP 200");
                 return ("HTTP 200");
+
             } catch (Exception e){
-                System.out.println("HTTP 500");
+                System.out.println(e);
                 return ("HTTP 500");
             }
-
-
 
         } catch (Exception e){
             System.out.println("HTTP 400");
@@ -107,7 +102,7 @@ public class SocksS_Controller {
 
     }
 
-    @GetMapping(value = "/api/socks") // ?color={color}&operation={ope}&cottonPart={cotton}
+    @GetMapping(value = "/api/socks")
     public String getSocks(@RequestParam (value = "color") String color ,
                            @RequestParam (value="operation") String operation,
                            @RequestParam (value = "cottonPart") String cotton)
@@ -116,16 +111,36 @@ public class SocksS_Controller {
             if (color.isEmpty() || operation.isEmpty() || cotton.isEmpty() || Integer.parseInt(cotton)>100 || Integer.parseInt(cotton)<0){
                 throw new Exception("Empty variable");
             }
+            try {
+                if (operation.equals("moreThan")) {
+                    return ((String.valueOf(socksRepo.findByCottonColorMore(color, cotton))));
+                }
+
+                if (operation.equals("equal")) {
+                    return ((String.valueOf(socksRepo.findByCottonColorEqual(color, cotton))));
+
+                }
+
+                if (operation.equals("lessThan")) {
+                    return ((String.valueOf(socksRepo.findByCottonColorLess(color, cotton))));
+
+                }
+
+                else {
+                    throw new Exception("Нет значения сравнения");
+                }
+
+
+            } catch (Exception e){
+                System.out.println(e);
+                return ("HTTP 500");
+            }
+
         } catch (Exception e){
+            System.out.println(e);
             return ("HTTP 400");
         }
 
-
-        return null;
     }
-    
-
-
-
 
 }

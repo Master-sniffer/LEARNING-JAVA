@@ -11,7 +11,13 @@ public interface SocksRepo  extends CrudRepository<SocksS, Long> {
     List<SocksS> findBycottonAndcolor(String cotton , String color); //String cotton, String color
 
 
-    @Query(value="SELECT * FROM sockss WHERE color = ?1 AND cotton=?2 ?3", nativeQuery = true)
-    List<SocksS> findByCottonColorOperation(String color , String cotton, String operation); //String cotton, String color
+    @Query(value="SELECT COUNT(*) FROM sockss WHERE color = ?1 AND cotton > ?2", nativeQuery = true)
+    Integer findByCottonColorMore(String color , String cotton); //String cotton, String color
+
+    @Query(value="SELECT COUNT(*) FROM sockss WHERE color = ?1 AND cotton < ?2", nativeQuery = true)
+    Integer findByCottonColorLess(String color , String cotton); //String cotton, String color
+
+    @Query(value="SELECT COUNT(*) FROM sockss WHERE color = ?1 AND cotton = ?2", nativeQuery = true)
+    Integer findByCottonColorEqual(String color , String cotton); //String cotton, String color
 
 }
